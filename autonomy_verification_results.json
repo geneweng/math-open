@@ -1,0 +1,375 @@
+{
+  "networkx_version": "3.6.1",
+  "null_dimension_means": "infinity",
+  "atlas": {
+    "connected_graph_count": 995,
+    "finite_dimension_count": 19,
+    "counts": [
+      {
+        "order": 2,
+        "dimension": 1,
+        "count": 1
+      },
+      {
+        "order": 3,
+        "dimension": 2,
+        "count": 1
+      },
+      {
+        "order": 3,
+        "dimension": null,
+        "count": 1
+      },
+      {
+        "order": 4,
+        "dimension": 2,
+        "count": 3
+      },
+      {
+        "order": 4,
+        "dimension": null,
+        "count": 3
+      },
+      {
+        "order": 5,
+        "dimension": 3,
+        "count": 2
+      },
+      {
+        "order": 5,
+        "dimension": null,
+        "count": 19
+      },
+      {
+        "order": 6,
+        "dimension": 3,
+        "count": 7
+      },
+      {
+        "order": 6,
+        "dimension": null,
+        "count": 105
+      },
+      {
+        "order": 7,
+        "dimension": 3,
+        "count": 3
+      },
+      {
+        "order": 7,
+        "dimension": 4,
+        "count": 2
+      },
+      {
+        "order": 7,
+        "dimension": null,
+        "count": 848
+      }
+    ],
+    "finite_graphs": [
+      {
+        "atlas_id": 3,
+        "order": 2,
+        "dimension": 1,
+        "autonomy_rank": 1
+      },
+      {
+        "atlas_id": 7,
+        "order": 3,
+        "dimension": 2,
+        "autonomy_rank": 2
+      },
+      {
+        "atlas_id": 14,
+        "order": 4,
+        "dimension": 2,
+        "autonomy_rank": 2
+      },
+      {
+        "atlas_id": 16,
+        "order": 4,
+        "dimension": 2,
+        "autonomy_rank": 3
+      },
+      {
+        "atlas_id": 18,
+        "order": 4,
+        "dimension": 2,
+        "autonomy_rank": 3
+      },
+      {
+        "atlas_id": 42,
+        "order": 5,
+        "dimension": 3,
+        "autonomy_rank": 3
+      },
+      {
+        "atlas_id": 52,
+        "order": 5,
+        "dimension": 3,
+        "autonomy_rank": 4
+      },
+      {
+        "atlas_id": 105,
+        "order": 6,
+        "dimension": 3,
+        "autonomy_rank": 3
+      },
+      {
+        "atlas_id": 146,
+        "order": 6,
+        "dimension": 3,
+        "autonomy_rank": 5
+      },
+      {
+        "atlas_id": 163,
+        "order": 6,
+        "dimension": 3,
+        "autonomy_rank": 3
+      },
+      {
+        "atlas_id": 174,
+        "order": 6,
+        "dimension": 3,
+        "autonomy_rank": 3
+      },
+      {
+        "atlas_id": 175,
+        "order": 6,
+        "dimension": 3,
+        "autonomy_rank": 5
+      },
+      {
+        "atlas_id": 204,
+        "order": 6,
+        "dimension": 3,
+        "autonomy_rank": 5
+      },
+      {
+        "atlas_id": 208,
+        "order": 6,
+        "dimension": 3,
+        "autonomy_rank": 5
+      },
+      {
+        "atlas_id": 551,
+        "order": 7,
+        "dimension": 3,
+        "autonomy_rank": 4
+      },
+      {
+        "atlas_id": 557,
+        "order": 7,
+        "dimension": 4,
+        "autonomy_rank": 4
+      },
+      {
+        "atlas_id": 916,
+        "order": 7,
+        "dimension": 3,
+        "autonomy_rank": 4
+      },
+      {
+        "atlas_id": 1009,
+        "order": 7,
+        "dimension": 4,
+        "autonomy_rank": 5
+      },
+      {
+        "atlas_id": 1252,
+        "order": 7,
+        "dimension": 3,
+        "autonomy_rank": 6
+      }
+    ],
+    "regular_complement_checks": 5
+  },
+  "cycles": [
+    {
+      "order": 3,
+      "cuts_up_to_complement": 3,
+      "signature_classes": 3,
+      "dimension": 2
+    },
+    {
+      "order": 4,
+      "cuts_up_to_complement": 3,
+      "signature_classes": 4,
+      "dimension": 2
+    },
+    {
+      "order": 5,
+      "cuts_up_to_complement": 0,
+      "signature_classes": 1,
+      "dimension": null
+    },
+    {
+      "order": 6,
+      "cuts_up_to_complement": 4,
+      "signature_classes": 6,
+      "dimension": 3
+    },
+    {
+      "order": 7,
+      "cuts_up_to_complement": 0,
+      "signature_classes": 1,
+      "dimension": null
+    },
+    {
+      "order": 8,
+      "cuts_up_to_complement": 3,
+      "signature_classes": 4,
+      "dimension": null
+    },
+    {
+      "order": 9,
+      "cuts_up_to_complement": 3,
+      "signature_classes": 3,
+      "dimension": null
+    },
+    {
+      "order": 10,
+      "cuts_up_to_complement": 1,
+      "signature_classes": 2,
+      "dimension": null
+    },
+    {
+      "order": 11,
+      "cuts_up_to_complement": 0,
+      "signature_classes": 1,
+      "dimension": null
+    },
+    {
+      "order": 12,
+      "cuts_up_to_complement": 6,
+      "signature_classes": 12,
+      "dimension": 4
+    },
+    {
+      "order": 13,
+      "cuts_up_to_complement": 0,
+      "signature_classes": 1,
+      "dimension": null
+    },
+    {
+      "order": 14,
+      "cuts_up_to_complement": 1,
+      "signature_classes": 2,
+      "dimension": null
+    },
+    {
+      "order": 15,
+      "cuts_up_to_complement": 3,
+      "signature_classes": 3,
+      "dimension": null
+    },
+    {
+      "order": 16,
+      "cuts_up_to_complement": 3,
+      "signature_classes": 4,
+      "dimension": null
+    },
+    {
+      "order": 17,
+      "cuts_up_to_complement": 0,
+      "signature_classes": 1,
+      "dimension": null
+    },
+    {
+      "order": 18,
+      "cuts_up_to_complement": 4,
+      "signature_classes": 6,
+      "dimension": null
+    }
+  ],
+  "product": {
+    "order": 25,
+    "dimension": 6,
+    "candidate_family": "proof-assisted",
+    "cuts_up_to_complement": 30,
+    "ranks_A_minus_theta_I": {
+      "-4": 25,
+      "-3": 25,
+      "-2": 25,
+      "-1": 17,
+      "0": 25,
+      "1": 25,
+      "2": 25,
+      "3": 25
+    },
+    "eigenbasis_rank": 8,
+    "witness_flip_parameters": [
+      [
+        "1/2",
+        "3/4"
+      ],
+      [
+        "1/2",
+        "3/4"
+      ],
+      [
+        "1/4",
+        "1"
+      ],
+      [
+        "1/2",
+        "3/4"
+      ],
+      [
+        "1/2",
+        "3/4"
+      ],
+      [
+        "1/4",
+        "1"
+      ]
+    ]
+  },
+  "windmills": {
+    "small_exact": [
+      {
+        "triangles": 1,
+        "dimension": 2,
+        "cuts_up_to_complement": 7
+      },
+      {
+        "triangles": 2,
+        "dimension": 4,
+        "cuts_up_to_complement": 19
+      },
+      {
+        "triangles": 3,
+        "dimension": 4,
+        "cuts_up_to_complement": 55
+      }
+    ],
+    "greedy_constructions": [
+      {
+        "width": 3,
+        "triangles": 1,
+        "order": 4,
+        "available_words": 3
+      },
+      {
+        "width": 6,
+        "triangles": 5,
+        "order": 16,
+        "available_words": 15
+      },
+      {
+        "width": 9,
+        "triangles": 25,
+        "order": 76,
+        "available_words": 84
+      },
+      {
+        "width": 12,
+        "triangles": 156,
+        "order": 469,
+        "available_words": 495
+      }
+    ],
+    "H2_one_third": 0.9182958340544896,
+    "asymptotic_ratio": 1.0889736868180786
+  }
+}
