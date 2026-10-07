@@ -1,0 +1,99 @@
+{
+  "networkx_version": "3.6.1",
+  "construction_base_graphs_checked": 995,
+  "base_graph_orders": [
+    2,
+    7
+  ],
+  "exhaustive_source_graphs_checked": 995,
+  "source_partitions_checked": 770021,
+  "faithful_nontrivial_partitions": 201,
+  "faithful_partitions_by_source_order": {
+    "3": 1,
+    "4": 5,
+    "5": 13,
+    "6": 41,
+    "7": 141
+  },
+  "vertex_bound_equality_cases": 37,
+  "counterexamples": 0,
+  "examples": [
+    {
+      "name": "path_3",
+      "base_vertices": 3,
+      "base_edges": 2,
+      "cover": [
+        1
+      ],
+      "refined_vertices": 4,
+      "refined_edges": 4,
+      "refined_cycle_rank": 1,
+      "all_starting_vertices_path_law_verified_through_steps": 8
+    },
+    {
+      "name": "triangle",
+      "base_vertices": 3,
+      "base_edges": 3,
+      "cover": [
+        0,
+        1
+      ],
+      "refined_vertices": 5,
+      "refined_edges": 6,
+      "refined_cycle_rank": 2,
+      "all_starting_vertices_path_law_verified_through_steps": 8
+    },
+    {
+      "name": "star_4_leaves",
+      "base_vertices": 5,
+      "base_edges": 4,
+      "cover": [
+        0
+      ],
+      "refined_vertices": 6,
+      "refined_edges": 8,
+      "refined_cycle_rank": 3,
+      "all_starting_vertices_path_law_verified_through_steps": 8
+    }
+  ],
+  "classification_minimum_covers_checked": 71,
+  "classification_sign_assignments_checked": 543,
+  "classification_base_orders": [
+    2,
+    5
+  ],
+  "k4_distinct_optimal_refinements": {
+    "vertices_each": 7,
+    "edges_each": 12,
+    "plain_triangles": 8,
+    "twisted_triangles": 6,
+    "nonisomorphic_even_without_role_labels": true
+  },
+  "nested_history": [
+    {
+      "vertices": 2,
+      "edges": 1
+    },
+    {
+      "vertices": 3,
+      "edges": 2
+    },
+    {
+      "vertices": 4,
+      "edges": 4
+    },
+    {
+      "vertices": 6,
+      "edges": 8
+    },
+    {
+      "vertices": 8,
+      "edges": 16
+    },
+    {
+      "vertices": 12,
+      "edges": 32
+    }
+  ],
+  "scope": "All connected unlabeled simple graphs on 2--7 vertices; all their set partitions with 2 through n-1 blocks. Computational checks supplement, not replace, the proof."
+}
