@@ -1,0 +1,685 @@
+{
+  "exhaustive_fixed_square_factors": [
+    {
+      "legal_labeled_matchings": 1,
+      "split_square_count_histogram": {
+        "1": 1
+      },
+      "squares": 1,
+      "vertices": 4
+    },
+    {
+      "legal_labeled_matchings": 33,
+      "split_square_count_histogram": {
+        "1": 16,
+        "2": 17
+      },
+      "squares": 2,
+      "vertices": 8
+    },
+    {
+      "legal_labeled_matchings": 3329,
+      "split_square_count_histogram": {
+        "0": 512,
+        "1": 1152,
+        "2": 1200,
+        "3": 465
+      },
+      "squares": 3,
+      "vertices": 12
+    }
+  ],
+  "necklace_exact_transfer_checks": [
+    {
+      "blocks": 2,
+      "maximum": 6,
+      "order": 8
+    },
+    {
+      "blocks": 3,
+      "maximum": 6,
+      "order": 12
+    },
+    {
+      "blocks": 4,
+      "maximum": 12,
+      "order": 16
+    },
+    {
+      "blocks": 5,
+      "maximum": 12,
+      "order": 20
+    },
+    {
+      "blocks": 6,
+      "maximum": 18,
+      "order": 24
+    },
+    {
+      "blocks": 7,
+      "maximum": 18,
+      "order": 28
+    },
+    {
+      "blocks": 8,
+      "maximum": 24,
+      "order": 32
+    },
+    {
+      "blocks": 9,
+      "maximum": 24,
+      "order": 36
+    },
+    {
+      "blocks": 10,
+      "maximum": 30,
+      "order": 40
+    },
+    {
+      "blocks": 11,
+      "maximum": 30,
+      "order": 44
+    },
+    {
+      "blocks": 12,
+      "maximum": 36,
+      "order": 48
+    },
+    {
+      "blocks": 13,
+      "maximum": 36,
+      "order": 52
+    },
+    {
+      "blocks": 14,
+      "maximum": 42,
+      "order": 56
+    },
+    {
+      "blocks": 15,
+      "maximum": 42,
+      "order": 60
+    },
+    {
+      "blocks": 16,
+      "maximum": 48,
+      "order": 64
+    },
+    {
+      "blocks": 17,
+      "maximum": 48,
+      "order": 68
+    },
+    {
+      "blocks": 18,
+      "maximum": 54,
+      "order": 72
+    },
+    {
+      "blocks": 19,
+      "maximum": 54,
+      "order": 76
+    },
+    {
+      "blocks": 20,
+      "maximum": 60,
+      "order": 80
+    },
+    {
+      "blocks": 21,
+      "maximum": 60,
+      "order": 84
+    },
+    {
+      "blocks": 22,
+      "maximum": 66,
+      "order": 88
+    },
+    {
+      "blocks": 23,
+      "maximum": 66,
+      "order": 92
+    },
+    {
+      "blocks": 24,
+      "maximum": 72,
+      "order": 96
+    },
+    {
+      "blocks": 25,
+      "maximum": 72,
+      "order": 100
+    },
+    {
+      "blocks": 26,
+      "maximum": 78,
+      "order": 104
+    },
+    {
+      "blocks": 27,
+      "maximum": 78,
+      "order": 108
+    },
+    {
+      "blocks": 28,
+      "maximum": 84,
+      "order": 112
+    },
+    {
+      "blocks": 29,
+      "maximum": 84,
+      "order": 116
+    },
+    {
+      "blocks": 30,
+      "maximum": 90,
+      "order": 120
+    },
+    {
+      "blocks": 31,
+      "maximum": 90,
+      "order": 124
+    },
+    {
+      "blocks": 32,
+      "maximum": 96,
+      "order": 128
+    },
+    {
+      "blocks": 33,
+      "maximum": 96,
+      "order": 132
+    },
+    {
+      "blocks": 34,
+      "maximum": 102,
+      "order": 136
+    },
+    {
+      "blocks": 35,
+      "maximum": 102,
+      "order": 140
+    },
+    {
+      "blocks": 36,
+      "maximum": 108,
+      "order": 144
+    },
+    {
+      "blocks": 37,
+      "maximum": 108,
+      "order": 148
+    },
+    {
+      "blocks": 38,
+      "maximum": 114,
+      "order": 152
+    },
+    {
+      "blocks": 39,
+      "maximum": 114,
+      "order": 156
+    },
+    {
+      "blocks": 40,
+      "maximum": 120,
+      "order": 160
+    },
+    {
+      "blocks": 41,
+      "maximum": 120,
+      "order": 164
+    },
+    {
+      "blocks": 42,
+      "maximum": 126,
+      "order": 168
+    },
+    {
+      "blocks": 43,
+      "maximum": 126,
+      "order": 172
+    },
+    {
+      "blocks": 44,
+      "maximum": 132,
+      "order": 176
+    },
+    {
+      "blocks": 45,
+      "maximum": 132,
+      "order": 180
+    },
+    {
+      "blocks": 46,
+      "maximum": 138,
+      "order": 184
+    },
+    {
+      "blocks": 47,
+      "maximum": 138,
+      "order": 188
+    },
+    {
+      "blocks": 48,
+      "maximum": 144,
+      "order": 192
+    },
+    {
+      "blocks": 49,
+      "maximum": 144,
+      "order": 196
+    },
+    {
+      "blocks": 50,
+      "maximum": 150,
+      "order": 200
+    },
+    {
+      "blocks": 51,
+      "maximum": 150,
+      "order": 204
+    },
+    {
+      "blocks": 52,
+      "maximum": 156,
+      "order": 208
+    },
+    {
+      "blocks": 53,
+      "maximum": 156,
+      "order": 212
+    },
+    {
+      "blocks": 54,
+      "maximum": 162,
+      "order": 216
+    },
+    {
+      "blocks": 55,
+      "maximum": 162,
+      "order": 220
+    },
+    {
+      "blocks": 56,
+      "maximum": 168,
+      "order": 224
+    },
+    {
+      "blocks": 57,
+      "maximum": 168,
+      "order": 228
+    },
+    {
+      "blocks": 58,
+      "maximum": 174,
+      "order": 232
+    },
+    {
+      "blocks": 59,
+      "maximum": 174,
+      "order": 236
+    },
+    {
+      "blocks": 60,
+      "maximum": 180,
+      "order": 240
+    },
+    {
+      "blocks": 61,
+      "maximum": 180,
+      "order": 244
+    },
+    {
+      "blocks": 62,
+      "maximum": 186,
+      "order": 248
+    },
+    {
+      "blocks": 63,
+      "maximum": 186,
+      "order": 252
+    },
+    {
+      "blocks": 64,
+      "maximum": 192,
+      "order": 256
+    },
+    {
+      "blocks": 65,
+      "maximum": 192,
+      "order": 260
+    },
+    {
+      "blocks": 66,
+      "maximum": 198,
+      "order": 264
+    },
+    {
+      "blocks": 67,
+      "maximum": 198,
+      "order": 268
+    },
+    {
+      "blocks": 68,
+      "maximum": 204,
+      "order": 272
+    },
+    {
+      "blocks": 69,
+      "maximum": 204,
+      "order": 276
+    },
+    {
+      "blocks": 70,
+      "maximum": 210,
+      "order": 280
+    },
+    {
+      "blocks": 71,
+      "maximum": 210,
+      "order": 284
+    },
+    {
+      "blocks": 72,
+      "maximum": 216,
+      "order": 288
+    },
+    {
+      "blocks": 73,
+      "maximum": 216,
+      "order": 292
+    },
+    {
+      "blocks": 74,
+      "maximum": 222,
+      "order": 296
+    },
+    {
+      "blocks": 75,
+      "maximum": 222,
+      "order": 300
+    },
+    {
+      "blocks": 76,
+      "maximum": 228,
+      "order": 304
+    },
+    {
+      "blocks": 77,
+      "maximum": 228,
+      "order": 308
+    },
+    {
+      "blocks": 78,
+      "maximum": 234,
+      "order": 312
+    },
+    {
+      "blocks": 79,
+      "maximum": 234,
+      "order": 316
+    },
+    {
+      "blocks": 80,
+      "maximum": 240,
+      "order": 320
+    },
+    {
+      "blocks": 81,
+      "maximum": 240,
+      "order": 324
+    },
+    {
+      "blocks": 82,
+      "maximum": 246,
+      "order": 328
+    },
+    {
+      "blocks": 83,
+      "maximum": 246,
+      "order": 332
+    },
+    {
+      "blocks": 84,
+      "maximum": 252,
+      "order": 336
+    },
+    {
+      "blocks": 85,
+      "maximum": 252,
+      "order": 340
+    },
+    {
+      "blocks": 86,
+      "maximum": 258,
+      "order": 344
+    },
+    {
+      "blocks": 87,
+      "maximum": 258,
+      "order": 348
+    },
+    {
+      "blocks": 88,
+      "maximum": 264,
+      "order": 352
+    },
+    {
+      "blocks": 89,
+      "maximum": 264,
+      "order": 356
+    },
+    {
+      "blocks": 90,
+      "maximum": 270,
+      "order": 360
+    },
+    {
+      "blocks": 91,
+      "maximum": 270,
+      "order": 364
+    },
+    {
+      "blocks": 92,
+      "maximum": 276,
+      "order": 368
+    },
+    {
+      "blocks": 93,
+      "maximum": 276,
+      "order": 372
+    },
+    {
+      "blocks": 94,
+      "maximum": 282,
+      "order": 376
+    },
+    {
+      "blocks": 95,
+      "maximum": 282,
+      "order": 380
+    },
+    {
+      "blocks": 96,
+      "maximum": 288,
+      "order": 384
+    },
+    {
+      "blocks": 97,
+      "maximum": 288,
+      "order": 388
+    },
+    {
+      "blocks": 98,
+      "maximum": 294,
+      "order": 392
+    },
+    {
+      "blocks": 99,
+      "maximum": 294,
+      "order": 396
+    },
+    {
+      "blocks": 100,
+      "maximum": 300,
+      "order": 400
+    }
+  ],
+  "obstruction_to_two_cover_extension": {
+    "bridgeless": true,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        7
+      ]
+    ],
+    "good_set_count_including_empty": 13,
+    "maximum": 6,
+    "order": 10,
+    "two_cover_exists": false
+  },
+  "random_seed": 20261026,
+  "sampled_constructions": {
+    "all_checks_passed": true,
+    "count": 600,
+    "orders": [
+      16,
+      20,
+      40,
+      80,
+      160,
+      400
+    ],
+    "per_order": 100
+  },
+  "sharp_example": {
+    "checked_vertex_subsets": 4096,
+    "cover_a": [
+      1,
+      3,
+      5,
+      6,
+      8,
+      11
+    ],
+    "cover_b": [
+      0,
+      2,
+      4,
+      7,
+      9,
+      10
+    ],
+    "good_set_size_histogram": {
+      "0": 1,
+      "4": 3,
+      "6": 20
+    },
+    "matching": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        11,
+        1
+      ]
+    ],
+    "maximum": 6,
+    "order": 12,
+    "squares": [
+      [
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        4,
+        6,
+        5,
+        7
+      ],
+      [
+        8,
+        10,
+        9,
+        11
+      ]
+    ]
+  },
+  "status": "partial result; the general cubic conjecture is not solved"
+}
