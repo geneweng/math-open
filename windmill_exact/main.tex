@@ -1,0 +1,453 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.02in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,booktabs,microtype}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!45!black,citecolor=blue!45!black]{hyperref}
+\usepackage{xcolor}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newcommand{\adim}{\operatorname{adim}}
+\newcommand{\HH}{H_2}
+\newcommand{\B}{B}
+\newcommand{\Ssum}{S}
+\numberwithin{equation}{section}
+\setlength{\emergencystretch}{2em}
+\raggedbottom
+\hypersetup{pdftitle={Exact Autonomy Dimension of Tetrahedral Windmills},
+pdfsubject={An exact solution of the windmill question from the autonomy-dimension research note},
+pdfkeywords={graph theory, random walk, lumpability, windmill, partition packing}}
+\title{Exact Autonomy Dimension\\of Tetrahedral Windmills}
+\author{}
+\date{October 26, 2026}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Let $W_r$ be the graph formed from $r$ copies of $K_4$ sharing a common
+vertex. Its autonomy dimension is the minimum number of binary
+observations that separate all vertices and individually project simple
+random walk to a Markov chain for every starting state. An earlier note
+asked for the exact value, having established only a first-order
+asymptotic formula. We answer that question for every $r$. The answer is
+the inverse of an explicit binomial-sum capacity formula, with three cases
+according to the coordinate count modulo three. The proof converts
+autonomous codes into packings of three-block partitions, bounds these
+packings by weights on subset sizes, and attains the bounds using a
+classical almost-regular hypergraph decomposition theorem. We also obtain
+the second-order formula
+\[
+ \adim(W_r)=
+ \frac{\log_2(3r)+\tfrac12\log_2\log_2(3r)}{H_2(1/3)}+O(1).
+\]
+Integer certificates and explicitly constructed codes accompany the proof.
+\end{abstract}
+
+\noindent\textbf{Keywords.} Strong lumpability; autonomous coordinates;
+windmill graph; set partitions; hypergraph decomposition.
+
+\section{The question and its exact answer}
+
+Let $G$ be a finite connected simple graph with at least two vertices.
+A nonconstant function $f:V(G)\to\{0,1\}$ is \emph{autonomous} if the
+fraction of neighbors of opposite color is a constant $a$ on $f^{-1}(0)$
+and a constant $b$ on $f^{-1}(1)$. Its observed random walk has transition
+matrix $\left(\begin{smallmatrix}1-a&a\\b&1-b\end{smallmatrix}\right)$ for
+every starting state. The \emph{autonomy dimension} $\adim(G)$ is the
+minimum number of autonomous binary functions whose joint values
+distinguish all vertices; it is infinity if no such family exists.
+
+Write $W_r$ for $r$ copies of $K_4$ with one vertex identified to a common
+hub $o$. There are $3r+1$ vertices. Removing the hub leaves $r$ triangles.
+The October 7 research note~\cite{previous}, Section~7, asked for the exact
+autonomy dimension of this family. This is the specific open question
+addressed here; it is a question from that research program, not a claim
+to settle an independently established named conjecture.
+
+For a fixed integer $d\geq2$, set
+\[
+ B_j=\binom dj,\qquad S_j=\sum_{i=0}^j\binom di,
+\]
+where $B_j=0$ and $S_j=0$ when $j<0$. Their dependence on $d$ is implicit.
+
+\begin{theorem}[Exact capacity and dimension]\label{thm:main}
+Let $M_d$ be the largest $r$ for which $W_r$ has a separating autonomous
+code using at most $d$ coordinates. Then
+\begin{equation}\label{eq:capacity}
+ M_d=
+ \begin{cases}
+ S_{k-2}+\left\lfloor(2B_{k-1}+B_k)/3\right\rfloor,
+     &d=3k,\quad k\geq1,\\[2pt]
+ S_{k-1}+\left\lfloor B_k/2\right\rfloor,
+     &d=3k+1,\quad k\geq1,\\[2pt]
+ S_{k-2}+B_k+\left\lfloor3B_{k-1}/4\right\rfloor,
+     &d=3k+2,\quad k\geq0.
+ \end{cases}
+\end{equation}
+Consequently, for every integer $r\geq1$,
+\begin{equation}\label{eq:dimension}
+ \boxed{\adim(W_r)=\min\{d\geq2:r\leq M_d\}.}
+\end{equation}
+\end{theorem}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{c|rrrrrrrrrrrr}
+\toprule
+$d$&2&3&4&5&6&7&8&9&10&11&12&13\\
+\midrule
+$M_d$&1&1&3&5&10&18&35&62&116&218&390&735\\
+\bottomrule
+\end{tabular}
+\caption{Exact capacities. For example, $\adim(W_{18})=7$ and
+$\adim(W_{19})=8$. The repeated capacity at $d=3$ means that no windmill
+has autonomy dimension three.}
+\end{table}
+
+Formula~\eqref{eq:dimension} is an explicit evaluation rule involving only
+binomial coefficients and integer arithmetic. It requires no search
+over graph colorings. The proof below relies on Bryant's established
+hypergraph balancing theorem~\cite{Bryant}; the decomposition theorem
+itself is not new. Historical priority of the exact partition-packing
+formula or the graph-theoretic invariant has not been established by a
+comprehensive literature review.
+
+\section{From graph coordinates to partitions}
+
+We first include the local classification needed for the reduction.
+
+\begin{lemma}\label{lem:coordinates}
+Normalize a nonconstant autonomous function on $W_r$ by $f(o)=0$.
+Then $f^{-1}(1)$ contains exactly $q$ vertices from each outer triangle,
+for one common $q\in\{1,2,3\}$. Conversely every such function is
+autonomous, with $a=q/3$ and $b=(4-q)/3$.
+\end{lemma}
+
+\begin{proof}
+The hub has positive flip probability. Thus no triangle can have all
+three values zero, since an outer zero vertex in that triangle would
+have zero flip probability. If triangle $i$ has $q_i$ ones, each of its
+one vertices has $(4-q_i)/3$ as its flip probability. Constancy on the
+one class forces all $q_i$ to agree. Conversely, for a common $q$, both
+the hub and every outer zero have flip probability $q/3$, while every
+one has flip probability $(4-q)/3$.
+\end{proof}
+
+A \emph{three-block packing on $[d]$} is a family of triples
+$\{A_i,B_i,C_i\}$ such that each triple consists of pairwise disjoint
+subsets with union $[d]$, and all subsets appearing anywhere in the
+family are distinct. One block may be empty, but the empty set can occur
+at most once in the entire family.
+
+\begin{proposition}[Packing equivalence]\label{prop:packing}
+For $d\geq2$, $W_r$ has a separating autonomous code using at most $d$
+coordinates if and only if there is a three-block packing of size $r$
+on $[d]$.
+\end{proposition}
+
+\begin{proof}
+Start with a separating code and complement coordinates so that the
+hub has the all-zero word. By Lemma~\ref{lem:coordinates}, each column
+selects one, two, or three vertices in every triangle. Delete the columns
+selecting three; they are constant on all outer vertices, so deleting
+them preserves separation among outer vertices. In each column selecting
+two, flip its values on the outer vertices only. This is a common
+translation of the outer words and also preserves their distinctness.
+Every remaining column now has exactly one one in every triangle.
+
+The supports of the three words of a triangle therefore partition the
+remaining coordinate set, and all $3r$ supports are distinct. If fewer
+than $d$ coordinates remain, add the missing coordinates to one chosen
+block in each triple. Restriction to the old coordinates proves that
+the blocks remain distinct. This yields a packing on $[d]$.
+
+Conversely, a packing uses $3r$ distinct subsets of $[d]$. Since
+$3r\leq2^d$ and $3$ does not divide $2^d$, at least one subset $T$ is
+unused. Assign the zero word to the hub and the incidence words of
+$A_i\mathbin{\triangle}T$, $B_i\mathbin{\triangle}T$,
+$C_i\mathbin{\triangle}T$ to triangle $i$, where $\triangle$ denotes
+symmetric difference. Every word is nonzero and the words are distinct.
+For a coordinate outside $T$, exactly one vertex per triangle has value
+one; for a coordinate in $T$, exactly two do. Each coordinate is
+autonomous by Lemma~\ref{lem:coordinates}.
+\end{proof}
+
+The unused subset is essential: simply assigning incidence words and
+giving the hub zero would fail whenever a block is empty.
+
+\section{Upper bounds by weights on subset sizes}
+
+\begin{lemma}[A weight bound]\label{lem:weight}
+Suppose $w_0,\ldots,w_d\geq0$ satisfy
+$w_a+w_b+w_c\geq1$ whenever $a+b+c=d$ with $a,b,c\geq0$.
+Every three-block packing on $[d]$ then has size at most
+\[
+ \left\lfloor\sum_{j=0}^d B_jw_j\right\rfloor.
+\]
+For any real $t>d/3$, a valid choice is
+\[
+ w_j=\min\left\{1,\max\left\{0,\frac{t-j}{3t-d}\right\}\right\}.
+\]
+\end{lemma}
+
+\begin{proof}
+Each triple has total weight at least one, and no subset is reused.
+Summing over its blocks proves the first assertion. For the displayed
+weights, if any one of the three untruncated values is at least one,
+the corresponding weight is one. Otherwise truncating negative values
+to zero can only increase their sum, whose untruncated value is
+$(3t-a-b-c)/(3t-d)=1$.
+\end{proof}
+
+For $d=3k$, take $t=k+1$. The nonzero weights are
+\[
+ w_j=1\ (j\leq k-2),\qquad w_{k-1}=2/3,\qquad w_k=1/3.
+\]
+For $d=3k+1$, the same choice gives
+\[
+ w_j=1\ (j\leq k-1),\qquad w_k=1/2.
+\]
+For $d=3k+2$, take $t=k+2$, giving
+\[
+ w_j=1\ (j\leq k-2),\quad
+ w_{k-1}=3/4,\quad w_k=1/2,\quad w_{k+1}=1/4.
+\]
+Negative indices are omitted. In the last case $B_{k+1}=2B_k$.
+Lemma~\ref{lem:weight} therefore gives exactly the three upper bounds
+in~\eqref{eq:capacity}.
+
+\section{Constructions attaining the bounds}
+
+We use the following specialization of an established result.
+
+\begin{lemma}[Prescribed block sizes]\label{lem:realization}
+Let $(a_i,b_i,c_i)$ be nonnegative integer triples, each summing to $d$.
+They can be realized by a three-block packing on $[d]$ if and only if,
+for each $j$, the number of occurrences of $j$ among all the triples is
+at most $\binom dj$.
+\end{lemma}
+
+\begin{proof}
+Necessity counts distinct subsets of each size. For sufficiency, apply
+Bryant~\cite[Corollary 3]{Bryant} to the hypergraph of all subsets of
+$[d]$, with one prescribed color class for each triple. It supplies
+distinct subsets with those size counts and makes every color class
+almost regular. Each such class has total degree $d$ on $d$ vertices,
+so all its degrees are one. Its three subsets thus form a partition.
+\end{proof}
+
+To apply the lemma, it suffices to prescribe block sizes and verify the
+binomial capacities. We give these lists explicitly. Empty sums below
+are zero. We repeatedly use
+\begin{equation}\label{eq:binomial}
+ \frac{B_{j-1}}{B_j}=\frac{j}{d-j+1},
+ \qquad
+ B_\ell\geq B_j\quad\text{if }j\leq\ell\leq d-j.
+\end{equation}
+In the ranges below, the ratios in the lower tail are at most $1/2$.
+In particular, $S_{k-3}\leq B_{k-2}$ for $k\geq2$, and
+$S_{k-2}\leq B_{k-1}$ for $k\geq1$.
+
+\subsection{The case \texorpdfstring{$d=3k$}{d=3k}}
+
+For each $0\leq j\leq k-2$, prescribe $B_j$ triples of type
+\[
+ (j,k+1,2k-1-j).
+\]
+Also prescribe $B_{k-1}$ triples of type $(k-1,k,k+1)$ and
+\[
+ z=\left\lfloor\frac{B_k-B_{k-1}}3\right\rfloor
+\]
+triples of type $(k,k,k)$. Their number is
+\[
+ S_{k-2}+B_{k-1}+z
+ =S_{k-2}+\left\lfloor\frac{2B_{k-1}+B_k}{3}\right\rfloor.
+\]
+
+The capacities at ranks at most $k$ hold by construction.
+For $k\geq2$, the number of blocks of size $k+1$ is
+\[
+ L=S_{k-3}+2B_{k-2}+B_{k-1}
+ \leq3B_{k-2}+B_{k-1}\leq\tfrac52 B_{k-1}\leq B_{k+1}.
+\]
+The last inequality follows from
+$B_{k+1}/B_{k-1}=2(2k+1)/(k+1)\geq3$.
+At any larger rank $\ell$, the demand is a single $B_j$ with
+$j\leq\ell\leq d-j$, so~\eqref{eq:binomial} applies.
+When $k=1$, the list is just one triple of type $(0,1,2)$ and the
+capacities are immediate. Lemma~\ref{lem:realization} gives the packing.
+
+\subsection{The case \texorpdfstring{$d=3k+1$}{d=3k+1}}
+
+For each $0\leq j\leq k-1$, prescribe $B_j$ triples of type
+\[
+ (j,k+1,2k-j),
+\]
+and prescribe $\lfloor B_k/2\rfloor$ triples of type $(k,k,k+1)$.
+This gives $S_{k-1}+\lfloor B_k/2\rfloor$ triples.
+
+Only rank $k+1$ requires a combined capacity check. Its demand is
+\[
+ L=S_{k-2}+2B_{k-1}+\lfloor B_k/2\rfloor
+ \leq3B_{k-1}+\tfrac12B_k < B_{k+1},
+\]
+because
+\[
+ \frac{B_{k-1}}{B_k}=\frac{k}{2k+2},
+ \qquad
+ \frac{B_{k+1}}{B_k}=\frac{2k+1}{k+1}.
+\]
+Every larger rank receives a single demand $B_j$ covered
+by~\eqref{eq:binomial}. All other capacities are immediate.
+
+\subsection{The case \texorpdfstring{$d=3k+2$}{d=3k+2}}
+
+First suppose $k\geq1$. Put
+\[
+ A=B_{k-1},\qquad B=B_k,\qquad
+ x=\left\lfloor\frac{A+1}{4}\right\rfloor,\qquad
+ y=B-\left\lceil\frac A2\right\rceil.
+\]
+For $0\leq j\leq k-2$, prescribe $B_j$ triples of type
+$(j,k+2,2k-j)$. Complete the list with
+\[
+ \begin{array}{c|c}
+ \text{block-size triple}&\text{number of copies}\\ \hline
+ (k-1,k+1,k+2)&A\\
+ (k,k,k+2)&x\\
+ (k,k+1,k+1)&y .
+ \end{array}
+\]
+Here $y\geq0$, and checking $A$ modulo four gives
+\[
+ A+x+y=B+\left\lfloor\frac{3A}{4}\right\rfloor.
+\]
+The number of triples is therefore the last expression
+in~\eqref{eq:capacity}.
+
+At rank $k$ the demand is $2x+y\leq B$; at rank $k+1$ it is
+$A+2y\leq2B=B_{k+1}$. For $k\geq2$, the rank $k+2$ demand satisfies
+\[
+ L=S_{k-3}+2B_{k-2}+A+x
+ \leq3B_{k-2}+\tfrac32 A\leq3A < B_{k+2}.
+\]
+We used $x\leq A/2$, $B_{k-2}\leq A/2$, and
+\[
+ \frac{B_{k+2}}{A}
+ =\frac{2k+3}{k}\cdot2\cdot\frac{2k+1}{k+2}>4
+ \quad(k\geq1).
+\]
+When $k=1$, the rank $k+2$ demand is just $A+x=1$, so it also fits.
+Larger ranks again satisfy~\eqref{eq:binomial}.
+For $k=0$ (that is, $d=2$), one triple of type $(0,1,1)$ realizes the
+claimed capacity one.
+
+All prescribed lists thus meet every binomial capacity. Together with
+Lemma~\ref{lem:realization}, the upper bounds of Section~3 and
+Proposition~\ref{prop:packing}, this completes the proof of
+Theorem~\ref{thm:main}.
+
+\section{A second-order law}
+
+The exact formula identifies the term that was hidden inside the
+$O(\log\log r)$ error in the earlier note.
+
+\begin{corollary}\label{cor:asymptotic}
+Put $h=H_2(1/3)=\log_2 3-2/3$. Along $d\equiv s\pmod3$,
+\[
+ M_d\sim c_s\,\frac{2^{hd}}{\sqrt d},
+ \qquad
+ c_0=\frac7{4\sqrt\pi},\quad
+ c_1=\frac9{4\,2^{1/3}\sqrt\pi},\quad
+ c_2=\frac{45}{16\,2^{2/3}\sqrt\pi}.
+\]
+Consequently, as $r\to\infty$,
+\begin{equation}\label{eq:second}
+ \boxed{\adim(W_r)=
+ \frac{\log_2(3r)+\tfrac12\log_2\log_2(3r)}{h}+O(1).}
+\end{equation}
+\end{corollary}
+
+\begin{proof}
+Write $d=3k+s$ with $s\in\{0,1,2\}$. For each fixed $\ell$,
+$B_{k-\ell}/B_k\to2^{-\ell}$. The lower-tail ratios are bounded above
+by $1/2$, so summing the resulting geometric series gives
+$S_{k-2}/B_k\to1/2$ and $S_{k-1}/B_k\to1$.
+The three expressions for $M_d/B_k$ therefore tend to
+$7/6$, $3/2$, and $15/8$, respectively. Stirling's formula yields
+\[
+ B_k\sim \frac3{2\sqrt\pi}\,2^{-s/3}\,
+              \frac{2^{hd}}{\sqrt d},
+\]
+which proves the capacity asymptotics.
+
+Let $d=\adim(W_r)$. For large $r$, minimality implies
+$M_{d-1}<r\leq M_d$. The three positive constants above are bounded
+away from zero and infinity, hence
+$\log_2 r=hd-\tfrac12\log_2 d+O(1)$.
+This first implies $d\sim(\log_2 r)/h$, and then substituting that
+equivalence into the logarithmic term proves~\eqref{eq:second}.
+Replacing $\log_2 r$ by $\log_2(3r)$ changes only the bounded term.
+\end{proof}
+
+In particular, the logarithmic correction is necessary; it cannot be
+replaced by a bounded error in the first-order formula.
+
+\section{Worked thresholds and reproducible certificates}
+
+For seven coordinates, the upper-bound weights are one at subset sizes
+zero and one, one half at size two, and zero at larger sizes. Thus
+\[
+ M_7\leq
+ \left\lfloor1+7+\tfrac12\binom72\right\rfloor=18.
+\]
+The construction uses one triple of sizes $(0,3,4)$, seven of sizes
+$(1,3,3)$, and ten of sizes $(2,2,3)$. These require one empty set,
+seven singletons, twenty pairs, twenty-four triples, and one four-set.
+All demands fit the binomial capacities, so $M_7=18$.
+
+For eight coordinates, the construction uses one triple of sizes
+$(0,4,4)$, eight of sizes $(1,3,4)$, two of sizes $(2,2,4)$, and
+twenty-four of sizes $(2,3,3)$. Its 35 triples meet the weighted upper
+bound. Consequently a windmill with 19 outer triangles, and hence
+58 vertices, requires exactly eight autonomous coordinates.
+
+The companion program \texttt{verify\_windmill\_exact.py} performs two
+separate checks. First it verifies all prescribed rank demands, and the
+matching rational upper-bound certificates, for $2\leq d\leq300$.
+Second it constructs actual packings attaining $M_d$ for
+$2\leq d\leq10$, converts them to graph codes, and checks distinctness
+and all cross-neighbor counts using integer arithmetic.
+
+The construction implements the balancing operation underlying
+Bryant's theorem: equal-sized subsets exchange color classes according
+to an Euler orientation of an auxiliary multigraph. The code checks
+that the sum of squared coordinate degrees strictly decreases at each
+step. The resulting partitions, translated vertex codes, and arithmetic
+certificates are saved in \texttt{windmill\_exact\_results.json}.
+For $d=10$ this yields a code on $W_{116}$, which has 349 vertices.
+The $d=3$ witness attains the capacity one but is not a minimum-length
+code for $W_1$, whose dimension is two.
+
+These computations are finite checks of the formulas and explicit
+witnesses. The proof for all $d$ is the upper-bound argument and the
+three capacity-verified constructions above.
+
+\begin{thebibliography}{9}
+\bibitem{previous}
+\emph{Autonomy Dimension of Graphs: Spectral Separation, Product
+Activation, and Entropy Bounds}, research note, October 7, 2026,
+Section~7.
+\href{https://github.com/geneweng/math-open/blob/dae6532/autonomy_dimension.tex}
+{Source at repository commit dae6532}.
+
+\bibitem{Bryant}
+D.~Bryant, \emph{On Almost-Regular Edge Colourings of Hypergraphs},
+The Electronic Journal of Combinatorics \textbf{23}(4) (2016), Paper~4.7.
+\href{https://doi.org/10.37236/5826}{doi:10.37236/5826}.
+\end{thebibliography}
+\end{document}
