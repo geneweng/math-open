@@ -1,0 +1,18 @@
+{
+  "orders": [
+    36,
+    38,
+    42
+  ],
+  "constructions": [
+    "Three copies of R in a ring",
+    "Insert R in a deletion-stable edge of the sharp 26-vertex double",
+    "A triangle joined to three copies of P"
+  ],
+  "inflated_base_graph6": "YHEGHD@AG_oPo???????@??C??G?AG??C??P??GG??G_?@@??OP??w??",
+  "stable_edge": [
+    0,
+    12
+  ],
+  "deleted_base_optimum": 13
+}

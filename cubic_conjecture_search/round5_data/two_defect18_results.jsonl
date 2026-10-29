@@ -1,0 +1,12 @@
+{"template_id":0,"order":18,"cases":576,"nodes":4288,"maximum_nodes":10,"witness_digest":"18342628969433895299","seconds":0.00125505}
+{"template_id":1,"order":18,"cases":576,"nodes":4696,"maximum_nodes":15,"witness_digest":"13386482066166328899","seconds":0.001438}
+{"template_id":2,"order":18,"cases":576,"nodes":4624,"maximum_nodes":12,"witness_digest":"13746202275388458947","seconds":0.00145612}
+{"template_id":3,"order":18,"cases":576,"nodes":4704,"maximum_nodes":12,"witness_digest":"3071508995853623555","seconds":0.00129634}
+{"template_id":4,"order":18,"cases":576,"nodes":4944,"maximum_nodes":12,"witness_digest":"8303456447035045891","seconds":0.00138909}
+{"template_id":5,"order":18,"cases":576,"nodes":4720,"maximum_nodes":12,"witness_digest":"18000230671290821827","seconds":0.00135271}
+{"template_id":6,"order":18,"cases":144,"nodes":1216,"maximum_nodes":13,"witness_digest":"12165917578810028179","seconds":0.000390833}
+{"template_id":7,"order":18,"cases":144,"nodes":1230,"maximum_nodes":20,"witness_digest":"1080487579976624955","seconds":0.000422251}
+{"template_id":8,"order":18,"cases":144,"nodes":1234,"maximum_nodes":19,"witness_digest":"18246222891076832795","seconds":0.000434114}
+{"template_id":9,"order":18,"cases":144,"nodes":1274,"maximum_nodes":20,"witness_digest":"17556398135446280139","seconds":0.000427202}
+{"template_id":10,"order":18,"cases":144,"nodes":1234,"maximum_nodes":17,"witness_digest":"5289321879326632339","seconds":0.000401004}
+{"template_id":11,"order":18,"cases":144,"nodes":1190,"maximum_nodes":15,"witness_digest":"3261574172253221435","seconds":0.000404028}

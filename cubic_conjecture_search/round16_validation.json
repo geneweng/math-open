@@ -1,0 +1,62 @@
+{
+  "original_conjecture_resolved": false,
+  "pdf_pages": 32,
+  "latex_final_log_warnings": 0,
+  "visual_review": {
+    "all_pages_contact_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "new_material_full_page_reviewed": [
+      5,
+      6,
+      9,
+      10,
+      11,
+      30,
+      31
+    ],
+    "issues_found": []
+  },
+  "verification": "verify_round16.py passed; integer and Fraction checks; no optimization package used by verifier",
+  "sha256": {
+    "output/pdf/bridge_completion.pdf": "f9b10a3fd37a7dfafc9787c54368953a5c74d5ad717c9f1669ace1b5a1d8cb16",
+    "cubic_conjecture_search/bridge_completion/main.tex": "3f5ad75192199c35f86b11aed2a9e41468945387376483679c5362a96ffb5f8f",
+    "cubic_conjecture_search/verify_round16.py": "8ebfce30cd64db3311a29a8589b06254eee3197208c74e9ab3443e4123716619",
+    "cubic_conjecture_search/round16_verification.json": "7120b099033d2c154d045d782dfd9c707b4cb44d98cb9d964b34a4df131b346e",
+    "cubic_conjecture_search/round16_search_results.json": "57a16e7289c99be8a91ab7b5f9813dd2dafbf248e5577a581ff96ade5d260d13",
+    "cubic_conjecture_search/exploratory/triangle_conditioned_certificates.py": "325b1b6230996a2aad1efb85057c4a64d29d5695fdfaec2dfd5d79a009e3855a",
+    "cubic_conjecture_search/round16_data/conditioned_cut_certificates.json": "907bb8cbba3ed5f0d2b2a409eda04e7728a9862ff912988a6e73eb69f91d2475",
+    "cubic_conjecture_search/round16_data/rooted_cap_certificates.json": "7e3f68a6182d3392437d400581a1f37190a497d15acb47846c80516f33ce31b4"
+  }
+}

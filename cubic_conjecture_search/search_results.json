@@ -1,0 +1,556 @@
+{
+  "date": "2026-10-26",
+  "general_conjecture_solved": false,
+  "counterexample_found": false,
+  "exact_certificate_summary": {
+    "verified_graphs": 4681,
+    "verified_fractional_covers": 4461,
+    "graphs_by_order": {
+      "4": 1,
+      "6": 2,
+      "8": 5,
+      "10": 19,
+      "12": 85,
+      "14": 509,
+      "16": 4060
+    },
+    "fractional_covers_by_order": {
+      "4": 1,
+      "6": 2,
+      "8": 5,
+      "10": 18,
+      "12": 81,
+      "14": 480,
+      "16": 3874
+    },
+    "general_conjecture_solved": false
+  },
+  "four_port_search": {
+    "base_graphs": 4681,
+    "base_orders": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16
+    ],
+    "boundary_labelled_profiles": 6136866,
+    "repetition_lengths_tested": [
+      2,
+      15
+    ],
+    "profiles_without_nonnegative_diagonal": 30,
+    "retained_componentwise_minimal_matrices": 57855,
+    "mixed_search_matrices": 111,
+    "mixed_selection": "maximum diagonal entry at most zero",
+    "unordered_pairs_including_repetition": 6216,
+    "ordered_triples": 1367631,
+    "annealing_runs": 1000,
+    "mutation_steps_per_run": 1000,
+    "word_lengths": [
+      4,
+      20
+    ],
+    "random_seed": 20261026,
+    "counterexample_found": false,
+    "arbitrary_fragment_assemblies_exhausted": false
+  },
+  "local_search": {
+    "order": 26,
+    "steps": 3000,
+    "best": 14,
+    "records": []
+  },
+  "weighted_exploration": [
+    {
+      "status": "no_weighted_violation",
+      "iterations": 10,
+      "lp_bound": 0.5,
+      "label": "trilobite_1",
+      "order": 14
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 14,
+      "lp_bound": 0.5000000000000001,
+      "label": "trilobite_2",
+      "order": 18
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 22,
+      "lp_bound": 0.5000000000000002,
+      "label": "trilobite_3",
+      "order": 22
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 22,
+      "lp_bound": 0.5,
+      "label": "trilobite_4",
+      "order": 26
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 26,
+      "lp_bound": 0.5000000000000002,
+      "label": "trilobite_5",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 34,
+      "lp_bound": 0.5000000000000002,
+      "label": "trilobite_6",
+      "order": 34
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 38,
+      "lp_bound": 0.5000000000000002,
+      "label": "trilobite_7",
+      "order": 38
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 40,
+      "lp_bound": 0.4999999999999998,
+      "label": "trilobite_8",
+      "order": 42
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 48,
+      "lp_bound": 0.499999999999999,
+      "label": "trilobite_9",
+      "order": 46
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 51,
+      "lp_bound": 0.5000000000000011,
+      "label": "trilobite_10",
+      "order": 50
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 2,
+      "lp_bound": 0.5,
+      "label": "random_24_0",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 9,
+      "lp_bound": 0.5000000000000001,
+      "label": "random_24_1",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 8,
+      "lp_bound": 0.5,
+      "label": "random_24_2",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 2,
+      "lp_bound": 0.5,
+      "label": "random_24_3",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 9,
+      "lp_bound": 0.49999999999999994,
+      "label": "random_24_4",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 8,
+      "lp_bound": 0.5,
+      "label": "random_24_5",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 8,
+      "lp_bound": 0.5,
+      "label": "random_24_6",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 2,
+      "lp_bound": 0.5,
+      "label": "random_24_7",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 6,
+      "lp_bound": 0.5,
+      "label": "random_24_8",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 6,
+      "lp_bound": 0.5,
+      "label": "random_24_9",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 8,
+      "lp_bound": 0.5,
+      "label": "random_24_10",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 2,
+      "lp_bound": 0.5,
+      "label": "random_24_11",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 8,
+      "lp_bound": 0.5,
+      "label": "random_24_12",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 6,
+      "lp_bound": 0.5,
+      "label": "random_24_13",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 8,
+      "lp_bound": 0.5,
+      "label": "random_24_14",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 11,
+      "lp_bound": 0.5384615384615383,
+      "label": "random_24_15",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 6,
+      "lp_bound": 0.5,
+      "label": "random_24_16",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 6,
+      "lp_bound": 0.5,
+      "label": "random_24_17",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 6,
+      "lp_bound": 0.5,
+      "label": "random_24_18",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 8,
+      "lp_bound": 0.5,
+      "label": "random_24_19",
+      "order": 24
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 7,
+      "lp_bound": 0.5,
+      "label": "random_30_0",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 7,
+      "lp_bound": 0.5,
+      "label": "random_30_1",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 10,
+      "lp_bound": 0.5,
+      "label": "random_30_2",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 8,
+      "lp_bound": 0.5,
+      "label": "random_30_3",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 9,
+      "lp_bound": 0.5000000000000001,
+      "label": "random_30_4",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 12,
+      "lp_bound": 0.5238095238095238,
+      "label": "random_30_5",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 7,
+      "lp_bound": 0.5,
+      "label": "random_30_6",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 6,
+      "lp_bound": 0.5,
+      "label": "random_30_7",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 9,
+      "lp_bound": 0.5,
+      "label": "random_30_8",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 9,
+      "lp_bound": 0.5,
+      "label": "random_30_9",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 7,
+      "lp_bound": 0.5,
+      "label": "random_30_10",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 9,
+      "lp_bound": 0.4999999999999999,
+      "label": "random_30_11",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 7,
+      "lp_bound": 0.5,
+      "label": "random_30_12",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 2,
+      "lp_bound": 0.5,
+      "label": "random_30_13",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 9,
+      "lp_bound": 0.5000000000000001,
+      "label": "random_30_14",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 2,
+      "lp_bound": 0.5,
+      "label": "random_30_15",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 9,
+      "lp_bound": 0.5,
+      "label": "random_30_16",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 2,
+      "lp_bound": 0.5,
+      "label": "random_30_17",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 9,
+      "lp_bound": 0.5,
+      "label": "random_30_18",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 2,
+      "lp_bound": 0.5,
+      "label": "random_30_19",
+      "order": 30
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 15,
+      "lp_bound": 0.5000000000000001,
+      "label": "random_40_0",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 12,
+      "lp_bound": 0.5217391304347826,
+      "label": "random_40_1",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 2,
+      "lp_bound": 0.5,
+      "label": "random_40_2",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 2,
+      "lp_bound": 0.5,
+      "label": "random_40_3",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 2,
+      "lp_bound": 0.5,
+      "label": "random_40_4",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 12,
+      "lp_bound": 0.5,
+      "label": "random_40_5",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 11,
+      "lp_bound": 0.5294117647058824,
+      "label": "random_40_6",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 10,
+      "lp_bound": 0.5,
+      "label": "random_40_7",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 12,
+      "lp_bound": 0.5,
+      "label": "random_40_8",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 11,
+      "lp_bound": 0.5,
+      "label": "random_40_9",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 12,
+      "lp_bound": 0.5000000000000001,
+      "label": "random_40_10",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 9,
+      "lp_bound": 0.5,
+      "label": "random_40_11",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 11,
+      "lp_bound": 0.5,
+      "label": "random_40_12",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 9,
+      "lp_bound": 0.5,
+      "label": "random_40_13",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 12,
+      "lp_bound": 0.5185185185185185,
+      "label": "random_40_14",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 11,
+      "lp_bound": 0.5,
+      "label": "random_40_15",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 9,
+      "lp_bound": 0.5,
+      "label": "random_40_17",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 10,
+      "lp_bound": 0.5,
+      "label": "random_40_18",
+      "order": 40
+    },
+    {
+      "status": "no_weighted_violation",
+      "iterations": 10,
+      "lp_bound": 0.5,
+      "label": "random_40_19",
+      "order": 40
+    }
+  ],
+  "three_port_exploration": {
+    "checked": 700,
+    "minimum_found_surplus": 8.0,
+    "counterexample_found": false
+  }
+}

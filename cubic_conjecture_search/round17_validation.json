@@ -1,0 +1,62 @@
+{
+  "original_conjecture_resolved": false,
+  "pdf_pages": 34,
+  "latex_final_log_warnings": 0,
+  "visual_review": {
+    "all_pages_contact_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "new_material_full_page_reviewed": [
+      7,
+      32
+    ],
+    "final_bibliography_layout_reviewed": [
+      33,
+      34
+    ],
+    "issues_remaining": []
+  },
+  "verification": "verify_round17.py passed; exact integer checks and independent cycle-space verification",
+  "sha256": {
+    "output/pdf/bridge_completion.pdf": "eaf6b1f7fdc43c2b6e27775ab53633bed6f1b99596cd7e9cecbabd118ab8f3b9",
+    "cubic_conjecture_search/bridge_completion/main.tex": "7ee665c6ce68f61391c86e98658ec278b7268103535904931d0e4f0a52500969",
+    "cubic_conjecture_search/verify_round17.py": "cbf6598eb7f743893d04804ff6f7d5e1a1304217ac804c3ee6e829c8d1fc214c",
+    "cubic_conjecture_search/round17_verification.json": "31053c6d6e9dae9225275580f310378a7b1dfe09e19d193d76eccf99d4964df6",
+    "cubic_conjecture_search/round17_search_results.json": "ce498d5cd2a09fd7c05f256739516e67982ee40f7fcfe49233fcca608f2c7b5b",
+    "cubic_conjecture_search/round17_data/rooted29_radius4.json": "79d16db81854b3a523646bd506649331b7077e08a604202f5f787ae930893c0e",
+    "cubic_conjecture_search/round17_data/rooted29_radius6.json": "5dadc493f72883405819ae12abe039e666df81b867b1d6b5973721fd09837492"
+  }
+}

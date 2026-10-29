@@ -1,0 +1,62 @@
+{
+  "counts": {
+    "graphs": 4681,
+    "near_sharp": 29,
+    "edges": 513
+  },
+  "failures": [
+    {
+      "graph6": "M???FBOq@KF?D_B_?",
+      "order": 14,
+      "maximum": 8,
+      "edge": [
+        2,
+        11
+      ],
+      "U": 10,
+      "T": 6,
+      "W": 8,
+      "verification": "all vertex subsets"
+    },
+    {
+      "graph6": "M???FBOq@KF?D_B_?",
+      "order": 14,
+      "maximum": 8,
+      "edge": [
+        3,
+        11
+      ],
+      "U": 10,
+      "T": 6,
+      "W": 8,
+      "verification": "all vertex subsets"
+    },
+    {
+      "graph6": "M???FBOq@KF?D_B_?",
+      "order": 14,
+      "maximum": 8,
+      "edge": [
+        4,
+        11
+      ],
+      "U": 10,
+      "T": 6,
+      "W": 8,
+      "verification": "all vertex subsets"
+    },
+    {
+      "graph6": "M???FBObASF?H_D_?",
+      "order": 14,
+      "maximum": 8,
+      "edge": [
+        4,
+        11
+      ],
+      "U": 10,
+      "T": 6,
+      "W": 8,
+      "verification": "all vertex subsets"
+    }
+  ],
+  "limitation": "Bounded diagnostic, not proof of a universal tradeoff."
+}

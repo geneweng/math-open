@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-28",
+  "original_conjecture_resolved": false,
+  "latexmk": "passed",
+  "desktop_compiler": "success",
+  "latex_warnings": [],
+  "pdf_pages": 25,
+  "pdf_bytes": 440087,
+  "visual_review": "All 25 pages inspected in a contact sheet; theorem and proof on pages 5-6 and direct-search results on page 24 inspected at higher resolution. No clipping or overflow observed.",
+  "mathematical_review": "The bridge restriction has three feasible endpoint choices. Writing delta=max(0,A-B) gives the exact averaging identity and its counterexample implication. The reduction does not preserve order and says nothing about bridgeless counterexamples.",
+  "independent_verifier": "passed; standard library only",
+  "full_cubic_witnesses": 20000,
+  "distinct_exact_rooted_graphs": 95,
+  "vertex_recursion_crosscheck": {
+    "brute_force_crosschecked_rooted_graphs": 4125
+  },
+  "search_reproduced_byte_for_byte": true,
+  "pdf_sha256": "a417c914a3ae0f68905cba69635668df0233d70a16ecf3dc62c09ef36d9c8cc8",
+  "tex_sha256": "fa4b970163d11ce0ed75d7d7850619ce6f0744c3b6c1c68d141088587965b290",
+  "verifier_sha256": "f3dc8dbb2e5b9ec92a54497fe897144040d78d1f2b775d1fce2434fb41076d3c",
+  "search_source_sha256": "4c3afb17a78a17ac961f6da40c451bb1edc341b11c4abb0792eabb9b96d41f8f"
+}

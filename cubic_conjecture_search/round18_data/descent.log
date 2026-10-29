@@ -1,0 +1,52 @@
+START n=24 maximum=12 count=200
+END n=24 best=12 count=200 proposals=3000
+START n=26 maximum=15 count=68
+BEST n=26 maximum=15 count=42
+BEST n=26 maximum=15 count=32
+BEST n=26 maximum=15 count=16
+BEST n=26 maximum=15 count=8
+BEST n=26 maximum=14 count=162
+BEST n=26 maximum=14 count=84
+END n=26 best=14 count=84 proposals=6000
+START n=28 maximum=16 count=64
+BEST n=28 maximum=16 count=58
+BEST n=28 maximum=16 count=54
+BEST n=28 maximum=16 count=40
+BEST n=28 maximum=15 count=88
+END n=28 best=15 count=88 proposals=9000
+START n=30 maximum=18 count=16
+BEST n=30 maximum=18 count=12
+BEST n=30 maximum=18 count=8
+BEST n=30 maximum=17 count=186
+BEST n=30 maximum=17 count=146
+BEST n=30 maximum=17 count=134
+BEST n=30 maximum=17 count=124
+BEST n=30 maximum=17 count=76
+BEST n=30 maximum=17 count=58
+BEST n=30 maximum=17 count=56
+END n=30 best=17 count=56 proposals=12000
+START n=32 maximum=19 count=50
+BEST n=32 maximum=19 count=42
+BEST n=32 maximum=19 count=24
+BEST n=32 maximum=19 count=16
+BEST n=32 maximum=19 count=8
+BEST n=32 maximum=18 count=112
+BEST n=32 maximum=18 count=84
+BEST n=32 maximum=18 count=72
+BEST n=32 maximum=18 count=32
+END n=32 best=18 count=32 proposals=15000
+START n=26 maximum=13 count=192
+END n=26 best=13 count=192 proposals=18000
+START n=28 maximum=15 count=160
+BEST n=28 maximum=15 count=136
+END n=28 best=15 count=136 proposals=21000
+START n=30 maximum=16 count=172
+END n=30 best=16 count=172 proposals=24000
+START n=32 maximum=18 count=140
+BEST n=32 maximum=18 count=84
+BEST n=32 maximum=18 count=76
+BEST n=32 maximum=18 count=44
+BEST n=32 maximum=18 count=32
+BEST n=32 maximum=18 count=16
+END n=32 best=18 count=16 proposals=27000
+DONE seeds=9 proposals=27000 exact=965 accepted=500

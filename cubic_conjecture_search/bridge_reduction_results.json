@@ -1,0 +1,23 @@
+{
+  "cap_included_maximum": 7,
+  "cap_excluded_maximum": 6,
+  "labelled_subcubic_bases_checked": 843,
+  "complement_identity_cases_checked": 1636,
+  "sharp_tree_constructions_checked": 13,
+  "sharp_tree_orders": [
+    26,
+    42,
+    58,
+    74,
+    90,
+    106,
+    122,
+    138,
+    154,
+    170,
+    186,
+    90,
+    138
+  ],
+  "general_conjecture_solved": false
+}

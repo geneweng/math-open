@@ -1,0 +1,4640 @@
+{
+  "assemblies_checked": 82,
+  "good_sets_checked": 451,
+  "records": [
+    {
+      "base": "K4",
+      "expanded_order": 28,
+      "choices": [
+        [
+          0,
+          false
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          0,
+          true
+        ]
+      ],
+      "closed_surplus": 8,
+      "matching_surpluses": [
+        4,
+        4,
+        4
+      ],
+      "local_inequality_sum": 36
+    },
+    {
+      "base": "K4",
+      "expanded_order": 52,
+      "choices": [
+        [
+          1,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          1,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          1,
+          false
+        ],
+        [
+          1,
+          true
+        ]
+      ],
+      "closed_surplus": 8,
+      "matching_surpluses": [
+        16,
+        16,
+        16
+      ],
+      "local_inequality_sum": 72
+    },
+    {
+      "base": "K4",
+      "expanded_order": 64,
+      "choices": [
+        [
+          2,
+          false
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          2,
+          true
+        ]
+      ],
+      "closed_surplus": 8,
+      "matching_surpluses": [
+        12,
+        12,
+        12
+      ],
+      "local_inequality_sum": 60
+    },
+    {
+      "base": "K4",
+      "expanded_order": 64,
+      "choices": [
+        [
+          3,
+          false
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          3,
+          true
+        ]
+      ],
+      "closed_surplus": 32,
+      "matching_surpluses": [
+        8,
+        8,
+        8
+      ],
+      "local_inequality_sum": 120
+    },
+    {
+      "base": "K4",
+      "expanded_order": 76,
+      "choices": [
+        [
+          4,
+          false
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          4,
+          false
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          4,
+          false
+        ],
+        [
+          4,
+          true
+        ]
+      ],
+      "closed_surplus": -4,
+      "matching_surpluses": [
+        4,
+        4,
+        4
+      ],
+      "local_inequality_sum": 0
+    },
+    {
+      "base": "K4",
+      "expanded_order": 76,
+      "choices": [
+        [
+          5,
+          false
+        ],
+        [
+          5,
+          true
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          5,
+          true
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          5,
+          true
+        ]
+      ],
+      "closed_surplus": 20,
+      "matching_surpluses": [
+        -12,
+        -12,
+        -12
+      ],
+      "local_inequality_sum": 24
+    },
+    {
+      "base": "K4",
+      "expanded_order": 88,
+      "choices": [
+        [
+          6,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          6,
+          true
+        ]
+      ],
+      "closed_surplus": 32,
+      "matching_surpluses": [
+        0,
+        0,
+        0
+      ],
+      "local_inequality_sum": 96
+    },
+    {
+      "base": "K4",
+      "expanded_order": 88,
+      "choices": [
+        [
+          7,
+          false
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          7,
+          true
+        ]
+      ],
+      "closed_surplus": 32,
+      "matching_surpluses": [
+        16,
+        16,
+        16
+      ],
+      "local_inequality_sum": 144
+    },
+    {
+      "base": "K4",
+      "expanded_order": 88,
+      "choices": [
+        [
+          8,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          8,
+          true
+        ]
+      ],
+      "closed_surplus": 32,
+      "matching_surpluses": [
+        0,
+        0,
+        0
+      ],
+      "local_inequality_sum": 96
+    },
+    {
+      "base": "K4",
+      "expanded_order": 100,
+      "choices": [
+        [
+          9,
+          false
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          9,
+          true
+        ]
+      ],
+      "closed_surplus": 32,
+      "matching_surpluses": [
+        40,
+        40,
+        40
+      ],
+      "local_inequality_sum": 216
+    },
+    {
+      "base": "K4",
+      "expanded_order": 100,
+      "choices": [
+        [
+          10,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          10,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          10,
+          false
+        ],
+        [
+          10,
+          true
+        ]
+      ],
+      "closed_surplus": 20,
+      "matching_surpluses": [
+        12,
+        12,
+        12
+      ],
+      "local_inequality_sum": 96
+    },
+    {
+      "base": "K4",
+      "expanded_order": 112,
+      "choices": [
+        [
+          11,
+          false
+        ],
+        [
+          11,
+          true
+        ],
+        [
+          11,
+          false
+        ],
+        [
+          11,
+          true
+        ],
+        [
+          11,
+          false
+        ],
+        [
+          11,
+          true
+        ]
+      ],
+      "closed_surplus": 8,
+      "matching_surpluses": [
+        16,
+        16,
+        16
+      ],
+      "local_inequality_sum": 72
+    },
+    {
+      "base": "K4",
+      "expanded_order": 112,
+      "choices": [
+        [
+          12,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          12,
+          true
+        ]
+      ],
+      "closed_surplus": 8,
+      "matching_surpluses": [
+        24,
+        24,
+        24
+      ],
+      "local_inequality_sum": 96
+    },
+    {
+      "base": "K4",
+      "expanded_order": 112,
+      "choices": [
+        [
+          13,
+          false
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          13,
+          true
+        ]
+      ],
+      "closed_surplus": 20,
+      "matching_surpluses": [
+        20,
+        20,
+        20
+      ],
+      "local_inequality_sum": 120
+    },
+    {
+      "base": "K4",
+      "expanded_order": 112,
+      "choices": [
+        [
+          14,
+          false
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          14,
+          true
+        ]
+      ],
+      "closed_surplus": 44,
+      "matching_surpluses": [
+        28,
+        28,
+        28
+      ],
+      "local_inequality_sum": 216
+    },
+    {
+      "base": "K4",
+      "expanded_order": 112,
+      "choices": [
+        [
+          15,
+          false
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          15,
+          true
+        ]
+      ],
+      "closed_surplus": 20,
+      "matching_surpluses": [
+        4,
+        4,
+        4
+      ],
+      "local_inequality_sum": 72
+    },
+    {
+      "base": "K4",
+      "expanded_order": 112,
+      "choices": [
+        [
+          16,
+          false
+        ],
+        [
+          16,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          16,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          16,
+          true
+        ]
+      ],
+      "closed_surplus": 20,
+      "matching_surpluses": [
+        20,
+        20,
+        20
+      ],
+      "local_inequality_sum": 120
+    },
+    {
+      "base": "K4",
+      "expanded_order": 112,
+      "choices": [
+        [
+          17,
+          false
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          17,
+          true
+        ]
+      ],
+      "closed_surplus": 20,
+      "matching_surpluses": [
+        0,
+        0,
+        0
+      ],
+      "local_inequality_sum": 60
+    },
+    {
+      "base": "K4",
+      "expanded_order": 112,
+      "choices": [
+        [
+          18,
+          false
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          18,
+          true
+        ]
+      ],
+      "closed_surplus": 20,
+      "matching_surpluses": [
+        -4,
+        -4,
+        -4
+      ],
+      "local_inequality_sum": 48
+    },
+    {
+      "base": "K4",
+      "expanded_order": 112,
+      "choices": [
+        [
+          19,
+          false
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          19,
+          true
+        ]
+      ],
+      "closed_surplus": 20,
+      "matching_surpluses": [
+        16,
+        16,
+        16
+      ],
+      "local_inequality_sum": 108
+    },
+    {
+      "base": "K4",
+      "expanded_order": 112,
+      "choices": [
+        [
+          20,
+          false
+        ],
+        [
+          20,
+          true
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          20,
+          true
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          20,
+          true
+        ]
+      ],
+      "closed_surplus": 32,
+      "matching_surpluses": [
+        8,
+        8,
+        8
+      ],
+      "local_inequality_sum": 120
+    },
+    {
+      "base": "K4",
+      "expanded_order": 92,
+      "choices": [
+        [
+          20,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          14,
+          true
+        ]
+      ],
+      "closed_surplus": 26,
+      "matching_surpluses": [
+        20,
+        4,
+        12
+      ],
+      "local_inequality_sum": 114
+    },
+    {
+      "base": "K4",
+      "expanded_order": 80,
+      "choices": [
+        [
+          0,
+          true
+        ],
+        [
+          5,
+          true
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          10,
+          true
+        ]
+      ],
+      "closed_surplus": 24,
+      "matching_surpluses": [
+        4,
+        14,
+        12
+      ],
+      "local_inequality_sum": 102
+    },
+    {
+      "base": "K4",
+      "expanded_order": 94,
+      "choices": [
+        [
+          16,
+          true
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          10,
+          false
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          4,
+          false
+        ],
+        [
+          1,
+          true
+        ]
+      ],
+      "closed_surplus": 12,
+      "matching_surpluses": [
+        12,
+        14,
+        22
+      ],
+      "local_inequality_sum": 84
+    },
+    {
+      "base": "K4",
+      "expanded_order": 108,
+      "choices": [
+        [
+          15,
+          false
+        ],
+        [
+          16,
+          true
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          16,
+          true
+        ]
+      ],
+      "closed_surplus": 22,
+      "matching_surpluses": [
+        10,
+        16,
+        16
+      ],
+      "local_inequality_sum": 108
+    },
+    {
+      "base": "K4",
+      "expanded_order": 96,
+      "choices": [
+        [
+          17,
+          false
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          4,
+          false
+        ]
+      ],
+      "closed_surplus": 18,
+      "matching_surpluses": [
+        4,
+        8,
+        10
+      ],
+      "local_inequality_sum": 76
+    },
+    {
+      "base": "K4",
+      "expanded_order": 82,
+      "choices": [
+        [
+          8,
+          true
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          7,
+          false
+        ]
+      ],
+      "closed_surplus": 24,
+      "matching_surpluses": [
+        22,
+        16,
+        10
+      ],
+      "local_inequality_sum": 120
+    },
+    {
+      "base": "K4",
+      "expanded_order": 76,
+      "choices": [
+        [
+          3,
+          true
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          3,
+          true
+        ]
+      ],
+      "closed_surplus": 26,
+      "matching_surpluses": [
+        14,
+        18,
+        2
+      ],
+      "local_inequality_sum": 112
+    },
+    {
+      "base": "K4",
+      "expanded_order": 104,
+      "choices": [
+        [
+          6,
+          true
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          20,
+          false
+        ]
+      ],
+      "closed_surplus": 26,
+      "matching_surpluses": [
+        22,
+        2,
+        14
+      ],
+      "local_inequality_sum": 116
+    },
+    {
+      "base": "K4",
+      "expanded_order": 84,
+      "choices": [
+        [
+          5,
+          false
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          9,
+          false
+        ]
+      ],
+      "closed_surplus": 18,
+      "matching_surpluses": [
+        16,
+        4,
+        10
+      ],
+      "local_inequality_sum": 84
+    },
+    {
+      "base": "K4",
+      "expanded_order": 84,
+      "choices": [
+        [
+          0,
+          false
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          15,
+          false
+        ]
+      ],
+      "closed_surplus": 22,
+      "matching_surpluses": [
+        2,
+        18,
+        6
+      ],
+      "local_inequality_sum": 92
+    },
+    {
+      "base": "K4",
+      "expanded_order": 80,
+      "choices": [
+        [
+          3,
+          true
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          5,
+          true
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          6,
+          true
+        ]
+      ],
+      "closed_surplus": 20,
+      "matching_surpluses": [
+        12,
+        -2,
+        12
+      ],
+      "local_inequality_sum": 82
+    },
+    {
+      "base": "K4",
+      "expanded_order": 86,
+      "choices": [
+        [
+          6,
+          true
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          10,
+          false
+        ]
+      ],
+      "closed_surplus": 26,
+      "matching_surpluses": [
+        12,
+        14,
+        2
+      ],
+      "local_inequality_sum": 106
+    },
+    {
+      "base": "K4",
+      "expanded_order": 90,
+      "choices": [
+        [
+          6,
+          false
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          2,
+          true
+        ]
+      ],
+      "closed_surplus": 26,
+      "matching_surpluses": [
+        12,
+        6,
+        20
+      ],
+      "local_inequality_sum": 116
+    },
+    {
+      "base": "K4",
+      "expanded_order": 86,
+      "choices": [
+        [
+          5,
+          true
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          6,
+          false
+        ]
+      ],
+      "closed_surplus": 28,
+      "matching_surpluses": [
+        8,
+        10,
+        4
+      ],
+      "local_inequality_sum": 106
+    },
+    {
+      "base": "K4",
+      "expanded_order": 70,
+      "choices": [
+        [
+          18,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          20,
+          true
+        ]
+      ],
+      "closed_surplus": 18,
+      "matching_surpluses": [
+        14,
+        8,
+        -8
+      ],
+      "local_inequality_sum": 68
+    },
+    {
+      "base": "K4",
+      "expanded_order": 92,
+      "choices": [
+        [
+          12,
+          false
+        ],
+        [
+          11,
+          false
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          18,
+          true
+        ]
+      ],
+      "closed_surplus": 12,
+      "matching_surpluses": [
+        8,
+        8,
+        10
+      ],
+      "local_inequality_sum": 62
+    },
+    {
+      "base": "K4",
+      "expanded_order": 98,
+      "choices": [
+        [
+          14,
+          false
+        ],
+        [
+          1,
+          false
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          12,
+          false
+        ]
+      ],
+      "closed_surplus": 26,
+      "matching_surpluses": [
+        22,
+        12,
+        30
+      ],
+      "local_inequality_sum": 142
+    },
+    {
+      "base": "K4",
+      "expanded_order": 86,
+      "choices": [
+        [
+          2,
+          false
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          7,
+          true
+        ]
+      ],
+      "closed_surplus": 22,
+      "matching_surpluses": [
+        24,
+        20,
+        20
+      ],
+      "local_inequality_sum": 130
+    },
+    {
+      "base": "K4",
+      "expanded_order": 100,
+      "choices": [
+        [
+          14,
+          true
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          6,
+          false
+        ]
+      ],
+      "closed_surplus": 32,
+      "matching_surpluses": [
+        10,
+        8,
+        10
+      ],
+      "local_inequality_sum": 124
+    },
+    {
+      "base": "K4",
+      "expanded_order": 78,
+      "choices": [
+        [
+          3,
+          false
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          8,
+          false
+        ]
+      ],
+      "closed_surplus": 24,
+      "matching_surpluses": [
+        12,
+        2,
+        6
+      ],
+      "local_inequality_sum": 92
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 70,
+      "choices": [
+        [
+          0,
+          false
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          0,
+          false
+        ]
+      ],
+      "closed_surplus": 20,
+      "matching_surpluses": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "local_inequality_sum": 90
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 130,
+      "choices": [
+        [
+          1,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          1,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          1,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          1,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          1,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          1,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          1,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          1,
+          false
+        ]
+      ],
+      "closed_surplus": 20,
+      "matching_surpluses": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "local_inequality_sum": 180
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 160,
+      "choices": [
+        [
+          2,
+          false
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          2,
+          false
+        ]
+      ],
+      "closed_surplus": 20,
+      "matching_surpluses": [
+        30,
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "local_inequality_sum": 150
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 160,
+      "choices": [
+        [
+          3,
+          false
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          3,
+          false
+        ]
+      ],
+      "closed_surplus": 80,
+      "matching_surpluses": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "local_inequality_sum": 300
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 190,
+      "choices": [
+        [
+          4,
+          false
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          4,
+          false
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          4,
+          false
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          4,
+          false
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          4,
+          false
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          4,
+          false
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          4,
+          false
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          4,
+          false
+        ]
+      ],
+      "closed_surplus": -10,
+      "matching_surpluses": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "local_inequality_sum": 0
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 190,
+      "choices": [
+        [
+          5,
+          false
+        ],
+        [
+          5,
+          true
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          5,
+          true
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          5,
+          true
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          5,
+          true
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          5,
+          true
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          5,
+          true
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          5,
+          true
+        ],
+        [
+          5,
+          false
+        ]
+      ],
+      "closed_surplus": 50,
+      "matching_surpluses": [
+        -30,
+        -30,
+        -30,
+        -30,
+        -30,
+        -30
+      ],
+      "local_inequality_sum": 60
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 220,
+      "choices": [
+        [
+          6,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          6,
+          false
+        ]
+      ],
+      "closed_surplus": 80,
+      "matching_surpluses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "local_inequality_sum": 240
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 220,
+      "choices": [
+        [
+          7,
+          false
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          7,
+          false
+        ]
+      ],
+      "closed_surplus": 80,
+      "matching_surpluses": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "local_inequality_sum": 360
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 220,
+      "choices": [
+        [
+          8,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          8,
+          false
+        ]
+      ],
+      "closed_surplus": 80,
+      "matching_surpluses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "local_inequality_sum": 240
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 250,
+      "choices": [
+        [
+          9,
+          false
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          9,
+          false
+        ]
+      ],
+      "closed_surplus": 80,
+      "matching_surpluses": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "local_inequality_sum": 540
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 250,
+      "choices": [
+        [
+          10,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          10,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          10,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          10,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          10,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          10,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          10,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          10,
+          false
+        ]
+      ],
+      "closed_surplus": 50,
+      "matching_surpluses": [
+        30,
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "local_inequality_sum": 240
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 280,
+      "choices": [
+        [
+          11,
+          false
+        ],
+        [
+          11,
+          true
+        ],
+        [
+          11,
+          false
+        ],
+        [
+          11,
+          true
+        ],
+        [
+          11,
+          false
+        ],
+        [
+          11,
+          true
+        ],
+        [
+          11,
+          false
+        ],
+        [
+          11,
+          true
+        ],
+        [
+          11,
+          false
+        ],
+        [
+          11,
+          true
+        ],
+        [
+          11,
+          false
+        ],
+        [
+          11,
+          true
+        ],
+        [
+          11,
+          false
+        ],
+        [
+          11,
+          true
+        ],
+        [
+          11,
+          false
+        ]
+      ],
+      "closed_surplus": 20,
+      "matching_surpluses": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "local_inequality_sum": 180
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 280,
+      "choices": [
+        [
+          12,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          12,
+          false
+        ]
+      ],
+      "closed_surplus": 20,
+      "matching_surpluses": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "local_inequality_sum": 240
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 280,
+      "choices": [
+        [
+          13,
+          false
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          13,
+          false
+        ]
+      ],
+      "closed_surplus": 50,
+      "matching_surpluses": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50
+      ],
+      "local_inequality_sum": 300
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 280,
+      "choices": [
+        [
+          14,
+          false
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          14,
+          false
+        ]
+      ],
+      "closed_surplus": 110,
+      "matching_surpluses": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "local_inequality_sum": 540
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 280,
+      "choices": [
+        [
+          15,
+          false
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          15,
+          false
+        ]
+      ],
+      "closed_surplus": 50,
+      "matching_surpluses": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "local_inequality_sum": 180
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 280,
+      "choices": [
+        [
+          16,
+          false
+        ],
+        [
+          16,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          16,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          16,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          16,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          16,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          16,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          16,
+          true
+        ],
+        [
+          16,
+          false
+        ]
+      ],
+      "closed_surplus": 50,
+      "matching_surpluses": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50
+      ],
+      "local_inequality_sum": 300
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 280,
+      "choices": [
+        [
+          17,
+          false
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          17,
+          false
+        ]
+      ],
+      "closed_surplus": 50,
+      "matching_surpluses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "local_inequality_sum": 150
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 280,
+      "choices": [
+        [
+          18,
+          false
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          18,
+          false
+        ]
+      ],
+      "closed_surplus": 50,
+      "matching_surpluses": [
+        -10,
+        -10,
+        -10,
+        -10,
+        -10,
+        -10
+      ],
+      "local_inequality_sum": 120
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 280,
+      "choices": [
+        [
+          19,
+          false
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          19,
+          false
+        ]
+      ],
+      "closed_surplus": 50,
+      "matching_surpluses": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "local_inequality_sum": 270
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 280,
+      "choices": [
+        [
+          20,
+          false
+        ],
+        [
+          20,
+          true
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          20,
+          true
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          20,
+          true
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          20,
+          true
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          20,
+          true
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          20,
+          true
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          20,
+          true
+        ],
+        [
+          20,
+          false
+        ]
+      ],
+      "closed_surplus": 80,
+      "matching_surpluses": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "local_inequality_sum": 300
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 242,
+      "choices": [
+        [
+          4,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          17,
+          false
+        ]
+      ],
+      "closed_surplus": 56,
+      "matching_surpluses": [
+        28,
+        22,
+        24,
+        22,
+        22,
+        30
+      ],
+      "local_inequality_sum": 242
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 204,
+      "choices": [
+        [
+          4,
+          true
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          1,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          13,
+          false
+        ]
+      ],
+      "closed_surplus": 42,
+      "matching_surpluses": [
+        12,
+        10,
+        16,
+        24,
+        22,
+        28
+      ],
+      "local_inequality_sum": 182
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 238,
+      "choices": [
+        [
+          8,
+          true
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          11,
+          false
+        ]
+      ],
+      "closed_surplus": 62,
+      "matching_surpluses": [
+        24,
+        28,
+        30,
+        16,
+        26,
+        24
+      ],
+      "local_inequality_sum": 260
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 186,
+      "choices": [
+        [
+          20,
+          false
+        ],
+        [
+          16,
+          true
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          1,
+          true
+        ]
+      ],
+      "closed_surplus": 54,
+      "matching_surpluses": [
+        36,
+        14,
+        6,
+        30,
+        22,
+        36
+      ],
+      "local_inequality_sum": 234
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 250,
+      "choices": [
+        [
+          15,
+          false
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          11,
+          false
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          20,
+          true
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          20,
+          true
+        ]
+      ],
+      "closed_surplus": 48,
+      "matching_surpluses": [
+        34,
+        34,
+        26,
+        32,
+        14,
+        32
+      ],
+      "local_inequality_sum": 230
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 234,
+      "choices": [
+        [
+          15,
+          true
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          11,
+          false
+        ]
+      ],
+      "closed_surplus": 62,
+      "matching_surpluses": [
+        8,
+        24,
+        28,
+        14,
+        20,
+        14
+      ],
+      "local_inequality_sum": 240
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 218,
+      "choices": [
+        [
+          3,
+          true
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          20,
+          true
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          1,
+          false
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          0,
+          false
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          5,
+          true
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          4,
+          true
+        ]
+      ],
+      "closed_surplus": 44,
+      "matching_surpluses": [
+        36,
+        32,
+        32,
+        26,
+        28,
+        30
+      ],
+      "local_inequality_sum": 224
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 248,
+      "choices": [
+        [
+          10,
+          false
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          16,
+          false
+        ]
+      ],
+      "closed_surplus": 60,
+      "matching_surpluses": [
+        26,
+        30,
+        24,
+        20,
+        36,
+        36
+      ],
+      "local_inequality_sum": 266
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 230,
+      "choices": [
+        [
+          20,
+          false
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          20,
+          true
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          16,
+          true
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          20,
+          false
+        ]
+      ],
+      "closed_surplus": 56,
+      "matching_surpluses": [
+        16,
+        36,
+        14,
+        16,
+        20,
+        14
+      ],
+      "local_inequality_sum": 226
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 252,
+      "choices": [
+        [
+          1,
+          true
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          11,
+          true
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          17,
+          true
+        ]
+      ],
+      "closed_surplus": 58,
+      "matching_surpluses": [
+        -4,
+        16,
+        16,
+        6,
+        18,
+        20
+      ],
+      "local_inequality_sum": 210
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 248,
+      "choices": [
+        [
+          13,
+          false
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          11,
+          true
+        ],
+        [
+          11,
+          false
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          10,
+          true
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          6,
+          false
+        ]
+      ],
+      "closed_surplus": 44,
+      "matching_surpluses": [
+        36,
+        38,
+        32,
+        32,
+        36,
+        30
+      ],
+      "local_inequality_sum": 234
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 244,
+      "choices": [
+        [
+          5,
+          false
+        ],
+        [
+          10,
+          false
+        ],
+        [
+          14,
+          false
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          10,
+          false
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          6,
+          false
+        ]
+      ],
+      "closed_surplus": 62,
+      "matching_surpluses": [
+        32,
+        44,
+        38,
+        40,
+        50,
+        12
+      ],
+      "local_inequality_sum": 294
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 242,
+      "choices": [
+        [
+          5,
+          true
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          18,
+          true
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          14,
+          true
+        ]
+      ],
+      "closed_surplus": 62,
+      "matching_surpluses": [
+        34,
+        38,
+        22,
+        28,
+        34,
+        16
+      ],
+      "local_inequality_sum": 272
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 228,
+      "choices": [
+        [
+          14,
+          true
+        ],
+        [
+          4,
+          true
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          1,
+          false
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          11,
+          false
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          16,
+          false
+        ]
+      ],
+      "closed_surplus": 42,
+      "matching_surpluses": [
+        28,
+        34,
+        16,
+        26,
+        28,
+        20
+      ],
+      "local_inequality_sum": 202
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 216,
+      "choices": [
+        [
+          20,
+          true
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          4,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          14,
+          false
+        ]
+      ],
+      "closed_surplus": 50,
+      "matching_surpluses": [
+        54,
+        44,
+        42,
+        40,
+        38,
+        30
+      ],
+      "local_inequality_sum": 274
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 238,
+      "choices": [
+        [
+          15,
+          false
+        ],
+        [
+          20,
+          true
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          14,
+          true
+        ],
+        [
+          16,
+          true
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          2,
+          false
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          7,
+          false
+        ]
+      ],
+      "closed_surplus": 68,
+      "matching_surpluses": [
+        32,
+        40,
+        48,
+        38,
+        32,
+        30
+      ],
+      "local_inequality_sum": 314
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 242,
+      "choices": [
+        [
+          16,
+          true
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          5,
+          false
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          3,
+          false
+        ],
+        [
+          13,
+          false
+        ],
+        [
+          9,
+          false
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          11,
+          true
+        ]
+      ],
+      "closed_surplus": 50,
+      "matching_surpluses": [
+        30,
+        22,
+        26,
+        22,
+        24,
+        40
+      ],
+      "local_inequality_sum": 232
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 236,
+      "choices": [
+        [
+          9,
+          true
+        ],
+        [
+          7,
+          false
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          5,
+          true
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          20,
+          false
+        ],
+        [
+          8,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          12,
+          true
+        ],
+        [
+          19,
+          false
+        ],
+        [
+          7,
+          false
+        ]
+      ],
+      "closed_surplus": 62,
+      "matching_surpluses": [
+        30,
+        40,
+        38,
+        50,
+        20,
+        42
+      ],
+      "local_inequality_sum": 296
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 234,
+      "choices": [
+        [
+          4,
+          false
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          15,
+          true
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          3,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          19,
+          true
+        ],
+        [
+          6,
+          false
+        ],
+        [
+          7,
+          true
+        ],
+        [
+          5,
+          true
+        ],
+        [
+          8,
+          false
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          15,
+          false
+        ],
+        [
+          0,
+          true
+        ]
+      ],
+      "closed_surplus": 52,
+      "matching_surpluses": [
+        30,
+        6,
+        20,
+        22,
+        10,
+        20
+      ],
+      "local_inequality_sum": 210
+    },
+    {
+      "base": "Petersen",
+      "expanded_order": 240,
+      "choices": [
+        [
+          15,
+          false
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          16,
+          false
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          11,
+          true
+        ],
+        [
+          6,
+          true
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          17,
+          false
+        ],
+        [
+          9,
+          true
+        ],
+        [
+          16,
+          true
+        ],
+        [
+          18,
+          false
+        ],
+        [
+          1,
+          false
+        ]
+      ],
+      "closed_surplus": 50,
+      "matching_surpluses": [
+        30,
+        40,
+        30,
+        38,
+        32,
+        30
+      ],
+      "local_inequality_sum": 250
+    }
+  ],
+  "general_conjecture_solved": false
+}

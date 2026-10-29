@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "original_conjecture_resolved": false,
+  "latexmk": "passed",
+  "desktop_compiler": "success before bibliography line-wrap-only edit",
+  "latex_warnings": [],
+  "pdf_pages": 25,
+  "pdf_bytes": 435971,
+  "visual_review": "All 25 pages inspected in contact sheet. The new reduction on page 5, direct-search results on page 23, and references on page 25 inspected at higher resolution. No clipping or overflow observed.",
+  "independent_verifier": "passed; standard library only",
+  "triangle_pair_witnesses": 1240455,
+  "edge_switch_witnesses": 1595,
+  "named_graph_witnesses": 14,
+  "consecutive_triangle_lifts": 7984,
+  "search_reproducibility": "Final triangle search reproduced all certificate rows byte for byte.",
+  "mathematical_review": "All four endpoint states checked in the new reduction; surviving degrees are unchanged, branch gain is 2 or 4, and m-n increases by 2. Distinct nonadjacent outside endpoints are required.",
+  "pdf_sha256": "089adee0a20ba0d6985553c01326195e40dbc78dd9ce2a3d936a05e0fa18e072",
+  "tex_sha256": "c8711e16e6215ba89500fcf2ddadcfd0105f4d590f221f9c23c5de0ffb2ba9c6",
+  "verifier_sha256": "892ff3206f4c87dc6aef62758f97845c3fd5d05d7510c26c71e8e2dedadd022c"
+}

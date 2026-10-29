@@ -1,0 +1,10 @@
+{
+  "direct_subset_graphs": 112,
+  "direct_subset_assignments": 369040,
+  "direct_edge_profiles": 1899,
+  "larger_graphs_with_verified_witnesses": 240,
+  "larger_factors_checked": 261726208,
+  "larger_edge_profiles": 11526,
+  "larger_upper_bound_method": "exhaustive cycle-space enumeration",
+  "general_conjecture_resolved": false
+}

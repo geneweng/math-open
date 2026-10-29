@@ -1,0 +1,34 @@
+{
+  "original_conjecture_resolved": false,
+  "runs": [
+    {
+      "input": "round15_data/tight_large_bases.g6",
+      "trials_per_seed": 3000,
+      "random_seed": 2026102818,
+      "prefix": "descent",
+      "seeds": 9,
+      "switch_proposals": 27000,
+      "reported_exact_switch_profiles": 965,
+      "accepted": 500
+    },
+    {
+      "input": "round18_data/large_seeds.g6",
+      "trials_per_seed": 1000,
+      "random_seed": 2026102819,
+      "prefix": "large",
+      "seeds": 3,
+      "switch_proposals": 3000,
+      "reported_exact_switch_profiles": 20,
+      "accepted": 11
+    }
+  ],
+  "additional_retained_vertex_expansions": 185,
+  "scope": "Incomplete heuristic search; records can repeat labelled graphs. No infeasibility or universal claim.",
+  "columns": [
+    "graph6",
+    "witness_size",
+    "maximum_set_count_if_exact",
+    "witness_mask",
+    "exact_flag"
+  ]
+}

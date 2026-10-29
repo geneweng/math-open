@@ -1,0 +1,13 @@
+{
+  "original_conjecture": "unresolved",
+  "pdf_pages": 43,
+  "compile": "latexmk passed; no warnings or overfull/underfull boxes",
+  "visual_review": "All pages in contact sheet; new theorem page 42 and final page 43 inspected individually.",
+  "verification": "verify_round25.py passed",
+  "sha256": {
+    "cubic_conjecture_search/bridge_completion/main.tex": "a169ba0a53726f8ec30131417b444af6cb7223ebcf5511612138f4d4e4155723",
+    "cubic_conjecture_search/verify_round25.py": "8814cf5b7a07f71b9d8d7a66ac475fe33ec6c13a3ee5d45f5c60d68325b1f6e7",
+    "cubic_conjecture_search/round25_verification.json": "d34f2a5d9eb6fdfe779f363b0cfcc6c57193b7e0b00d65ae93fe7160b2268d91",
+    "output/pdf/bridge_completion.pdf": "c68e239d57e4807ff188efdf3833a392062dfe81834192a809c76de7b9c70b60"
+  }
+}

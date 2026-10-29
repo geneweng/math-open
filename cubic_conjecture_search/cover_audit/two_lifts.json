@@ -1,0 +1,5185 @@
+[
+  {
+    "mask": 1,
+    "negative_edges": [
+      [
+        1,
+        3
+      ]
+    ],
+    "graph6": "W[GOWWA?S@gE??C???Y?C??G??O??W??W??A???O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      7,
+      9,
+      11,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22
+    ]
+  },
+  {
+    "mask": 2,
+    "negative_edges": [
+      [
+        5,
+        6
+      ]
+    ],
+    "graph6": "W]GOOWA?S@gE??????W?E??GA?OG?O??W??A???O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      2,
+      4,
+      7,
+      9,
+      10,
+      12,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22
+    ]
+  },
+  {
+    "mask": 3,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "graph6": "W[GOOWA?S@gE??C???Y?C??GA?OG?O??W??A???O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      3,
+      8,
+      10,
+      11,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      23
+    ]
+  },
+  {
+    "mask": 4,
+    "negative_edges": [
+      [
+        5,
+        7
+      ]
+    ],
+    "graph6": "W]GOWOA?S@gE??????W?E??G@?O??WG?O??A???O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      1,
+      2,
+      4,
+      6,
+      8,
+      11,
+      12,
+      15,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22
+    ]
+  },
+  {
+    "mask": 5,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph6": "W[GOWOA?S@gE??C???Y?C??G@?O??WG?O??A???O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      15,
+      17,
+      20,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 6,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph6": "W]GOOOA?S@gE??????W?E??GB?OG?OG?O??A???O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 12,
+    "upper": 12,
+    "witness": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      14,
+      16,
+      17,
+      18,
+      20,
+      22
+    ]
+  },
+  {
+    "mask": 7,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph6": "W[GOOOA?S@gE??C???Y?C??GB?OG?OG?O??A???O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      17,
+      18,
+      20,
+      22
+    ]
+  },
+  {
+    "mask": 8,
+    "negative_edges": [
+      [
+        6,
+        8
+      ]
+    ],
+    "graph6": "W]GOWW??S@gE??????W?E??G??O@?W??WA?????O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 12,
+    "upper": 12,
+    "witness": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      12,
+      14,
+      15,
+      16,
+      17,
+      19
+    ]
+  },
+  {
+    "mask": 9,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "graph6": "W[GOWW??S@gE??C???Y?C??G??O@?W??WA?????O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      17,
+      18,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 10,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "graph6": "W]GOOW??S@gE??????W?E??GA?OH?O??WA?????O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      2,
+      4,
+      5,
+      7,
+      8,
+      10,
+      12,
+      13,
+      15,
+      18,
+      20,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 11,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "graph6": "W[GOOW??S@gE??C???Y?C??GA?OH?O??WA?????O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 12,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "graph6": "W]GOWO??S@gE??????W?E??G@?O@?WG?OA?????O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      15,
+      16,
+      18,
+      19,
+      20,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 13,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "graph6": "W[GOWO??S@gE??C???Y?C??G@?O@?WG?OA?????O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "mask": 14,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "graph6": "W]GOOO??S@gE??????W?E??GB?OH?OG?OA?????O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      12,
+      13,
+      14,
+      17,
+      18,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 15,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "graph6": "W[GOOO??S@gE??C???Y?C??GB?OH?OG?OA?????O?C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      1,
+      3,
+      6,
+      8,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "mask": 16,
+    "negative_edges": [
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W]GOWWA?C@gE??????W?E??G??O??W?_W??A?O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 12,
+    "upper": 12,
+    "witness": [
+      0,
+      1,
+      2,
+      8,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "mask": 17,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W[GOWWA?C@gE??C???Y?C??G??O??W?_W??A?O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      10,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      21,
+      23
+    ]
+  },
+  {
+    "mask": 18,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W]GOOWA?C@gE??????W?E??GA?OG?O?_W??A?O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "mask": 19,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W[GOOWA?C@gE??C???Y?C??GA?OG?O?_W??A?O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      12,
+      13,
+      15,
+      16,
+      18,
+      19,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 20,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W]GOWOA?C@gE??????W?E??G@?O??WG_O??A?O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22
+    ]
+  },
+  {
+    "mask": 21,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W[GOWOA?C@gE??C???Y?C??G@?O??WG_O??A?O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      18,
+      20,
+      21,
+      23
+    ]
+  },
+  {
+    "mask": 22,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W]GOOOA?C@gE??????W?E??GB?OG?OG_O??A?O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      1,
+      2,
+      5,
+      8,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      18,
+      19,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 23,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W[GOOOA?C@gE??C???Y?C??GB?OG?OG_O??A?O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      2,
+      4,
+      5,
+      6,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      23
+    ]
+  },
+  {
+    "mask": 24,
+    "negative_edges": [
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W]GOWW??C@gE??????W?E??G??O@?W?_WA???O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16,
+      18,
+      19,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 25,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W[GOWW??C@gE??C???Y?C??G??O@?W?_WA???O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "mask": 26,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W]GOOW??C@gE??????W?E??GA?OH?O?_WA???O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      17,
+      18,
+      19,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 27,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W[GOOW??C@gE??C???Y?C??GA?OH?O?_WA???O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      8,
+      10,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 28,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W]GOWO??C@gE??????W?E??G@?O@?WG_OA???O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      23
+    ]
+  },
+  {
+    "mask": 29,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W[GOWO??C@gE??C???Y?C??G@?O@?WG_OA???O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      9,
+      10,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 30,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W]GOOO??C@gE??????W?E??GB?OH?OG_OA???O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 12,
+    "upper": 12,
+    "witness": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      8,
+      10,
+      17,
+      18,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "mask": 31,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "graph6": "W[GOOO??C@gE??C???Y?C??GB?OH?OG_OA???O???C@_?GE",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 32,
+    "negative_edges": [
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOWWA?S@gA??????W?E??G??O??W??W?CA???O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      3,
+      5,
+      7,
+      9,
+      10,
+      13,
+      15,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 33,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOWWA?S@gA??C???Y?C??G??O??W??W?CA???O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      20,
+      23
+    ]
+  },
+  {
+    "mask": 34,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOOWA?S@gA??????W?E??GA?OG?O??W?CA???O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      13,
+      15,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 35,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOOWA?S@gA??C???Y?C??GA?OG?O??W?CA???O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      15,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 36,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOWOA?S@gA??????W?E??G@?O??WG?O?CA???O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      15,
+      16,
+      18,
+      19,
+      20,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 37,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOWOA?S@gA??C???Y?C??G@?O??WG?O?CA???O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      2,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23
+    ]
+  },
+  {
+    "mask": 38,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOOOA?S@gA??????W?E??GB?OG?OG?O?CA???O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      12,
+      14,
+      16,
+      18,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 39,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOOOA?S@gA??C???Y?C??GB?OG?OG?O?CA???O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 40,
+    "negative_edges": [
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOWW??S@gA??????W?E??G??O@?W??WAC????O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      3,
+      5,
+      6,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20
+    ]
+  },
+  {
+    "mask": 41,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOWW??S@gA??C???Y?C??G??O@?W??WAC????O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      9,
+      10,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 42,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOOW??S@gA??????W?E??GA?OH?O??WAC????O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      3,
+      5,
+      9,
+      10,
+      11,
+      13,
+      14,
+      16,
+      18,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 43,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOOW??S@gA??C???Y?C??GA?OH?O??WAC????O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      9,
+      10,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 44,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOWO??S@gA??????W?E??G@?O@?WG?OAC????O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      23
+    ]
+  },
+  {
+    "mask": 45,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOWO??S@gA??C???Y?C??G@?O@?WG?OAC????O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      15,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 46,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOOO??S@gA??????W?E??GB?OH?OG?OAC????O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      13,
+      14,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 47,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOOO??S@gA??C???Y?C??GB?OH?OG?OAC????O?C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      18,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 48,
+    "negative_edges": [
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOWWA?C@gA??????W?E??G??O??W?_W?CA?O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "mask": 49,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOWWA?C@gA??C???Y?C??G??O??W?_W?CA?O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      15,
+      16,
+      18,
+      19,
+      20,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 50,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOOWA?C@gA??????W?E??GA?OG?O?_W?CA?O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 51,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOOWA?C@gA??C???Y?C??GA?OG?O?_W?CA?O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 52,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOWOA?C@gA??????W?E??G@?O??WG_O?CA?O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 53,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOWOA?C@gA??C???Y?C??G@?O??WG_O?CA?O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      3,
+      5,
+      6,
+      8,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      18,
+      20
+    ]
+  },
+  {
+    "mask": 54,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOOOA?C@gA??????W?E??GB?OG?OG_O?CA?O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      2,
+      4,
+      6,
+      9,
+      10,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 55,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOOOA?C@gA??C???Y?C??GB?OG?OG_O?CA?O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      11,
+      12,
+      15,
+      17,
+      19,
+      20,
+      22
+    ]
+  },
+  {
+    "mask": 56,
+    "negative_edges": [
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOWW??C@gA??????W?E??G??O@?W?_WAC??O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16,
+      18,
+      19,
+      20,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 57,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOWW??C@gA??C???Y?C??G??O@?W?_WAC??O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      11,
+      13,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 58,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOOW??C@gA??????W?E??GA?OH?O?_WAC??O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      8,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 59,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOOW??C@gA??C???Y?C??GA?OH?O?_WAC??O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      2,
+      4,
+      6,
+      9,
+      10,
+      13,
+      14,
+      16,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 60,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOWO??C@gA??????W?E??G@?O@?WG_OAC??O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 61,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOWO??C@gA??C???Y?C??G@?O@?WG_OAC??O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      8,
+      11,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 62,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W]GOOO??C@gA??????W?E??GB?OH?OG_OAC??O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      1,
+      2,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "mask": 63,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "graph6": "W[GOOO??C@gA??C???Y?C??GB?OH?OG_OAC??O???C@_CGA",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 64,
+    "negative_edges": [
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWWA?S@gC??????W?E??G??O??W??W??A?@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      3,
+      5,
+      6,
+      8,
+      10,
+      13,
+      15,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 65,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWWA?S@gC??C???Y?C??G??O??W??W??A?@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      19,
+      21
+    ]
+  },
+  {
+    "mask": 66,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOWA?S@gC??????W?E??GA?OG?O??W??A?@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "mask": 67,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOWA?S@gC??C???Y?C??GA?OG?O??W??A?@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      2,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23
+    ]
+  },
+  {
+    "mask": 68,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWOA?S@gC??????W?E??G@?O??WG?O??A?@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      7,
+      13,
+      15,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 69,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWOA?S@gC??C???Y?C??G@?O??WG?O??A?@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      7,
+      9,
+      15,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 70,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOOA?S@gC??????W?E??GB?OG?OG?O??A?@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      2,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23
+    ]
+  },
+  {
+    "mask": 71,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOOA?S@gC??C???Y?C??GB?OG?OG?O??A?@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      14,
+      16,
+      17,
+      19,
+      20,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 72,
+    "negative_edges": [
+      [
+        6,
+        8
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWW??S@gC??????W?E??G??O@?W??WA???@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      17,
+      18,
+      19,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 73,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWW??S@gC??C???Y?C??G??O@?W??WA???@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      12,
+      13,
+      15,
+      16,
+      18,
+      19,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 74,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOW??S@gC??????W?E??GA?OH?O??WA???@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "mask": 75,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOW??S@gC??C???Y?C??GA?OH?O??WA???@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      19,
+      21
+    ]
+  },
+  {
+    "mask": 76,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWO??S@gC??????W?E??G@?O@?WG?OA???@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 77,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWO??S@gC??C???Y?C??G@?O@?WG?OA???@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 78,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOO??S@gC??????W?E??GB?OH?OG?OA???@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      2,
+      4,
+      7,
+      8,
+      10,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 79,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOO??S@gC??C???Y?C??GB?OH?OG?OA???@?O?C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      12,
+      14,
+      16,
+      17,
+      19,
+      20,
+      22
+    ]
+  },
+  {
+    "mask": 80,
+    "negative_edges": [
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWWA?C@gC??????W?E??G??O??W?_W??A?P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      3,
+      5,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14,
+      16,
+      18,
+      20,
+      21,
+      23
+    ]
+  },
+  {
+    "mask": 81,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWWA?C@gC??C???Y?C??G??O??W?_W??A?P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      10,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 82,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOWA?C@gC??????W?E??GA?OG?O?_W??A?P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16,
+      18,
+      19,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 83,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOWA?C@gC??C???Y?C??GA?OG?O?_W??A?P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      7,
+      9,
+      15,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 84,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWOA?C@gC??????W?E??G@?O??WG_O??A?P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      3,
+      5,
+      8,
+      10,
+      11,
+      13,
+      14,
+      16,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 85,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWOA?C@gC??C???Y?C??G@?O??WG_O??A?P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      10,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 86,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOOA?C@gC??????W?E??GB?OG?OG_O??A?P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      8,
+      10,
+      13,
+      14,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 87,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOOA?C@gC??C???Y?C??GB?OG?OG_O??A?P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      11,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 88,
+    "negative_edges": [
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWW??C@gC??????W?E??G??O@?W?_WA???P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      23
+    ]
+  },
+  {
+    "mask": 89,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWW??C@gC??C???Y?C??G??O@?W?_WA???P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      11,
+      13,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 90,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOW??C@gC??????W?E??GA?OH?O?_WA???P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      23
+    ]
+  },
+  {
+    "mask": 91,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOW??C@gC??C???Y?C??GA?OH?O?_WA???P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      9,
+      11,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 92,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWO??C@gC??????W?E??G@?O@?WG_OA???P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      9,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 93,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWO??C@gC??C???Y?C??G@?O@?WG_OA???P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      7,
+      9,
+      15,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 94,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOO??C@gC??????W?E??GB?OH?OG_OA???P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14,
+      16,
+      19,
+      20,
+      21,
+      23
+    ]
+  },
+  {
+    "mask": 95,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOO??C@gC??C???Y?C??GB?OH?OG_OA???P???C@_AGC",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      18,
+      20,
+      21,
+      23
+    ]
+  },
+  {
+    "mask": 96,
+    "negative_edges": [
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWWA?S@g???????W?E??G??O??W??W?CA?@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 12,
+    "upper": 12,
+    "witness": [
+      0,
+      1,
+      3,
+      8,
+      10,
+      11,
+      13,
+      14,
+      16,
+      18,
+      20,
+      23
+    ]
+  },
+  {
+    "mask": 97,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWWA?S@g???C???Y?C??G??O??W??W?CA?@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      1,
+      3,
+      5,
+      6,
+      8,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      18,
+      20
+    ]
+  },
+  {
+    "mask": 98,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOWA?S@g???????W?E??GA?OG?O??W?CA?@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      2,
+      4,
+      5,
+      7,
+      8,
+      10,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 99,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOWA?S@g???C???Y?C??GA?OG?O??W?CA?@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      14,
+      16,
+      17,
+      19,
+      20,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 100,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWOA?S@g???????W?E??G@?O??WG?O?CA?@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      2,
+      4,
+      5,
+      6,
+      9,
+      10,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 101,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWOA?S@g???C???Y?C??G@?O??WG?O?CA?@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 102,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOOA?S@g???????W?E??GB?OG?OG?O?CA?@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      2,
+      4,
+      6,
+      9,
+      10,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 103,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOOA?S@g???C???Y?C??GB?OG?OG?O?CA?@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 104,
+    "negative_edges": [
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWW??S@g???????W?E??G??O@?W??WAC??@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20
+    ]
+  },
+  {
+    "mask": 105,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWW??S@g???C???Y?C??G??O@?W??WAC??@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      7,
+      8,
+      9,
+      12,
+      15,
+      16,
+      18,
+      19,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 106,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOW??S@g???????W?E??GA?OH?O??WAC??@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      12,
+      13,
+      14,
+      17,
+      18,
+      19,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 107,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOW??S@g???C???Y?C??GA?OH?O??WAC??@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      6,
+      8,
+      13,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 108,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWO??S@g???????W?E??G@?O@?WG?OAC??@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      2,
+      4,
+      6,
+      9,
+      10,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 109,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWO??S@g???C???Y?C??G@?O@?WG?OAC??@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      6,
+      8,
+      13,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 110,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOO??S@g???????W?E??GB?OH?OG?OAC??@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      8,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 111,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOO??S@g???C???Y?C??GB?OH?OG?OAC??@?O?C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      8,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 112,
+    "negative_edges": [
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWWA?C@g???????W?E??G??O??W?_W?CA?P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      11,
+      13,
+      14,
+      16,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 113,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWWA?C@g???C???Y?C??G??O??W?_W?CA?P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      21
+    ]
+  },
+  {
+    "mask": 114,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOWA?C@g???????W?E??GA?OG?O?_W?CA?P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      2,
+      4,
+      7,
+      8,
+      10,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 115,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOWA?C@g???C???Y?C??GA?OG?O?_W?CA?P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      7,
+      9,
+      13,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 116,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWOA?C@g???????W?E??G@?O??WG_O?CA?P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      13,
+      14,
+      16,
+      18,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 117,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWOA?C@g???C???Y?C??G@?O??WG_O?CA?P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      0,
+      2,
+      3,
+      4,
+      7,
+      9,
+      13,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 118,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOOA?C@g???????W?E??GB?OG?OG_O?CA?P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      9,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 119,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOOA?C@g???C???Y?C??GB?OG?OG_O?CA?P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      9,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 120,
+    "negative_edges": [
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWW??C@g???????W?E??G??O@?W?_WAC??P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 12,
+    "upper": 12,
+    "witness": [
+      0,
+      2,
+      4,
+      7,
+      8,
+      10,
+      12,
+      13,
+      15,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 121,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWW??C@g???C???Y?C??G??O@?W?_WAC??P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      10,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 122,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOW??C@g???????W?E??GA?OH?O?_WAC??P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      8,
+      10,
+      13,
+      14,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 123,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOW??C@g???C???Y?C??GA?OH?O?_WAC??P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      9,
+      10,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 124,
+    "negative_edges": [
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOWO??C@g???????W?E??G@?O@?WG_OAC??P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      13,
+      14,
+      16,
+      17,
+      18,
+      20,
+      21,
+      23
+    ]
+  },
+  {
+    "mask": 125,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOWO??C@g???C???Y?C??G@?O@?WG_OAC??P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 18,
+    "upper": 18,
+    "witness": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      10,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 126,
+    "negative_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W]GOOO??C@g???????W?E??GB?OH?OG_OAC??P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 16,
+    "upper": 16,
+    "witness": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "mask": 127,
+    "negative_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "graph6": "W[GOOO??C@g???C???Y?C??GB?OH?OG_OAC??P???C@_EG?",
+    "status": "OPTIMAL",
+    "lower": 14,
+    "upper": 14,
+    "witness": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      12,
+      13,
+      15,
+      18,
+      21,
+      22,
+      23
+    ]
+  }
+]

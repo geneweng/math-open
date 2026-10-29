@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-27",
+  "general_conjecture_resolved": false,
+  "mathematical_status": "Exact single-edge replacement and repair-lifting theorems proved for the fixed Franklin fragment. The general induced cycles conjecture and unrestricted odd-pseudoforest repair assertion remain unresolved.",
+  "latexmk": "passed",
+  "desktop_compiler": "success",
+  "latex_warnings": [],
+  "pdf_pages": 21,
+  "pdf_bytes": 410961,
+  "visual_review": "All 21 pages reviewed in contact sheet; final pages 18\u201321 inspected individually. No clipping, equation overflow, or isolated proof symbols observed.",
+  "independent_verifier": "passed",
+  "independent_paths_checked": 4949,
+  "independent_neutral_representatives": 54,
+  "independent_simple_cycles_enumerated": 968802,
+  "exact_replacement_vertex_subsets": 5111808,
+  "exact_replacements_checked": 24,
+  "pseudoforest_lifts_checked": 312,
+  "cycle_exchange_lifts_checked": 4209,
+  "search_file_hashes": "all matched round10_search_results.json",
+  "scope": "All retained repair paths independently checked. Shortestness independently checked for 54 representatives; the complete 7,077,888-factor census was not independently repeated.",
+  "pdf_sha256": "afb42e520820c906c302e91142f1ce145aba8ea87704be5cf731938aed01d29e",
+  "tex_sha256": "5c9da1409d3f1660c94751e2f89db399795e5a7c4e1d561aba7f9a388ec75df6"
+}

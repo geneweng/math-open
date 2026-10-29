@@ -1,0 +1,10 @@
+{
+  "pair_orientation_checks": 12150,
+  "minimum_doubled_surplus": 0,
+  "minimizer": [
+    6,
+    6,
+    0
+  ],
+  "original_conjecture_resolved": false
+}

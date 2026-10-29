@@ -1,0 +1,199 @@
+{
+  "status": "No proof or counterexample to the general conjecture has been obtained.",
+  "general_conjecture_solved": false,
+  "exhaustive_bipartite_two_defect_search": {
+    "hypothesis": "G is simple cubic bipartite, S induces a 2-regular graph, |S|=|V(G)|/2-1, and G[V(G)-S] has minimum degree at least two.",
+    "orders": [
+      10,
+      14,
+      18,
+      22,
+      26
+    ],
+    "scope": "Every template and every bipartite cross matching is covered, up to the stated rotation symmetry for a single S-cycle. Counts are labelled completions and can repeat isomorphic graphs. Disconnected completions are included.",
+    "result": "Every generated graph has a directly degree-checked good set of size at least |V(G)|/2+1.",
+    "records_directory": "round5_data",
+    "witness_storage": "Witnesses were checked during enumeration; only a noncryptographic rolling digest and aggregate counts are stored. This is a reproducible computation, not a stored witness for every case.",
+    "generator_crosschecks": {
+      "complements14": "geng -qb -d2 -D3 14 15:15",
+      "cycle_factors12": "geng -qb -d2 -D2 12 12:12"
+    },
+    "results": [
+      {
+        "order": 10,
+        "templates": 1,
+        "labelled_completions": 2,
+        "search_nodes": 12,
+        "maximum_search_nodes": 6
+      },
+      {
+        "order": 14,
+        "templates": 3,
+        "labelled_completions": 36,
+        "search_nodes": 275,
+        "maximum_search_nodes": 15
+      },
+      {
+        "order": 18,
+        "templates": 12,
+        "labelled_completions": 4320,
+        "search_nodes": 35354,
+        "maximum_search_nodes": 20
+      },
+      {
+        "order": 22,
+        "templates": 24,
+        "labelled_completions": 207360,
+        "search_nodes": 1986595,
+        "maximum_search_nodes": 55
+      },
+      {
+        "order": 26,
+        "templates": 88,
+        "labelled_completions": 36115200,
+        "search_nodes": 374986780,
+        "maximum_search_nodes": 423
+      }
+    ]
+  },
+  "fixed_template_synthesis": {
+    "runs": [
+      {
+        "case": "case_20261105_11",
+        "cycles": [
+          11
+        ],
+        "order": 24,
+        "seed": 20261105,
+        "termination": "unsat",
+        "complete_for_fixed_template": true,
+        "candidates": 1
+      },
+      {
+        "case": "case_20261106_11",
+        "cycles": [
+          11
+        ],
+        "order": 24,
+        "seed": 20261106,
+        "termination": "unsat",
+        "complete_for_fixed_template": true,
+        "candidates": 1
+      },
+      {
+        "case": "case_20261107_11",
+        "cycles": [
+          11
+        ],
+        "order": 24,
+        "seed": 20261107,
+        "termination": "unsat",
+        "complete_for_fixed_template": true,
+        "candidates": 20
+      },
+      {
+        "case": "case_20261108_11",
+        "cycles": [
+          11
+        ],
+        "order": 24,
+        "seed": 20261108,
+        "termination": "unsat",
+        "complete_for_fixed_template": true,
+        "candidates": 1
+      },
+      {
+        "case": "case_20261120_11",
+        "cycles": [
+          11
+        ],
+        "order": 24,
+        "seed": 20261120,
+        "termination": "unsat",
+        "complete_for_fixed_template": true,
+        "candidates": 22
+      },
+      {
+        "case": "case_20261121_11",
+        "cycles": [
+          11
+        ],
+        "order": 24,
+        "seed": 20261121,
+        "termination": "unsat",
+        "complete_for_fixed_template": true,
+        "candidates": 18
+      }
+    ],
+    "scope": "Z3 reports UNSAT only for each specified complement and planted C11 at order 24. No formal UNSAT proof file is retained. First four runs predate saving all cut masks; last two retain them."
+  },
+  "heuristic_count_search": {
+    "runs": [
+      {
+        "prefix": "descent26",
+        "seconds_limit": 300,
+        "seed": 20261130,
+        "bipartite": true,
+        "lexicographic": false,
+        "initial_graph6": "YFyA@?F@?C?G?F?C?@??G??[?@??@???_??F??@???C???G???F???F?",
+        "best_graph6": "YE@?@?AE?C?g??OGO@@??A?CHA?C???D_?KG_G????CCA?O@??E??oA?",
+        "checked": 62187,
+        "accepted": 51135,
+        "incomplete": 0,
+        "minimum_count": 119,
+        "best_graph_maximum": 18
+      },
+      {
+        "prefix": "descent30",
+        "seconds_limit": 300,
+        "seed": 20261131,
+        "bipartite": true,
+        "lexicographic": false,
+        "initial_graph6": "]FyA@?F@?C?G?F?C?@??G??[?@??@???_??F??@???C???G???F???C???@????G????[???@o",
+        "best_graph6": "]?we??C??a?O?????C??_??_C?O?B?_A??KCO?A`?g?O?@???C@C?_??GW??A@???G??o?O@?O",
+        "checked": 24620,
+        "accepted": 21078,
+        "incomplete": 0,
+        "minimum_count": 282,
+        "best_graph_maximum": 22
+      },
+      {
+        "prefix": "lex26",
+        "seconds_limit": 300,
+        "seed": 20261132,
+        "bipartite": true,
+        "lexicographic": true,
+        "initial_graph6": "YFyA@?F@?C?G?F?C?@??G??[?@??@???_??F??@???C???G???F???F?",
+        "best_graph6": "YFWcE?F??S?_?F???A??g??G?@??B??A???L??A_??A???_???F??CB?",
+        "checked": 199962,
+        "accepted": 5989,
+        "incomplete": 0,
+        "minimum_count": 120,
+        "best_graph_maximum": 14
+      },
+      {
+        "prefix": "lex_tight26",
+        "seconds_limit": 300,
+        "seed": 20261133,
+        "bipartite": false,
+        "lexicographic": true,
+        "initial_graph6": "YHEGHD@AG_oPo???????@??C??G?AG??C??P??GG??G_?@@??OP??w??",
+        "best_graph6": "YHEGHD@AG_oPo???????@??C??G?AG??C??P??GG??G_?@@??OP??w??",
+        "checked": 199997,
+        "accepted": 1121,
+        "incomplete": 0,
+        "minimum_count": 192,
+        "best_graph_maximum": 13
+      }
+    ],
+    "evaluated_candidates": 486766,
+    "scope": "Heuristic degree-preserving local search, not exhaustive. The count-only objective can reduce counts while increasing the maximum; lexicographic runs prioritize the maximum. Incomplete evaluations are discarded."
+  },
+  "sources_sha256": {
+    "two_defect_bipartite.cpp": "b0f9eac8cb76652e7e8d19c526c7904509e2c393b627d96d46b32ff522569518",
+    "two_defect_templates.py": "46d31616aae483dc602df319603dfe4d968cea3dd09fd43a7f26ea40f6ddf86c",
+    "planted_bipartite.cpp": "c60df2ced7cdd779a17c28e0ce38925086035f3f9f29554983b1a20fd54523a6",
+    "planted_cycle_synthesis.py": "ca3266635c80ee4ee85f48f1ceb8776f97036a83fba62196100c62789e6791a1",
+    "count_descent.cpp": "d8944a7f6ed1caf4b3d1f42884f723f51b148fc85b97faab13735eee936394af"
+  }
+}

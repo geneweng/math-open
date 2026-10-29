@@ -1,0 +1,2236 @@
+{
+  "date": "2026-10-26",
+  "general_conjecture_solved": false,
+  "counterexample_found": false,
+  "direct_branch_search": {
+    "graphs_by_order": {
+      "3": 1,
+      "4": 3,
+      "5": 4,
+      "6": 11,
+      "7": 21,
+      "8": 60,
+      "9": 148,
+      "10": 458,
+      "11": 1353,
+      "12": 4566,
+      "13": 15530,
+      "14": 56973,
+      "15": 214763,
+      "16": 848895,
+      "17": 3454642
+    },
+    "total_graphs": 4597428,
+    "equalities": 618,
+    "generator": "geng -cq -d2 -D3 ORDER",
+    "input_sha256": {
+      "3": "8e71b38f493557683524eb45ca8f814efe19aa3c9d7e946c42a25658f532618e",
+      "4": "d4673e746aa2795b2d7f3b93334a5ad5760b0f8075d52ec4489f6336e7733bb6",
+      "5": "d3caa22c7d93cf252e64fbd9661ce1ae0ce30c0097fda95f774068e0d8c134fb",
+      "6": "627ad9b2ee6b85309eb55e0ac0138d3512298013e35cc324014194a7e5dbd838",
+      "7": "81d551b2c0fa226e766526458debfc62b3f7526302a0fce4cf32e4ace2b67b17",
+      "8": "fdaca75c3356ad353c30311e4db4861cf072a1afb1b2f9201895aba9f7c775b6",
+      "9": "ed865a8a47e8569f7f58f1f92d58a8827811466733dd59743816c78edbdd1179",
+      "10": "c4715be84e3b06e520fb194a716298e107580f20efd873a6e0c61599dd0dd882",
+      "11": "10eae4be4dbd4d08e24543a51f1880229e0d48f5b0ffeee61ed8fb1b834ea110",
+      "12": "6d85f861e3527a42b720d51adbdef92c4d43162d1203f518788a8ba852d0ed73",
+      "13": "0e6435a10f1640264b069a7e56c250e08e923efb8909322e88b25991547220c9",
+      "14": "39f74c36a679d4f35473c168b4fbb1de64395a3f0379f773bfe8cbf8e94e46ab",
+      "15": "8d9861218ff765936a1d76dc80d797d4d4ec40939bf39c377635d0c6f4fbaca4",
+      "16": "71070ab20b98f97ba836f2b01660c680fe0a3fb243e42495315f3dca550455c1",
+      "17": "ec7ea46b3a0ab33e0c0b9e2d64ae4a470e9c1bd22d45e117379d281d40ba33ae"
+    },
+    "logs": {
+      "branch_search17.log": "DONE graphs=3454642 tight=259",
+      "branch_search16.log": "DONE graphs=848895 tight=149",
+      "branch_search_odd.log": "DONE graphs=230293 tight=110",
+      "branch_search_even.log": "DONE graphs=61539 tight=69"
+    },
+    "small_orders_3_through_11": {
+      "graphs": 2059,
+      "equalities": 31
+    }
+  },
+  "single_edge_deletions": {
+    "cubic_graphs": 45982,
+    "labelled_edge_cases": 1225155,
+    "maximum_cubic_order": 18,
+    "counterexample_found": false
+  },
+  "two_independent_edge_deletions_order16": {
+    "cubic_graphs": 4060,
+    "labelled_edge_pairs": 925680,
+    "counterexample_found": false
+  },
+  "three_port_profiles": {
+    "vertex_deletions": 73352,
+    "representatives": 259,
+    "two_fragment_joins": 202020,
+    "minimum_pair_doubled_surplus": 2,
+    "heuristic_assemblies": 4900,
+    "minimum_heuristic_doubled_surplus": 8.0,
+    "all_assembly_solver_statuses_optimal": true
+  },
+  "branch_local_search": [
+    {
+      "order": 24,
+      "proposals": 3000,
+      "target": 11,
+      "best": 12,
+      "accepted": 72,
+      "not_optimal": 0
+    },
+    {
+      "order": 26,
+      "proposals": 3000,
+      "target": 12,
+      "best": 13,
+      "accepted": 90,
+      "not_optimal": 0
+    },
+    {
+      "order": 42,
+      "proposals": 3000,
+      "target": 20,
+      "best": 20,
+      "accepted": 19,
+      "not_optimal": 0
+    }
+  ],
+  "tight_graph_edge_profiles": [
+    {
+      "order": 24,
+      "edge": [
+        0,
+        11
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        0,
+        5
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        0,
+        12
+      ],
+      "avoid_deleted": 12,
+      "avoid_bound": 12.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        1,
+        2
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        1,
+        8
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        1,
+        13
+      ],
+      "avoid_deleted": 12,
+      "avoid_bound": 12.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        2,
+        3
+      ],
+      "avoid_deleted": 16,
+      "avoid_bound": 16.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        2,
+        7
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        3,
+        4
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        3,
+        10
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        4,
+        5
+      ],
+      "avoid_deleted": 16,
+      "avoid_bound": 16.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        4,
+        9
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        5,
+        6
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        6,
+        7
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        6,
+        11
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        7,
+        8
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        8,
+        9
+      ],
+      "avoid_deleted": 16,
+      "avoid_bound": 16.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        9,
+        10
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        10,
+        11
+      ],
+      "avoid_deleted": 16,
+      "avoid_bound": 16.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        12,
+        23
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        12,
+        17
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        13,
+        14
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        13,
+        20
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        14,
+        15
+      ],
+      "avoid_deleted": 16,
+      "avoid_bound": 16.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        14,
+        19
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        15,
+        16
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        15,
+        22
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        16,
+        17
+      ],
+      "avoid_deleted": 16,
+      "avoid_bound": 16.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        16,
+        21
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        17,
+        18
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        18,
+        19
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        18,
+        23
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        19,
+        20
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        20,
+        21
+      ],
+      "avoid_deleted": 16,
+      "avoid_bound": 16.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        21,
+        22
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 24,
+      "edge": [
+        22,
+        23
+      ],
+      "avoid_deleted": 16,
+      "avoid_bound": 16.0,
+      "through_edge": 12,
+      "through_bound": 12.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        0,
+        11
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        0,
+        5
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        0,
+        12
+      ],
+      "avoid_deleted": 13,
+      "avoid_bound": 13.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        1,
+        2
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        1,
+        8
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        1,
+        12
+      ],
+      "avoid_deleted": 13,
+      "avoid_bound": 13.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        2,
+        3
+      ],
+      "avoid_deleted": 17,
+      "avoid_bound": 17.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        2,
+        7
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        3,
+        4
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        3,
+        10
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        4,
+        5
+      ],
+      "avoid_deleted": 17,
+      "avoid_bound": 17.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        4,
+        9
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        5,
+        6
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        6,
+        7
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        6,
+        11
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        7,
+        8
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        8,
+        9
+      ],
+      "avoid_deleted": 17,
+      "avoid_bound": 17.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        9,
+        10
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        10,
+        11
+      ],
+      "avoid_deleted": 17,
+      "avoid_bound": 17.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        12,
+        25
+      ],
+      "avoid_deleted": 14,
+      "avoid_bound": 14.0,
+      "through_edge": null,
+      "through_bound": 0.0,
+      "statuses": [
+        "OPTIMAL",
+        "INFEASIBLE"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        13,
+        24
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        13,
+        18
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        13,
+        25
+      ],
+      "avoid_deleted": 13,
+      "avoid_bound": 13.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        14,
+        15
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        14,
+        21
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        14,
+        25
+      ],
+      "avoid_deleted": 13,
+      "avoid_bound": 13.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        15,
+        16
+      ],
+      "avoid_deleted": 17,
+      "avoid_bound": 17.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        15,
+        20
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        16,
+        17
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        16,
+        23
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        17,
+        18
+      ],
+      "avoid_deleted": 17,
+      "avoid_bound": 17.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        17,
+        22
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        18,
+        19
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        19,
+        20
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        19,
+        24
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        20,
+        21
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        21,
+        22
+      ],
+      "avoid_deleted": 17,
+      "avoid_bound": 17.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        22,
+        23
+      ],
+      "avoid_deleted": 15,
+      "avoid_bound": 15.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 26,
+      "edge": [
+        23,
+        24
+      ],
+      "avoid_deleted": 17,
+      "avoid_bound": 17.0,
+      "through_edge": 13,
+      "through_bound": 13.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        0,
+        1
+      ],
+      "avoid_deleted": 21,
+      "avoid_bound": 21.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        0,
+        2
+      ],
+      "avoid_deleted": 21,
+      "avoid_bound": 21.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        0,
+        15
+      ],
+      "avoid_deleted": 22,
+      "avoid_bound": 22.0,
+      "through_edge": null,
+      "through_bound": 0.0,
+      "statuses": [
+        "OPTIMAL",
+        "INFEASIBLE"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        1,
+        2
+      ],
+      "avoid_deleted": 21,
+      "avoid_bound": 21.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        1,
+        28
+      ],
+      "avoid_deleted": 22,
+      "avoid_bound": 22.0,
+      "through_edge": null,
+      "through_bound": 0.0,
+      "statuses": [
+        "OPTIMAL",
+        "INFEASIBLE"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        2,
+        41
+      ],
+      "avoid_deleted": 22,
+      "avoid_bound": 22.0,
+      "through_edge": null,
+      "through_bound": 0.0,
+      "statuses": [
+        "OPTIMAL",
+        "INFEASIBLE"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        3,
+        14
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        3,
+        8
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        3,
+        15
+      ],
+      "avoid_deleted": 21,
+      "avoid_bound": 21.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        4,
+        5
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        4,
+        11
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        4,
+        15
+      ],
+      "avoid_deleted": 21,
+      "avoid_bound": 21.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        5,
+        6
+      ],
+      "avoid_deleted": 25,
+      "avoid_bound": 25.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        5,
+        10
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        6,
+        7
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        6,
+        13
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        7,
+        8
+      ],
+      "avoid_deleted": 25,
+      "avoid_bound": 25.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        7,
+        12
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        8,
+        9
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        9,
+        10
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        9,
+        14
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        10,
+        11
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        11,
+        12
+      ],
+      "avoid_deleted": 25,
+      "avoid_bound": 25.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        12,
+        13
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        13,
+        14
+      ],
+      "avoid_deleted": 25,
+      "avoid_bound": 25.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        16,
+        27
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        16,
+        21
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        16,
+        28
+      ],
+      "avoid_deleted": 21,
+      "avoid_bound": 21.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        17,
+        18
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        17,
+        24
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        17,
+        28
+      ],
+      "avoid_deleted": 21,
+      "avoid_bound": 21.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        18,
+        19
+      ],
+      "avoid_deleted": 25,
+      "avoid_bound": 25.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        18,
+        23
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        19,
+        20
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        19,
+        26
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        20,
+        21
+      ],
+      "avoid_deleted": 25,
+      "avoid_bound": 25.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        20,
+        25
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        21,
+        22
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        22,
+        23
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        22,
+        27
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        23,
+        24
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        24,
+        25
+      ],
+      "avoid_deleted": 25,
+      "avoid_bound": 25.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        25,
+        26
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        26,
+        27
+      ],
+      "avoid_deleted": 25,
+      "avoid_bound": 25.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        29,
+        40
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        29,
+        34
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        29,
+        41
+      ],
+      "avoid_deleted": 21,
+      "avoid_bound": 21.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        30,
+        31
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        30,
+        37
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        30,
+        41
+      ],
+      "avoid_deleted": 21,
+      "avoid_bound": 21.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        31,
+        32
+      ],
+      "avoid_deleted": 25,
+      "avoid_bound": 25.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        31,
+        36
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        32,
+        33
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        32,
+        39
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        33,
+        34
+      ],
+      "avoid_deleted": 25,
+      "avoid_bound": 25.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        33,
+        38
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        34,
+        35
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        35,
+        36
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        35,
+        40
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        36,
+        37
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        37,
+        38
+      ],
+      "avoid_deleted": 25,
+      "avoid_bound": 25.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        38,
+        39
+      ],
+      "avoid_deleted": 23,
+      "avoid_bound": 23.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    },
+    {
+      "order": 42,
+      "edge": [
+        39,
+        40
+      ],
+      "avoid_deleted": 25,
+      "avoid_bound": 25.0,
+      "through_edge": 21,
+      "through_bound": 21.0,
+      "statuses": [
+        "OPTIMAL",
+        "OPTIMAL"
+      ]
+    }
+  ],
+  "finite_cover_searches": {
+    "four_cover_full16.json": {
+      "checked": 4461,
+      "obstructions": []
+    },
+    "edge_capped_cover.json": {
+      "checked": 4461,
+      "worst": 2.0000000000000004,
+      "obstructions": []
+    },
+    "four_cover_edge_cap16.json": {
+      "checked": 3992,
+      "obstructions": [
+        "O??CA?oBCDT?U?D_CgAA_"
+      ]
+    },
+    "three_connected_cover.json": {
+      "checked": 101,
+      "two_cover_failures": 7,
+      "obstructions": [
+        {
+          "graph6": "ICOedO[X?",
+          "order": 10,
+          "cind": 6,
+          "good_sets": 12,
+          "three_connected": true
+        },
+        {
+          "graph6": "K?AEDDWX@oB_",
+          "order": 12,
+          "cind": 7,
+          "good_sets": 22,
+          "three_connected": true
+        },
+        {
+          "graph6": "K?ABE`Ke@gDO",
+          "order": 12,
+          "cind": 8,
+          "good_sets": 22,
+          "three_connected": true
+        },
+        {
+          "graph6": "K?`@E`gFCKEO",
+          "order": 12,
+          "cind": 9,
+          "good_sets": 24,
+          "three_connected": true
+        },
+        {
+          "graph6": "K?`D@`cS_wPG",
+          "order": 12,
+          "cind": 9,
+          "good_sets": 18,
+          "three_connected": true
+        }
+      ]
+    }
+  },
+  "scope_notes": [
+    "Generator completeness is not independently certified.",
+    "The floating-point edge-capped fractional covers are exploratory.",
+    "A solver timeout or failure is not a counterexample.",
+    "Counterexamples to stronger cover properties do not refute the original conjecture."
+  ]
+}

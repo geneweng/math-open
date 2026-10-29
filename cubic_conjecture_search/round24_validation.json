@@ -1,0 +1,87 @@
+{
+  "original_conjecture_resolved": false,
+  "new_witness_types": {
+    "STRICT": 5656,
+    "HALF": 76
+  },
+  "explicit_lifts_checked": 142886,
+  "parent_reconnection_records": 4872232,
+  "indexed_triangle_expansions": 122729334,
+  "reconnection_counts": {
+    "24": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        984,
+        0
+      ],
+      [
+        3,
+        35592,
+        281
+      ],
+      [
+        4,
+        1937772,
+        2310
+      ]
+    ],
+    "26": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1182,
+        7
+      ],
+      [
+        3,
+        47464,
+        390
+      ],
+      [
+        4,
+        2849236,
+        2744
+      ]
+    ]
+  },
+  "synthesis": [
+    {
+      "parent_order": 24,
+      "status": "wall_time_limit",
+      "expanded_candidates": 8,
+      "total_cuts": 1821
+    },
+    {
+      "parent_order": 26,
+      "status": "wall_time_limit",
+      "expanded_candidates": 6,
+      "total_cuts": 1907
+    }
+  ],
+  "critical_star_pair_checks": 1134,
+  "critical_star_minimum_doubled_surplus": 2,
+  "limitation": "Independent checks cover retained witnesses and all solver candidates. Completeness of the large edge balls relies on the C++ reconnection enumeration; its generator was separately tested in round 20.",
+  "pdf_pages": 42,
+  "pdf_sha256": "408d73a429e3170f7042e599ed6854544511999756864f755aa6797ebf07c940",
+  "latex_warnings": false,
+  "visual_review": "All pages rendered and contact sheet inspected; final pages 41-42 rerendered and inspected after removing an orphaned continuation."
+}

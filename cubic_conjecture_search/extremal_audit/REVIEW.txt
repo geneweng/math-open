@@ -1,0 +1,145 @@
+EXTREMAL AUDIT AND REVISED PROOF TARGET
+29 October 2026
+
+Status: the original cubic induced-cycle conjecture remains unresolved.
+This audit pauses expansion of the main paper and large censuses.
+
+1. What the retained equality library actually contains
+
+The 101 labelled parents in round30_data/extension_parents.g6 represent
+exactly eight isomorphism types, not 101 structurally distinct examples.
+
+Order   Records   Bridges   Franklin atoms   Triangle atoms
+12         1         0            1               0
+24         1         0            2               0
+26        51         1            2               0
+36         1         0            3               0
+38         1         1            3               0
+42         1         3            3               1
+50        18         1            4               0
+58        27         5            4               2
+
+Here decomposition means: delete bridges, suppress degree-two vertices
+where doing so preserves simplicity, then split suitable two-edge cuts
+and close each side by an edge between its two ports. The saved trace
+specifies every operation and every isomorphism to the Franklin graph.
+This is a description of this library, NOT a classification of equality
+graphs in general, and NOT an assertion that arbitrary such assemblies
+preserve equality.
+
+CP-SAT returned exact optimum n/2 for all eight representatives. More
+usefully, we saved 418 directly checkable half-sized good sets: one
+containing each non-bridge edge of each representative. Every graph also
+has a saved complementary good partition. The independent verifier checks
+these positive certificates without using the optimization solver. It
+does not independently certify the maximum upper bounds; the theorem
+below does not need those upper bounds.
+
+2. Certificate theorem: the retained parents cannot give rooted failures
+
+A good set induces a 2-regular graph. Let G be connected, simple, cubic,
+of order 2h. Suppose:
+  (i) V(G) is partitioned into two good sets;
+  (ii) every non-bridge edge belongs to a good set of size at least h.
+Then, for every edge e, both rooted constructions from round33 have
+doubles satisfying the original half bound: subdivide e with a root;
+or replace e=ab by ap,pq,qb,pr,qr with root r.
+
+Proof. For e=uv put
+  U = c_ind(G-e),
+  T = maximum size of a good set in G containing u and v,
+  W = c_ind(G-{u,v}).
+Take T=-infinity when there is no such set. For the subdivision cap the
+root-in/root-out optima are (T+1,U); for the triangle cap they are
+(W+3,max(U,T+2)). These are the previously proved exact profile identities.
+A cap with optima (A,B) has double optimum max(2B,A+B).
+
+The two parts in (i) have equal size h: each vertex has exactly one
+neighbour across the partition. At least one part remains good after
+deleting any given edge, so U>=h.
+
+If e is not a bridge, (ii) gives T>=h. The subdivision double therefore
+has optimum at least (h+1)+h=2h+1, half its order. For the triangle cap,
+B>=h+2, so its double has optimum at least 2h+4, exceeding the required
+2h+3.
+
+If e is a bridge, G-e has two components H_i, with odd orders q_i and
+roots u,v. Let M_i=c_ind(H_i) and B_i be the root-avoiding optimum. The
+partition in (i) restricts to two good sets partitioning each H_i: a
+bridge cannot belong to a cycle. Consequently M_i>=ceil(q_i/2) and
+M_i+B_i>=q_i. Hence U=M_1+M_2>=h+1 and
+U+W=(M_1+B_1)+(M_2+B_2)>=2h. The subdivision double has optimum at least
+2U>=2h+2. The triangle double has optimum at least U+W+3>=2h+3. QED.
+
+Corollary. Neither rooted construction, at ANY edge of ANY of the 101
+retained parents, can produce a counterexample. This conclusion follows
+from the saved half-sized witnesses and the theorem; it does not rely
+on solving each extension separately. It excludes these constructions
+at these parents, not arbitrary modifications or all cubic graphs.
+
+3. A tempting next lemma is already false
+
+Tempting statement: if h<=c_ind(G)<=h+1, every non-bridge edge belongs
+to a good set of size at least h. This is FALSE.
+
+A bounded diagnostic used exact cycle-space enumeration on the 4,681
+connected cubic graphs through order 16. Only 29 have optimum at most
+h+1; their 513 non-bridge edge incidences include four failures, on two
+14-vertex graphs. Their graph6 strings are:
+  M???FBOq@KF?D_B_?
+  M???FBObASF?H_D_?
+For the first graph, edges (2,11),(3,11),(4,11) fail; for the second,
+edge (4,11) fails. For every listed edge, exact values are
+  h=7, c_ind(G)=8, T=6, U=10, W=8.
+Independent enumeration of all 2^14 vertex subsets confirms these values.
+The first graph was already the earlier critical-star example; its
+reappearance is a warning against replacing one failed shortcut with
+another form of the same shortcut.
+
+The failure is compensated by a large gain after deleting the edge.
+All four edges are harmless for the rooted constructions. Therefore
+edge coverage alone is too strong as a universal intermediate lemma.
+
+4. Revised target and stopping rules
+
+Prioritize a joint edge-profile argument. The previous minimum-obstruction
+reduction leaves the triangle case
+  U=h+1, T<=h-1, W<=h-2
+in a parent with c_ind(G) in {h,h+1}, at a non-bridge edge. The appropriate
+structural question is whether low T forces either U>=h+2 or W>=h-1
+in this setting. This is a proposed proof target, NOT a proved lemma.
+Excluding this profile addresses the triangle normal form only; the
+subdivision form and the general bridgeless case still require arguments.
+
+Study symmetric differences of a maximum good set of G and a maximum
+good set of G-e. Permit multiple cycles to change together. Track the
+total complement excess e(G[V\S])-|V\S|=h-|S|, rather than requiring
+each complement component to be a pseudoforest. Seek an inequality
+relating U,T,W, with an explicitly identified obstruction if it fails.
+
+For equality classification, first seek a sharp graph with a different
+terminal core, or prove a decomposition theorem under explicit extra
+hypotheses. Do not infer universal Franklin structure from eight types.
+Do not enlarge a census without a specific lemma or inequality to test.
+Success means a proof of a stated structural lemma, a certified failure
+of it, or a genuinely different equality core. More copies of the
+existing library are not a structural milestone.
+
+5. Reproduction
+
+From the repository root:
+  python3 cubic_conjecture_search/extremal_audit/audit.py
+  python3 cubic_conjecture_search/extremal_audit/verify.py
+
+The first uses NetworkX and OR-Tools. The second uses NetworkX only and
+checks mappings, decomposition operations, partitions, and all 418
+edge witnesses. audit.json retains full certificates; verification.json
+contains the compact independent result.
+
+For the bounded diagnostic, compile exploratory/odd_factor_enumerate.cpp
+with clang++ -O3 -std=c++17; concatenate geng -cq -d3 -D3 n outputs for
+n=4,6,8,10,12,14,16 into a graph6 file; run the executable on that file
+to obtain JSONL, then:
+  python3 cubic_conjecture_search/extremal_audit/diagnostic.py INPUT.jsonl
+The 29 near-sharp profiles are retained in near_sharp_profiles.json.
+No paper/PDF update or claim of publication priority is made by this audit.

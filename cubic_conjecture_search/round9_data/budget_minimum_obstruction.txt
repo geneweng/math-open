@@ -1,0 +1,1 @@
+STRICT_BAD_MINIMUM I?BeeOwM? bad_h=8 good_h=9 bad_factor=18727 good_factor=31177

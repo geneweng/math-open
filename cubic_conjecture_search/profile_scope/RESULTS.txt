@@ -1,0 +1,138 @@
+TESTING THE SCOPE OF THE PROFILE CONDITIONS
+29 October 2026
+
+The original conjecture is still unresolved. This continuation DISPROVES
+universality of the previous ten-profile condition and two successive
+extensions. The counterexamples are to those sufficient conditions, not
+to the original half bound. Their cubic graphs satisfy the original bound.
+
+1. Exact conversion from a weighted core to a cubic graph
+
+Let H be a connected simple graph whose vertices have degree two or three.
+Let b be its number of degree-three vertices and D its number of degree-two
+vertices. Attach a P13 cap by a bridge at each degree-two vertex, obtaining
+the cubic graph C(H). Its order is b+14D, with half-order b/2+7D.
+
+Every selected cycle avoids the attachment bridges. A selected degree-two
+core vertex contributes one vertex but forces its cap from optimum 7 to
+root-avoiding optimum 6; these contributions cancel. An unselected core
+vertex permits 7 vertices in its cap. Therefore
+  c_ind(C(H)) = 7D + max{|S intersect B| : H[S] is 2-regular},
+where B is the set of degree-three core vertices.
+
+The same identity holds for each five-state boundary capacity at a core
+edge e after deleting e. The open state is a path between the two core
+ports together with cycles. Such a path cannot enter a cap through its
+only bridge and then return to the core. Hence attachment bridges are
+unused in all five states, and the same cancellation applies.
+
+Consequently the normalized boundary profile of C(H)-e is exactly the
+weighted boundary profile of H-e, counting selected degree-three core
+vertices and subtracting b/2. This is an exact identity, not a relaxation.
+It permits a small-core search for genuine original counterexamples in
+much larger cubic graphs.
+
+2. Explicit failures of universal profile conditions
+
+The five entries below are normalized by subtracting half the completed
+parent order. '-' denotes an impossible state. Endpoints are in the
+vertex labelling returned by graph6 decoding.
+
+Core graph6       Core edge   Completed n   Profile (00,01,10,11,22)
+IQd`Ia?AG           (0,8)          62         (-1,-,3,-,-1)
+K`CidA??WWGO        (2,5)          64         (-2,0,2,-,0)
+K?AAD@WX?sOW        (1,8)          64         (-1,1,1,-,0)
+
+The first profile dominates none of the ten vectors from ring_closure.
+The second is outside the first 15-vector extension obtained by adding
+the first example. The third is outside the subsequent 15-vector
+extension obtained by also adding the second example.
+
+Exact original-parent and edge-profile values are:
+  n=62: c_ind=34, U=34, T=30, W=30;
+  n=64: c_ind=34, U=34, T=32, W=30;
+  n=64: c_ind=33, U=33, T=32, W=31.
+The required original bounds are 31,32,32 respectively. Thus none is
+an original counterexample. All five capacities of each exceptional
+piece are independently checked by enumerating every vertex subset of
+its core (orders ten, twelve, and twelve). The conversion identity above
+gives the exact completed-graph optima. Full graph6 strings and selected
+sets are retained in verified_examples.json.
+
+The earlier conditional ring theorem remains valid: pieces that satisfy
+its condition still give safe assemblies. What fails is the additional
+claim that all realizable pieces satisfy that condition. It would be
+incorrect to continue trying to prove that universal claim.
+
+3. Direct search against the original counterexample conditions
+
+We exhaustively generated the following two degree sequences with geng:
+  12 core vertices, 16 edges: 8 degree-three and 4 degree-two vertices;
+  14 core vertices, 19 edges: 10 degree-three and 4 degree-two vertices.
+There are 1,892 and 21,434 connected simple cores respectively, for a
+total of 23,326. Their completed cubic parents have orders 64 and 66.
+This is NOT a census of all cubic graphs of orders 64 or 66.
+
+At every core edge, the scanner computed all five normalized capacities
+using the core cycle space. In a subcubic graph an even edge set is a
+disjoint union of cycles. Its support is induced exactly when it has no
+extra selected chord. A single extra chord gives precisely a closed-11
+state after deleting that chord. Removing a selected cycle edge gives
+the open-22 state. These cases exhaust all five states and justify the
+enumerator.
+
+All 437,518 distinguished core-edge cases passed both rooted tests:
+  max(2U,U+T+1)>=1,
+  max(2 max(U,T+2), W+3+max(U,T+2))>=3,
+where U,T,W in these inequalities are normalized by half the parent
+order. These are exactly the half-bound conditions for the doubled
+subdivision and doubled root-triangle constructions. Every completed
+parent also has a directly certified half-sized good set.
+
+An independent verifier regenerated the entire input list, checked the
+core witnesses, and checked 1,706,412 positive boundary witnesses. The
+exclusions need only these lower-bound witnesses, not the scanner's
+claims of optimality. Input enumeration completeness relies on geng.
+Edges lying wholly inside attached caps were not part of this census.
+
+4. Complete closure for the enlarged family
+
+Adding the third exceptional piece produces a final 16-vector basis.
+Its complete multiplication certificate is in closure_table.txt. Every
+ordered product of two basis vectors dominates another basis vector,
+every basis vector has nonnegative closing value, and port reversal
+preserves the condition. All 256 product inequalities are independently
+checked. The two intermediate 15-vector closures were checked as well.
+
+Moreover, the independently checked lower-bound profile at every core
+edge in the census dominates a final basis vector. By the monotone series
+composition induction proved in ring_closure/RESULTS.txt, arbitrary ring
+assemblies of these pieces satisfy the original half bound. This covers
+unbounded ring length, arbitrary order, and either orientation of each
+piece. The retained older pieces and families remain covered as well.
+
+This is a conditional infinite-family theorem. Universality of the final
+16-vector condition has NOT been proved. Neither the failed earlier
+conditions nor the successful finite closure justify assuming it.
+The random discovery runs are not completeness arguments; one later
+sampling run ended at its time guard and excludes no additional region.
+
+5. Remaining work and reproduction
+
+No counterexample to the original conjecture was found, and no argument
+establishes the half bound for arbitrary cubic graphs. The exact rooted
+bad-profile target is still not excluded in general. These results must
+not be described as a solution or as a new unrestricted lower bound.
+
+From the repository root:
+  python3 cubic_conjecture_search/profile_scope/verify.py
+
+To regenerate the core certificates, compile weighted_core_scan.cpp with
+clang++ -O3 -std=c++17, generate the two input files using
+  geng -c -d2 -D3 12 16:16
+  geng -c -d2 -D3 14 19:19
+and run the executable on those files in that order. Compress its JSONL
+output as core_certificates.jsonl.gz. discover_outside.py reproduces the
+first randomized discovery; discover_closure.py regenerates the final
+finite closure. Verification requires no optimization solver.
+The paper and PDF remain unchanged.

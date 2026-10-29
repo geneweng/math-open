@@ -1,0 +1,14 @@
+{
+  "original_conjecture_resolved": false,
+  "new_proved_restriction": "For every nonempty B subset A in a minimum branch counterexample, 2|B|+|E(G[V(B)]) minus A| <= 2|V(B)|-1. Hence A is a forest, with the stated quotient sparsity condition.",
+  "remaining_gap": "The empty marking includes all simple cubic graphs; it is not excluded.",
+  "search_statuses": {
+    "radius6": "unknown after query timeout",
+    "radius4": "wall_time_limit"
+  },
+  "rooted_candidates": 7,
+  "cubic_double_order": 58,
+  "all_have_verified_half_bound_witnesses": true,
+  "search_regions_proved_infeasible": false,
+  "verifier": "verify_round17.py"
+}

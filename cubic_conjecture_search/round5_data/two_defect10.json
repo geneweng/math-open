@@ -1,0 +1,15 @@
+[
+  {
+    "S_cycles": [
+      4
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      3
+    ],
+    "T_cycles": [],
+    "expected_cases": 2
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "original_conjecture_resolved": false,
+  "small_generator_checks": [
+    {
+      "order": 6,
+      "labelled_cubic_graphs": 70,
+      "unique_graphs_in_ball": 54,
+      "reconnection_records": 129
+    },
+    {
+      "order": 8,
+      "labelled_cubic_graphs": 19355,
+      "unique_graphs_in_ball": 1147,
+      "reconnection_records": 2591
+    }
+  ],
+  "new_positive_witnesses_checked": 1350,
+  "direct_synthesis": [
+    {
+      "order": 24,
+      "status": "wall_time_limit",
+      "candidates": 9,
+      "cuts": 1496
+    },
+    {
+      "order": 26,
+      "status": "wall_time_limit",
+      "candidates": 7,
+      "cuts": 1616
+    }
+  ],
+  "large_reconnection_counts": {
+    "24": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        984,
+        0
+      ],
+      [
+        3,
+        35592,
+        0
+      ],
+      [
+        4,
+        1937772,
+        383
+      ]
+    ],
+    "26": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1182,
+        1
+      ],
+      [
+        3,
+        47464,
+        117
+      ],
+      [
+        4,
+        2849236,
+        849
+      ]
+    ]
+  },
+  "scope": "Large balls verified by C++ enumeration; independent Python verifies small generator completeness, all newly required witnesses, and all SAT candidate maxima.",
+  "pdf_pages": 37,
+  "pdf_sha256": "87d89c0e798e6b23b4e8c77400177c20e2ba029a9ca4569f4690a281a1df71e2",
+  "latex_warnings": false,
+  "visual_review": "All pages rendered; contact sheet and pages 33 through 37 inspected."
+}

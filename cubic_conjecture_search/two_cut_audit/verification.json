@@ -1,0 +1,23 @@
+{
+  "local_subsets_checked": 262144,
+  "exact_local_profile": [
+    9,
+    9,
+    11,
+    11,
+    8
+  ],
+  "aggregate_profile": {
+    "U": 11,
+    "T": 8,
+    "W": 9,
+    "parent_maximum": 11
+  },
+  "direct_36_vertex_optima": [
+    22,
+    20
+  ],
+  "cyclic_orientation_patterns_checked": 2044,
+  "general_formula": "c_ind=11*k-2*t; t counts preferred-port/preferred-port joins",
+  "original_conjecture": "unresolved"
+}

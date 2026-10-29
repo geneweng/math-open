@@ -1,0 +1,73 @@
+{
+  "records": 101,
+  "distinct_types": 8,
+  "types": [
+    {
+      "order": 12,
+      "records": 1,
+      "bridges": 0,
+      "franklin_atoms": 1,
+      "triangle_atoms": 0,
+      "covered_edges": 18
+    },
+    {
+      "order": 24,
+      "records": 1,
+      "bridges": 0,
+      "franklin_atoms": 2,
+      "triangle_atoms": 0,
+      "covered_edges": 36
+    },
+    {
+      "order": 26,
+      "records": 51,
+      "bridges": 1,
+      "franklin_atoms": 2,
+      "triangle_atoms": 0,
+      "covered_edges": 38
+    },
+    {
+      "order": 36,
+      "records": 1,
+      "bridges": 0,
+      "franklin_atoms": 3,
+      "triangle_atoms": 0,
+      "covered_edges": 54
+    },
+    {
+      "order": 38,
+      "records": 1,
+      "bridges": 1,
+      "franklin_atoms": 3,
+      "triangle_atoms": 0,
+      "covered_edges": 56
+    },
+    {
+      "order": 42,
+      "records": 1,
+      "bridges": 3,
+      "franklin_atoms": 3,
+      "triangle_atoms": 1,
+      "covered_edges": 60
+    },
+    {
+      "order": 50,
+      "records": 18,
+      "bridges": 1,
+      "franklin_atoms": 4,
+      "triangle_atoms": 0,
+      "covered_edges": 74
+    },
+    {
+      "order": 58,
+      "records": 27,
+      "bridges": 5,
+      "franklin_atoms": 4,
+      "triangle_atoms": 2,
+      "covered_edges": 82
+    }
+  ],
+  "half_set_edge_witnesses": 418,
+  "optimization_upper_bounds_checked": false,
+  "rooted_extension_exclusion_certificates_checked": true
+}

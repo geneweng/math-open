@@ -1,0 +1,25 @@
+{
+  "original_conjecture": "unresolved",
+  "pdf_pages": 50,
+  "verification": {
+    "census": "All 7319447 connected simple cubic order-22 records independently checked; all have witnesses of size at least 12. All 64 generation/search/check counts agree. Completeness relies on nauty geng.",
+    "minimum": "All 4194304 vertex subsets checked for explicit order-22 graph; maximum good-set size exactly 12.",
+    "extensions": "182679 extension witnesses checked and exact formula checked in 1674 small cases."
+  },
+  "compile": "latexmk passed; no overfull boxes; one underfull bibliography paragraph, visually acceptable.",
+  "visual_review": "All 50 pages reviewed in contact sheet; new pages 48-50 inspected individually.",
+  "sha256": {
+    "cubic_conjecture_search/bridge_completion/main.tex": "69783414aa3be9046e4802b60a75e5d9527df5b2ed3d086fff55e7bbfa760491",
+    "output/pdf/bridge_completion.pdf": "4d9bbd90611bf97f087869ff5f21e74f1d6a7119e0d1e958a53eb8514fd22db0",
+    "cubic_conjecture_search/verify_round30_census.py": "47240205a7ec8e120a77c562bc0287ba5e0d4ed62c86f482fbdbc7bf25823a73",
+    "cubic_conjecture_search/verify_round30_extensions.py": "269d8c4ccc39c1b0af0b7b786db84fa572781209347c4718de4ff68cd63b239d",
+    "cubic_conjecture_search/verify_round30_minimum.py": "f9e96be3ddca1cb41b2ac532e654f32bb11a2eeaf6777d91edce43bf0f9febaf",
+    "cubic_conjecture_search/round30_census_verification.json": "886c28f119062390a9942ceade84f81068e8fffbbbcd814a7e5bfa412f3fc2b6",
+    "cubic_conjecture_search/round30_extension_verification.json": "00b962baa1f1644c7362ce1ba3d9c89cdadf3b55f53c946b7b14c71c87d7327a",
+    "cubic_conjecture_search/round30_minimum_verification.json": "83b7896d4aa464fcce5d421d03830a287014c209ac82df047491a06f6f5dcdec",
+    "cubic_conjecture_search/exploratory/cubic_census_witness.cpp": "0fe3d5e00b69e9e0e36092941421251d9d824622e467e6dedb2fde5d1d3f6c19",
+    "cubic_conjecture_search/exploratory/check_cubic_census.cpp": "ee3b72c9e7483d1276d2033a97984d2d4f2f8a7257f87edc04d2b742ea7e3ef7",
+    "cubic_conjecture_search/exploratory/run_cubic22_census.py": "3c5059e6f4f289a0c2649d2bb0d448de853f9fa705fc9db87be1aa0e74a705b3",
+    "cubic_conjecture_search/exploratory/two_edge_extension.cpp": "4182bb4f2bef1c1294b8e228dc3c3eb0439a2f9fd3283f8c80a5c5b38fb97e85"
+  }
+}

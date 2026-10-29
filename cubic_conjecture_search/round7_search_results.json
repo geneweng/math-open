@@ -1,0 +1,54 @@
+{
+  "status": "The general induced cycles conjecture remains unresolved; no counterexample found.",
+  "proved_results": [
+    "Good sets are in bijection with isolated-edge-free odd spanning factors.",
+    "The good-set surplus equals n minus the number of factor edges.",
+    "All edge-deletion and edge-containing optima are computable by one cycle-space enumeration."
+  ],
+  "unproved_step": "Universal existence of an isolated-edge-free odd factor with at most n edges; the sufficient pseudoforest version also remains unproved.",
+  "larger_search": {
+    "scope": "240 labelled seeded samples, not an exhaustive census",
+    "orders": {
+      "24": 53,
+      "26": 56,
+      "30": 13,
+      "34": 12,
+      "36": 41,
+      "38": 12,
+      "42": 53
+    },
+    "factors_exhausted": 261726208,
+    "edge_profiles": 11526,
+    "half_bound_failures": 0,
+    "sharp_inputs": 5,
+    "edge_deletions_below_half": 0,
+    "rooted_doubling_counterexamples": 0
+  },
+  "independent_verification": {
+    "direct_subset_graphs": 112,
+    "direct_subset_assignments": 369040,
+    "direct_edge_profiles": 1899,
+    "larger_graphs_with_verified_witnesses": 240,
+    "larger_factors_checked": 261726208,
+    "larger_edge_profiles": 11526,
+    "larger_upper_bound_method": "exhaustive cycle-space enumeration",
+    "general_conjecture_resolved": false
+  },
+  "edge_profile_format": [
+    "u",
+    "v",
+    "c_ind(G-e)",
+    "maximum_good_set_containing_u_and_v_or_minus_one_if_infeasible",
+    "deleted_witness_bitmask",
+    "through_witness_bitmask"
+  ],
+  "sha256": {
+    "exploratory/odd_factor_enumerate.cpp": "72e086acc376681979f68ade8f68a38fac3d8a6204025b53876be7fef528e65c",
+    "exploratory/odd_factor_instances.py": "9ee2275e7090b2ddcc3085f31b676f86d6d9e888ff86f52f5efd23be3ad637b1",
+    "verify_odd_factors.py": "9d613107e66978e7d2dc53658b25ab9dfa56cd0a21b57c68d8e1597e8a7d68a5",
+    "round7_data/larger_instances.g6": "2ce15fc1275cb288c708232cb78e1da7a01198e2e56403648f7059915a9e598e",
+    "round7_data/larger_instances.json": "0362a8c3f02a12a1d5fa407f56d23d6657d7517b5bc4ecba4134116e7cc08b65",
+    "round7_data/larger_profiles.jsonl": "8e24e7bbdb3d8831d60a1197f8554f3cdaafae3a70e958873ce88fb1a18fb2e0",
+    "round7_data/small_histograms.jsonl": "74be9981bc8fa5ba283fadb5c7312291f790ef1d221052dedbcb8813b836f34e"
+  }
+}

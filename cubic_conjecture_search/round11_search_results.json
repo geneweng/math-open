@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-27",
+  "general_conjecture_resolved": false,
+  "monotone_pseudoforest_repair_assertion": "disproved by an infinite family",
+  "proved_statements": [
+    "For k>=3, B_k is connected simple cubic of order 28k-26 and c_ind(B_k)=14k-13.",
+    "M_k is an odd spanning pseudoforest with j(M_k)=1.",
+    "Every repair through odd pseudoforests passes through j>=k; the exact excess barrier is k-1.",
+    "The shortest repair has k exchanges, attained with j-values 1,2,...,k,0."
+  ],
+  "first_example": {
+    "order": 58,
+    "initial_j": 1,
+    "minimum_maximum_j": 3,
+    "shortest_repair_exchanges": 3,
+    "escape_j": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "c_ind": 29
+  },
+  "independent_checks": {
+    "cap_edge_subsets": 524288,
+    "cap_parity_states": 128,
+    "cap_vertex_subsets": 8192,
+    "cap_simple_cycles": 107,
+    "zero_cost_cap_states": 12,
+    "local_transitions_checked": 1284,
+    "neutral_states_checked_globally": 20736,
+    "core_exits_checked_globally": 41472,
+    "family_orders": [
+      58,
+      86,
+      114,
+      142,
+      170,
+      198,
+      226,
+      254,
+      282,
+      310
+    ],
+    "first_escape_j": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "bridgeless_double_cover_orders": [
+      116,
+      172,
+      228,
+      284,
+      340,
+      396,
+      452,
+      508,
+      564,
+      620
+    ],
+    "double_cover_repairs": "All have verified two-cycle repairs with j=2,1,0 and good sets of order n/2+4."
+  },
+  "exploratory_solver_scope": "A one-cycle CP-SAT model confirmed no immediate repair at order 58. It found one-step repairs for double covers at 116,172,228; order 284 timed out UNKNOWN. Subsequent explicit two-cycle certificates verify repair for all ten tested covers, including order 284.",
+  "limitations": [
+    "No proof or counterexample for the original induced cycles conjecture.",
+    "Existence of an isolated-edge-free odd spanning pseudoforest in every cubic graph remains unproved.",
+    "The barrier family has bridges. The tested bridgeless double covers do not inherit its obstruction.",
+    "Finite checks verify stated examples; the unbounded claim follows from the written proof."
+  ],
+  "sha256": {
+    "round11_data/barrier_family.json": "883dc7c9023a0bfd6d99dc062918b7ed93bb741830633300c5a970d84a570428",
+    "round11_data/cap_profiles.json": "98788ee71c691118e3cd1b0e805a4d2c72d730591078f0189992405412bb5f70",
+    "round11_data/double_cover_repairs.json": "d76cddd34e1781101c4670cdfae324a84ce48f29a21a57030bc09aa271382be9",
+    "round11_data/large_cycle_search.json": "f087bb2cb63dcd6825dd5cf9d9f108f72355e3b1f69ea469408403dfdaabad86",
+    "verify_round11.py": "500619286f4386d12f1dc3f0df7c6246d14948e70c57832a9d4d194d9d02daa0",
+    "exploratory/large_cycle_repair.py": "f5884af2bb64b07b1c0d69ef27b5682bf1e024956b9b3ab176300c391d00e2d3",
+    "round11_verification.json": "b6f16cc4a8e803c7e612579c0883611cbdf3696a3bb219702d84a45661317792"
+  }
+}

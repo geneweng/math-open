@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-27",
+  "general_conjecture_resolved": false,
+  "proved_statements": [
+    "Exact formula c_ind(H_R)=6+max(c_ind(H),c_ind(H-uv)) for the fixed twelve-vertex fragment.",
+    "Explicit factor lift preserves pseudoforests and has j(lift(M))=j(M)-1_{uv in J(M)}.",
+    "If uv is initially not isolated, a repair lifts with no increase in the number of exchanges."
+  ],
+  "expansion_sample": {
+    "seed": 2026102710,
+    "cases": 2895,
+    "orders": [
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42
+    ],
+    "one_move": 2882,
+    "two_moves": 13
+  },
+  "inflation_sample": {
+    "labelled_graph_inputs": 54,
+    "order": 32,
+    "factors": 216,
+    "one_move": 60,
+    "two_moves": 156
+  },
+  "inflated_graph_factor_census": {
+    "graphs": 54,
+    "factors": 7077888,
+    "pseudofactors": 5895198,
+    "bad_pseudofactors": 5878454,
+    "tested_moves": 221254318,
+    "first_strict": 4830897,
+    "first_plateau": 1045719,
+    "flat_repairs": 1838,
+    "max_flat_size": 452,
+    "max_neutral_repair_moves": 2
+  },
+  "independent_small_checks": {
+    "edge_replacements": 24,
+    "inflated_vertex_subsets_checked": 5111808,
+    "pseudoforest_lifts": 312,
+    "cycle_exchange_lifts": 4209
+  },
+  "independent_paths_checked": 4949,
+  "independent_neutral_representatives": 54,
+  "independent_representative_simple_cycles": 968802,
+  "search_program": "pseudoforest_distance reports a state-limit stop as unresolved; every retained run terminated with a repair.",
+  "limitations": [
+    "Original induced cycles conjecture unresolved.",
+    "Unrestricted odd-pseudoforest repair assertion unproved.",
+    "Factor lift does not represent all factors of an enlarged graph.",
+    "The 54 labelled graph inputs are a structured sample, not an isomorphism-free or exhaustive order-32 census.",
+    "All search paths checked independently; shortestness independently checked only for 54 representatives."
+  ],
+  "sha256": {
+    "round10_data/deletion_gain_example.json": "1567cfa869b11bb855570ea47c8e69370ae11f3069a4b4e255f6ba759561fa4d",
+    "round10_data/expansion_distances.jsonl": "c9695866b7883bd5e5d96468d204217db2b1afee3c09720410caba11c2c1a22c",
+    "round10_data/expansion_inputs.json": "d877eae087a0c00c155965f804a4c369a0807fc3a5be797a970fca54ca319d43",
+    "round10_data/expansion_inputs.txt": "a8739bf085e8dedf7df48350da9f65adff628a780dd0b3854495f4e430850742",
+    "round10_data/inflated_factor_census.txt": "a3c98e844a938d071b15b1ceef1f394247e2d53b95da7becbeef666895af4c82",
+    "round10_data/inflated_graphs.g6": "53355210528914bbfaa765a6ed4e7ce9c2eb412d588bf5ffc12a707fcd6b91a0",
+    "round10_data/inflated_neutral_distances.jsonl": "19569ff93578c3a9decdc979ddd02d434cb2a80248cf6e55240afc50ad8c7eb1",
+    "round10_data/inflated_neutral_inputs.txt": "f69dae0a22b2aea79413d558be7016d2bcd7c02f121ea9046c054eea62fddf9a",
+    "round10_data/inflation_distances.jsonl": "001d6022bfc3cef2bee3030b44604c472da5b59bdf1db4f00da72245db0ef00f",
+    "round10_data/inflation_inputs.json": "a4d02a614c0f1ef4f70fcda2b9dc9edd2fd3ee8dcb6257905eef9e7422bd66f2",
+    "round10_data/inflation_inputs.txt": "98428d7d7375b5557baece99b1e9116710ac3009fcc814be24f3c33362b1158f",
+    "verify_round10.py": "3af6ad93903c86cc3ac2eb70727603ca8fa18f24671f13f978e799a52e54d797",
+    "exploratory/pseudoforest_distance.cpp": "20ea5b05eebb881bd58406642a2c4f1344415d485c5f3117e8c5160b2b1efb70",
+    "exploratory/repair_expansions.py": "e66dea0919e43492c5052d5b84d9424ad492cbb1e00fc8bdd357732075bc50ce",
+    "exploratory/repair_inflations.py": "6710ffeef35d71bfadeea5694c03ab4022a804b5bf206cf99ae093bb899ad532",
+    "exploratory/pseudoforest_repair.cpp": "e74e91f6b7b0bbee538c286292ad53a8beed1e947d2c2c025f50b5d20f35f4b3",
+    "round10_verification.json": "1b2271155e885d5084f13d389f1f44f1d741ea4bc7123464880de449f56d9544"
+  }
+}

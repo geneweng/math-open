@@ -1,0 +1,92 @@
+{
+  "original_conjecture_resolved": false,
+  "cut_certificates": {
+    "certified_bases": 2250,
+    "by_order": {
+      "12": 45,
+      "4": 1,
+      "6": 2,
+      "8": 5,
+      "10": 19,
+      "14": 154,
+      "16": 377,
+      "18": 725,
+      "20": 921,
+      "24": 1
+    },
+    "methods": {
+      "uniform_maxima": 1477,
+      "rational_LP": 773
+    },
+    "indexed_zero_or_one_patterns": 1161603961920,
+    "limited_cases": [
+      {
+        "order": 26,
+        "achieved_cut_total": "25/2",
+        "required": 13
+      }
+    ],
+    "scope": "Every subset of edge replacements; triangle-chain extension follows from the proved reduction"
+  },
+  "formula_checks": {
+    "base_graphs": 8,
+    "marked_patterns": 551,
+    "vertex_subsets_checked": 14338192,
+    "full_cubic_completions_checked": 551,
+    "maximum_completion_order": 100
+  },
+  "positive_search": {
+    "files": {
+      "descent20_nodes.txt.gz": {
+        "records": 510503,
+        "root_rows": 510489,
+        "child_rows": 14
+      },
+      "descent_nodes.txt.gz": {
+        "records": 46009,
+        "root_rows": 45982,
+        "child_rows": 27
+      },
+      "neutral_nodes.txt.gz": {
+        "records": 567664,
+        "root_rows": 556471,
+        "child_rows": 11193
+      }
+    },
+    "distinct_labelled_children": 11193,
+    "verified_positive_records": 567664,
+    "scope": "Checks lower-bound witnesses; does not independently assert every recorded optimum"
+  },
+  "synthesis_statuses": {
+    "runs": {
+      "subset_synthesis.jsonl": {
+        "cases": 1387,
+        "statuses": {
+          "INFEASIBLE": 1387
+        }
+      },
+      "subset_synthesis_tight.jsonl": {
+        "cases": 2,
+        "statuses": {
+          "INFEASIBLE": 2
+        }
+      }
+    },
+    "scope": "Solver reports only; no formal infeasibility proof files retained"
+  },
+  "elapsed_seconds": 34.608,
+  "data_sha256": {
+    "cut_certificates.jsonl": "fe205291caffa04aceb367944628c6eb0715e6fd94d225e5aa13a50c6775270a",
+    "cut_certificates_tight.jsonl": "4592c340462e9789a75d2905ee6dd15423456c76fc175f9ebe1f1a71c35612c6",
+    "descent20_nodes.txt.gz": "ca9ec6a7252bc4457a4ae124f319a2a360cddaaded86bf2382b4a0fdc3cb2c01",
+    "descent20_transitions.txt.gz": "6aa1b5f57b373817b05d8d40d23f4407141014c09b7ec2c5b95c8580545e0c3f",
+    "descent_nodes.txt.gz": "44d145487488113d74e8c82c872845ec0f1b8f3bbda47db02f27a805cab4e2a5",
+    "descent_transitions.txt.gz": "85daf5f8beaad7702d56aa58068da4a31a380e6a860326c23fe244fb2d77e137",
+    "near_tight_bases.g6": "fc1b548fc694f3fafd2376d681bd156fb3004e670602ac8418ba3ad78b38c6be",
+    "neutral_nodes.txt.gz": "0cf367933496f1a754f0a298d3896eb81f61e5d1aadb244bbfe051f42c364e88",
+    "neutral_transitions.txt.gz": "c51c45e8c8de2f6e071d32401e2420de8363748a6c46a5e6cfa66081a1008708",
+    "subset_synthesis.jsonl": "6ed81bd0ca7ca515cd3d93b7bd30083b3bbf27d9d5b95761892a1bce4ee5ac27",
+    "subset_synthesis_tight.jsonl": "5a2ab20db13d7ace85e52aefdc70df79a1ff2e2ad5377b93aee488291c86236d",
+    "tight_large_bases.g6": "f8cfabeb5c27bbae49031e137e84722bb6014bf546ebc2c9b8de11d741a7478e"
+  }
+}

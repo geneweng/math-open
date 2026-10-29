@@ -1,0 +1,28 @@
+{
+  "original_conjecture_resolved": false,
+  "independent_verifier_passed": true,
+  "independent_verifier": "verify_round15.py",
+  "rational_certificate_bases": 2250,
+  "vertex_subsets_checked": 14338192,
+  "latexmk_succeeded": true,
+  "latex_warnings": [],
+  "pdf_pages": 29,
+  "pdf_bytes": 472801,
+  "pdf_sha256": "e35af4686b5f5279e12e0fa4df3aaef6bed1bd86d340eaa30f4a61be6f981d57",
+  "tex_sha256": "3d742981369cd9122699a744fe8c1e076e0f87d3e93c84c3334cd631134cda26",
+  "visual_review": "All 29 pages in contact sheets; new proof pages 7-8 and computational section p27 at 115 dpi. No clipping or overlap found.",
+  "data_sha256": {
+    "cut_certificates.jsonl": "fe205291caffa04aceb367944628c6eb0715e6fd94d225e5aa13a50c6775270a",
+    "cut_certificates_tight.jsonl": "4592c340462e9789a75d2905ee6dd15423456c76fc175f9ebe1f1a71c35612c6",
+    "descent20_nodes.txt.gz": "ca9ec6a7252bc4457a4ae124f319a2a360cddaaded86bf2382b4a0fdc3cb2c01",
+    "descent20_transitions.txt.gz": "6aa1b5f57b373817b05d8d40d23f4407141014c09b7ec2c5b95c8580545e0c3f",
+    "descent_nodes.txt.gz": "44d145487488113d74e8c82c872845ec0f1b8f3bbda47db02f27a805cab4e2a5",
+    "descent_transitions.txt.gz": "85daf5f8beaad7702d56aa58068da4a31a380e6a860326c23fe244fb2d77e137",
+    "near_tight_bases.g6": "fc1b548fc694f3fafd2376d681bd156fb3004e670602ac8418ba3ad78b38c6be",
+    "neutral_nodes.txt.gz": "0cf367933496f1a754f0a298d3896eb81f61e5d1aadb244bbfe051f42c364e88",
+    "neutral_transitions.txt.gz": "c51c45e8c8de2f6e071d32401e2420de8363748a6c46a5e6cfa66081a1008708",
+    "subset_synthesis.jsonl": "6ed81bd0ca7ca515cd3d93b7bd30083b3bbf27d9d5b95761892a1bce4ee5ac27",
+    "subset_synthesis_tight.jsonl": "5a2ab20db13d7ace85e52aefdc70df79a1ff2e2ad5377b93aee488291c86236d",
+    "tight_large_bases.g6": "f8cfabeb5c27bbae49031e137e84722bb6014bf546ebc2c9b8de11d741a7478e"
+  }
+}

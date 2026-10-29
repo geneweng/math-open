@@ -1,0 +1,33 @@
+{
+  "independent_complements": 22,
+  "independent_cycle_factors": 4,
+  "exact_counter_crosschecks": 112,
+  "completed_searches": [
+    {
+      "order": 10,
+      "templates": 1,
+      "completions": 2
+    },
+    {
+      "order": 14,
+      "templates": 3,
+      "completions": 36
+    },
+    {
+      "order": 18,
+      "templates": 12,
+      "completions": 4320
+    },
+    {
+      "order": 22,
+      "templates": 24,
+      "completions": 207360
+    },
+    {
+      "order": 26,
+      "templates": 88,
+      "completions": 36115200
+    }
+  ],
+  "general_conjecture_solved": false
+}

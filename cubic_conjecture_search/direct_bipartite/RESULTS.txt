@@ -1,0 +1,60 @@
+DIRECT ORIGINAL-COUNTEREXAMPLE SEARCH: BIPARTITE ORDER 26
+29 October 2026
+
+Outcome: no original counterexample and no proof of the original conjecture.
+The attempt ended at a wall-time guard; it did not establish infeasibility.
+
+Scope
+-----
+The model describes connected simple cubic bipartite graphs with 13
+vertices in each part. There is no seed-distance or gadget restriction.
+It fixes the neighbours of one left vertex and one adjacent right vertex
+as a labelling convention. Any such graph admits these labels: choose
+an edge, label its ends first in their respective parts, then label their
+other two neighbours second and third on the opposite sides.
+
+Every induced 2-regular set in a bipartite graph has even cardinality.
+Thus a counterexample at order 26 would have c_ind<=12. The exact oracle
+enumerates all good sets of size at least 14. Each discovered set adds
+a constraint saying that it cannot remain good in the next proposed graph.
+Disconnected proposed graphs would receive valid connectivity cuts.
+
+Results
+-------
+There were 11 connected proposals and 2,769 forbidden good sets. Every
+proposal had exact optimum 18. The run stopped after about 70.75 seconds;
+the nominal 60-second guard is checked between iterations, so the last
+solver/oracle/cut-encoding iteration can exceed it. No UNSAT conclusion
+was reached and no untested graph is excluded by this reported outcome.
+
+All candidates attain the maximum possible optimum in this class. If S
+is good in a cubic graph, its cut has |S| edges, while the complement has
+capacity at most 3(n-|S|). Hence |S|<=3n/4. For n=26 this gives at most
+19 vertices, and bipartite parity reduces the upper bound to 18. Therefore
+the observed optima were six vertices above the counterexample target,
+with no improvement across the run. The growing constraint count is not
+evidence that the search was nearing a counterexample or a proof.
+
+Verification
+------------
+A separate C++ cycle-space enumeration checked all 16,384 cycle vectors
+for each graph, agreeing with the Python degree-propagation oracle on
+the maximum and every good-set count at sizes at least 14. The verifier
+also checks connectedness, cubicity, bipartition, the labelling convention,
+all 2,769 selected sets, uniqueness, and exclusion of prior good-set cuts.
+There are 180,224 independently enumerated cycle vectors in total.
+
+Reproduce:
+  python3 cubic_conjecture_search/direct_bipartite/search.py
+  python3 cubic_conjecture_search/direct_bipartite/verify.py
+Before verifying a new run, regenerate cycle_space_checks.jsonl by running
+the existing exploratory/odd_factor_enumerate.cpp executable on the saved
+candidate graph6 strings in order. The search uses Z3; verification does
+not. The saved run and independent verification are retained separately.
+
+Assessment
+----------
+This direct synthesis attempt did not close any general proof gap. It
+supplies neither a counterexample nor an exhaustive result at order 26.
+Together with the earlier restricted-family results, it leaves the user's
+requested stopping condition unmet. The paper/PDF is unchanged.

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-27",
+  "general_conjecture_resolved": false,
+  "monotone_pseudoforest_repair_assertion": "disproved",
+  "latexmk": "passed",
+  "desktop_compiler": "success",
+  "latex_warnings": [],
+  "pdf_pages": 23,
+  "pdf_bytes": 428603,
+  "visual_review": "All 23 pages reviewed in contact sheet; title page and final pages 20-23 inspected at higher resolution. No clipping, overflow, or stray proof symbols observed.",
+  "independent_verifier": "passed; standard library only",
+  "cap_edge_subsets": 524288,
+  "cap_vertex_subsets": 8192,
+  "cap_parity_states": 128,
+  "neutral_states_checked_globally": 20736,
+  "core_exits_checked_globally": 41472,
+  "explicit_barrier_examples": 10,
+  "explicit_double_cover_repairs": 10,
+  "mathematical_review": "The cap cost lemma, first-core-exchange lower bound, attaining sequence, and exact induced-cycle optimum were reviewed directly.",
+  "pdf_sha256": "6cf081634ff98384dc74d4771b8927f1dab38f356b49472c0c1c8c351cbc2fce",
+  "tex_sha256": "346b77b9e75d8dae75349521352a85622549941a6a9657d2058031c72b7768a8",
+  "verifier_sha256": "500619286f4386d12f1dc3f0df7c6246d14948e70c57832a9d4d194d9d02daa0"
+}

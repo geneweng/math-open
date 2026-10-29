@@ -1,0 +1,117 @@
+TWO-EDGE CUTS: ENDPOINT INFORMATION AND AN EXACT INFINITE FAMILY
+29 October 2026
+
+The original conjecture remains unresolved. This continuation proves a
+limitation of the three-number edge-profile strategy for general gluing,
+and determines the exact optimum of an infinite family. All graphs in
+that family satisfy the original bound with surplus.
+
+1. The exact boundary law
+
+Let H be a graph with two degree-two ports u,v and all other vertices
+of degree three. For i,j in {0,1}, let C_ij be the maximum size of an
+induced 2-regular set in H that selects u exactly when i=1 and v exactly
+when j=1. Let P be the maximum size of a selected set containing both
+ports, with selected degree one at the ports and degree two elsewhere.
+Use -infinity for an impossible state. The latter state consists of one
+u--v path together with disjoint cycles.
+
+These are the only five boundary states possible in a good set after
+joining ports. A selected port has internal selected degree either two
+(its joining edge is unused) or one (its joining edge is used). The
+number of degree-one vertices in a finite graph is even when every
+other nonzero degree is two, ruling out exactly one open port.
+
+For two pieces joined by u_1u_2 and v_1v_2, the exact optimum is
+  max(P_1+P_2,
+      max { C^1_ij + C^2_kl : i*k=0 and j*l=0 }).
+The first term uses both joining edges. The other terms use neither:
+two selected closed ports cannot be adjacent across a joining edge.
+Every compatible pair of local maximizing sets gives a global good
+set, and restricting any global good set gives one of these cases.
+Thus this is an equality, not merely a bound. For crossed joining,
+interchange the two ports of one piece.
+
+This five-state representation was already present in the exploratory
+code. The point here is to expose the mathematical limitation of replacing
+it with the more recent three-number profile.
+
+2. The information discarded by U,T,W
+
+If H=G-uv for a cubic graph G, then
+  U=max(C_00,C_01,C_10,C_11), T=P, W=C_00,
+  c_ind(G)=max(C_00,C_01,C_10,P).
+The asymmetric values C_01 and C_10 cannot in general be recovered.
+
+Take the retained 18-vertex parent with graph6 string
+  Q??CA?_C?WX?p?J?EA?`_?w?BG?
+and delete edge (2,13). With first port u=2 and second port v=13,
+its exact cardinality table is
+  (C_00,C_01,C_10,C_11,P)=(9,9,11,11,8).
+Consequently U=11, T=8, W=9 and the cubic parent's optimum is 11.
+Reversing the ports preserves all four of those aggregate quantities.
+
+Nevertheless, two identical pieces joined first-to-second and
+second-to-first have optimum 22, whereas joining first-to-first and
+second-to-second gives optimum 20. Both resulting graphs have 36 vertices.
+Thus even U,T,W together with the original parent's optimum fail to
+determine the optimum of a two-edge join. This example concerns general
+two-edge cuts; it does not refute the earlier formulas for the two specific
+rooted constructions, where U,T,W are sufficient.
+
+3. Exact ring theorem and unbounded discrepancy
+
+Arrange k>=2 copies of H in a ring, joining the right port of each piece
+to the left port of the next. Each piece may be oriented either way.
+Call port u the preferred port, because selecting it raises the closed
+state value from 9 to 11, regardless of the status of v. Let t be the
+number of ring edges joining two preferred ports. Then
+  c_ind(G)=11k-2t.
+
+Proof. If one joining edge is used by a good set, both ports in each
+incident piece are open. This propagates around the ring. The all-open
+channel has exact value 8k.
+
+Otherwise all pieces use closed states. Their total value is 9k plus
+two for each selected preferred port. Preferred-port/preferred-port
+joins form a matching on the preferred ports, since each port belongs
+to only one joining edge. At most k-t preferred ports can be selected.
+This upper bound is achievable: select one preferred port from each of
+the t pairs and all unpaired preferred ports, and leave every nonpreferred
+port unselected. These states are compatible and all have local witnesses.
+The closed optimum is therefore 9k+2(k-t)=11k-2t. Since t<=floor(k/2),
+it is at least 10k and exceeds the all-open value 8k. QED.
+
+Uniform orientation has t=0 and optimum 11k. For even k, alternating
+orientation has t=k/2 and optimum 10k. The two families have identical
+pieces, the same number of vertices, and identical local U,T,W and
+parent-optimum data, yet their optima differ by k, without bound.
+
+This is not a counterexample to the original conjecture: their common
+order is 18k, so even the lower value 10k exceeds the required 9k.
+It is a rigorous exclusion of this entire family and a counterexample
+to treating the aggregate data as sufficient for general composition.
+
+4. Verification and limitations
+
+The local table is checked by exhaustive enumeration of all 2^18 vertex
+subsets. Both 36-vertex examples are independently checked by enumeration
+of all 524,288 cycle-space vectors each. Positive maximum witnesses are
+retained. A separate five-state dynamic program checks the ring formula
+for every orientation at lengths 2 through 10 (2,044 patterns). The proof
+above, rather than those finite checks, establishes the infinite family.
+
+A bounded check of the previously retained near-sharp profiles through
+order 16 found no orientation-sensitive pair among those profiles. That
+negative result is not extrapolated; the explicit orientation-sensitive
+example above has a parent with surplus two, outside that near-sharp pool.
+
+No general inequality governing all five realizable states has been
+proved. Nor has the remaining rooted target U=h+1,T<=h-1,W<=h-2 been
+excluded. The result does not reduce arbitrary cubic graphs to this
+ring family and does not complete the requested proof or counterexample.
+
+Reproduce from the repository root:
+  python3 cubic_conjecture_search/two_cut_audit/verify.py
+The verifier uses NetworkX and the existing exhaustive local-table code.
+The main paper and PDF are unchanged.

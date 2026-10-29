@@ -1,0 +1,5 @@
+START n=30 count=291 maximum=16
+BEST step=4978 count=282 maximum=22
+PROGRESS step=10000 best=282 checked=10000 incomplete=0
+PROGRESS step=20000 best=282 checked=19999 incomplete=0
+DONE checked=24620 accepted=21078 incomplete=0 minimum_count=282 best_graph_maximum=22

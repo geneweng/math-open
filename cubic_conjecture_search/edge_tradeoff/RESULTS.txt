@@ -1,0 +1,112 @@
+DIRECT EDGE-PROFILE CONTINUATION
+29 October 2026
+
+Status: the original conjecture has not been proved or disproved. These
+are targeted exclusions and a two-edge-cut composition argument, not a
+global reduction of arbitrary cubic graphs to the tested families.
+
+1. Target and notation
+
+For a cubic parent G of order 2h and an edge e=uv, let
+  U=c_ind(G-e),
+  T=max{|S|: S good in G and u,v in S},
+  W=c_ind(G-{u,v}).
+The minimum rooted triangle obstruction from the earlier reduction
+requires U=h+1, T<=h-1, W<=h-2. This would yield an original counterexample
+on 4h+6 vertices. No such profile was found in this continuation.
+
+For the rooted subdivision, doubling gives exact optimum
+  max(2U,U+T+1).
+For the rooted triangle, the root-out optimum is max(U,T+2), so its
+double has optimum at least 2 max(U,T+2). The tested witnesses below
+already suffice without determining W.
+
+2. All single switches from the retained sharp 24-vertex parent
+
+A switch removes two vertex-disjoint edges ab,cd and adds either ac,bd
+or ad,bc, requiring simplicity and connectivity. Exhausting these choices
+at the fixed labelled 24-vertex parent produces 983 distinct labelled
+graphs. This is a neighbourhood, NOT a census of 24-vertex cubic graphs
+and NOT 983 pairwise nonisomorphic graphs.
+
+For every edge of every resulting graph, directly checked witnesses give
+  U>=12, and either U>=14 or T>=12.
+There are 35,388 parent-edge cases, including eight bridges. Hence
+  max(2U,U+T+1)>=25
+and
+  2 max(U,T+2)>=28>27.
+Both rooted constructions therefore satisfy the half bound at every
+tested edge. This excludes the original targeted bad profile on this
+entire switch neighbourhood.
+
+The certificates come from cycle-space enumeration, but the exclusion
+does not depend on its upper bounds: verify.py regenerates the complete
+switch neighbourhood and checks the positive selected sets directly.
+The compressed certificate file retains a witness for each bound.
+
+3. Two-edge-cut path composition
+
+Let H_1,H_2 be disjoint graphs with distinguished vertices r_i,x_i of
+degree two, every other vertex cubic. Form G by adding r_1r_2 and x_1x_2.
+For each i, define P_i as the largest size of a vertex set S_i containing
+r_i,x_i such that the induced degrees in H_i[S_i] are one at r_i,x_i
+and two at every other selected vertex. Such an induced subgraph is one
+r_i--x_i path together with zero or more disjoint cycles.
+
+Proposition. The maximum size of a good set in G containing both ends
+of r_1r_2 is exactly P_1+P_2.
+
+Proof. A good set containing those ends contains the edge r_1r_2 on
+one of its cycles. A cycle crosses a cut an even number of times; as
+the cut has only two edges, it must also use x_1x_2. Restricting to each
+H_i gives exactly the endpoint degree conditions defining P_i, proving
+the upper bound. Conversely, take an optimal set on each side and add
+the two joining edges. Every selected vertex now has induced degree two.
+There are no further edges between the sides, so no extra chords arise.
+Their union is good and has size P_1+P_2. QED.
+
+In particular, if P_i>=|H_i|/2 for both sides, this construction satisfies
+the original half bound through either cut edge. This is a conditional
+composition lemma; no claim is made that arbitrary two-poles have this
+path-capacity property.
+
+4. Application: bypassing the bridge in the sharp 26-vertex double
+
+The retained 26-vertex example is the bridge join of two copies of P13,
+the Franklin edge-subdivision cap. Subdivide one edge inside each cap
+and join the two new vertices. The old bridge and the new joining edge
+now form a two-edge cut of a 28-vertex cubic graph.
+
+For each of the 19 possible subdivision edges in P13, exhaustive local
+enumeration computes the path capacity between the original root and
+the new subdivision vertex. The capacity distribution is
+  P=8: 3 edges; P=9: 4 edges; P=10: 12 edges.
+Only 4,096 subsets per edge need checking because the two endpoints
+must be selected. Full witnesses are saved in cap_path_certificates.json.
+
+The composition proposition gives T>=16 for all 19^2 bypass choices,
+whereas the original half bound asks for 14 vertices. Thus this attempt
+to turn a rigid bridge into a problematic non-bridge edge has at least
+two vertices of surplus. It cannot produce an original counterexample.
+
+The caps have six edge orbits. The 21 unordered pairs of representatives
+were also evaluated directly. Their saved witnesses give U>=14 and
+T>=16 at the old bridge. Thus the subdivision and triangle rooted doubles
+at that distinguished edge satisfy their required bounds of 29 and 31.
+This last statement concerns that edge, not every edge of each bypass.
+
+5. What remains unproved
+
+The bounded searches do not establish the universal implication
+  U=h+1 and T<=h-1  ==>  W>=h-1.
+They also do not cover the general subdivision obstruction or arbitrary
+bridgeless cubic graphs. There is no new general lower bound here.
+The original conjecture is still the unresolved step; these exclusions
+must not be presented as evidence that its proof is now close.
+
+Reproduction:
+  python3 cubic_conjecture_search/edge_tradeoff/verify.py
+This uses NetworkX, no optimization solver. It regenerates all switches,
+checks their positive certificates, enumerates all local path subsets,
+and validates the saved bypass witnesses. The exploratory bypass generator
+additionally uses OR-Tools. The paper and PDF were not expanded.

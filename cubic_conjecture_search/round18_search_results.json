@@ -1,0 +1,39 @@
+{
+  "original_conjecture_resolved": false,
+  "direct_switch_proposals": 30000,
+  "positive_retained_records": 30185,
+  "distinct_labelled_graphs": 28733,
+  "independently_verified_best_profiles": 45,
+  "exact_strict_family_certificates": [
+    {
+      "order": 26,
+      "terms": 84,
+      "cut_total": "96/7",
+      "guaranteed_integer_surplus": 1,
+      "scope": "Certifies all marked subsets and arbitrary triangle chains"
+    },
+    {
+      "order": 28,
+      "terms": 10,
+      "cut_total": "29/2",
+      "guaranteed_integer_surplus": 1,
+      "scope": "Certifies all marked subsets and arbitrary triangle chains"
+    },
+    {
+      "order": 30,
+      "terms": 10,
+      "cut_total": "31/2",
+      "guaranteed_integer_surplus": 1,
+      "scope": "Certifies all marked subsets and arbitrary triangle chains"
+    },
+    {
+      "order": 32,
+      "terms": 12,
+      "cut_total": "33/2",
+      "guaranteed_integer_surplus": 1,
+      "scope": "Certifies all marked subsets and arbitrary triangle chains"
+    }
+  ],
+  "counterexample_found": false,
+  "scope": "Bounded direct search plus four infinite families; no general proof or original counterexample."
+}

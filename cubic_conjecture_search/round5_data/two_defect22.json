@@ -1,0 +1,342 @@
+[
+  {
+    "S_cycles": [
+      4,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      3
+    ],
+    "T_cycles": [
+      6
+    ],
+    "expected_cases": 14400
+  },
+  {
+    "S_cycles": [
+      4,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      5
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 14400
+  },
+  {
+    "S_cycles": [
+      4,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      3
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 14400
+  },
+  {
+    "S_cycles": [
+      4,
+      6
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      1
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 14400
+  },
+  {
+    "S_cycles": [
+      4,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      9
+    ],
+    "T_cycles": [],
+    "expected_cases": 14400
+  },
+  {
+    "S_cycles": [
+      4,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      5,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 14400
+  },
+  {
+    "S_cycles": [
+      4,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 14400
+  },
+  {
+    "S_cycles": [
+      4,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      5,
+      5
+    ],
+    "T_cycles": [],
+    "expected_cases": 14400
+  },
+  {
+    "S_cycles": [
+      4,
+      6
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      5
+    ],
+    "T_cycles": [],
+    "expected_cases": 14400
+  },
+  {
+    "S_cycles": [
+      4,
+      6
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      6,
+      3
+    ],
+    "T_cycles": [],
+    "expected_cases": 14400
+  },
+  {
+    "S_cycles": [
+      4,
+      6
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      8,
+      1
+    ],
+    "T_cycles": [],
+    "expected_cases": 14400
+  },
+  {
+    "S_cycles": [
+      4,
+      6
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      6,
+      6,
+      1
+    ],
+    "T_cycles": [],
+    "expected_cases": 14400
+  },
+  {
+    "S_cycles": [
+      10
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      3
+    ],
+    "T_cycles": [
+      6
+    ],
+    "expected_cases": 2880
+  },
+  {
+    "S_cycles": [
+      10
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      5
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 2880
+  },
+  {
+    "S_cycles": [
+      10
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      3
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 2880
+  },
+  {
+    "S_cycles": [
+      10
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      1
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 2880
+  },
+  {
+    "S_cycles": [
+      10
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      9
+    ],
+    "T_cycles": [],
+    "expected_cases": 2880
+  },
+  {
+    "S_cycles": [
+      10
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      5,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 2880
+  },
+  {
+    "S_cycles": [
+      10
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 2880
+  },
+  {
+    "S_cycles": [
+      10
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      5,
+      5
+    ],
+    "T_cycles": [],
+    "expected_cases": 2880
+  },
+  {
+    "S_cycles": [
+      10
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      5
+    ],
+    "T_cycles": [],
+    "expected_cases": 2880
+  },
+  {
+    "S_cycles": [
+      10
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      6,
+      3
+    ],
+    "T_cycles": [],
+    "expected_cases": 2880
+  },
+  {
+    "S_cycles": [
+      10
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      8,
+      1
+    ],
+    "T_cycles": [],
+    "expected_cases": 2880
+  },
+  {
+    "S_cycles": [
+      10
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      6,
+      6,
+      1
+    ],
+    "T_cycles": [],
+    "expected_cases": 2880
+  }
+]

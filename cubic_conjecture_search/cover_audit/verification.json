@@ -1,0 +1,23 @@
+{
+  "two_lifts": 127,
+  "exact_optimum_histogram": {
+    "14": 48,
+    "12": 6,
+    "16": 32,
+    "18": 41
+  },
+  "sharp_masks": [
+    6,
+    8,
+    16,
+    30,
+    96,
+    120
+  ],
+  "sharp_isomorphism_types": 1,
+  "common_cover_bases_checked": 113,
+  "components_checked": 145,
+  "pulled_back_half_sets_checked": 2900,
+  "projection_failure_checked": true,
+  "original_conjecture": "unresolved"
+}

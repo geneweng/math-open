@@ -1,0 +1,64 @@
+{
+  "original_conjecture": "unresolved",
+  "base_graphs": 556471,
+  "canonical_root_tests": 33079650,
+  "orders": [
+    {
+      "order": 4,
+      "graphs": 1,
+      "rooted_tests": 12,
+      "sha256": "0c83dde63575066806acd4c7a278b39d4410d6689091c7d46fb5e0b969a3aad9"
+    },
+    {
+      "order": 6,
+      "graphs": 2,
+      "rooted_tests": 36,
+      "sha256": "bb1799502b81d5071008a1e81d921e13abc82795a3af50b3dc136d00f0d0634a"
+    },
+    {
+      "order": 8,
+      "graphs": 5,
+      "rooted_tests": 120,
+      "sha256": "2a88bb1e67f673292fe08ba2e1d6d162ac375402737696af63b1f49288d1381c"
+    },
+    {
+      "order": 10,
+      "graphs": 19,
+      "rooted_tests": 570,
+      "sha256": "9be46bb6bdf8d1f58dad6eb2703ca1c72445e365d460a6e35e0ffd98e3a66f17"
+    },
+    {
+      "order": 12,
+      "graphs": 85,
+      "rooted_tests": 3060,
+      "sha256": "30e22345e958d33f254e9161aa2e0b3ca580fa4f89fdc714f861336b54bc2077"
+    },
+    {
+      "order": 14,
+      "graphs": 509,
+      "rooted_tests": 21378,
+      "sha256": "e0067ffb15b79aa5beeefac0a7cb10b43edbfdfeddceb5d1a864e4786400c59b"
+    },
+    {
+      "order": 16,
+      "graphs": 4060,
+      "rooted_tests": 194880,
+      "sha256": "ff387450191e99c234d91176d35e8710c2aac5eba4464df5489a8d8ede9f9529"
+    },
+    {
+      "order": 18,
+      "graphs": 41301,
+      "rooted_tests": 2230254,
+      "sha256": "512836f0278cbac8dc962c3641208f4fbb6ed9418be3f1649f8d5c18e6df7c5a"
+    },
+    {
+      "order": 20,
+      "graphs": 510489,
+      "rooted_tests": 30629340,
+      "sha256": "1ee6cd708b0db1216cb19d2f8db2702531c5d570911d85ae18d25dbcf827109a"
+    }
+  ],
+  "inherited_order22": "All round32 certificate hashes match their independent verification record.",
+  "consequence": "By the proved root normal form, every connected rooted fragment of order at most 23 has a symmetric double meeting half. All mixed joins of such fragments meet half. Every bridged counterexample has order at least 30.",
+  "limitation": "Does not resolve bridgeless graphs or larger rooted obstructions. Census completeness relies on nauty geng."
+}

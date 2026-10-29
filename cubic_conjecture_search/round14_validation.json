@@ -1,0 +1,17 @@
+{
+  "original_conjecture_resolved": false,
+  "independent_verifier": "verify_round14.py",
+  "verifier_passed": true,
+  "pdf_pages": 27,
+  "pdf_bytes": 447278,
+  "pdf_sha256": "136b6aaeb9e676b9dec643ddc56fc604e4b8009f4b3d23f13ad3c3b43079d674",
+  "tex_sha256": "03c05d7b4917bcd73d3a75ae4ee829cfb5b48177cea64ef3f5641e01914ac83a",
+  "latexmk_succeeded": true,
+  "latex_warnings": [],
+  "visual_review": "All 27 pages in contact sheets; proposition/proof on p6 and new computational section p25 at 120 dpi; no layout defect found.",
+  "data_sha256": {
+    "synthesis25_asymmetric.json": "6f3b23bbba506fac27056d73ce9bbf0f9dc5e9c28f7124c01f4c358d4a7be716",
+    "synthesis25_radius6.json": "ce75c758db6d3b9476404cdf872daa5fa412964189befc518056c5b76bdfc418",
+    "tight_census.txt.gz": "e49fb85c04c6a9329950809f6a76522ad65803e1355b558986bebaf54c9fdc24"
+  }
+}

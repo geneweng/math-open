@@ -1,0 +1,9 @@
+{
+  "original_conjecture": "unresolved",
+  "parent_records": 101,
+  "verified_extensions": 182679,
+  "minimum_order": 14,
+  "maximum_order": 60,
+  "exact_small_formula_checks": 1674,
+  "scope": "Every disjoint edge pair of each retained parent checked. Indexed constructions may repeat graphs; this is not a census at these orders."
+}

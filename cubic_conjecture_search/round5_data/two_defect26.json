@@ -1,0 +1,1318 @@
+[
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      3
+    ],
+    "T_cycles": [
+      4,
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      3
+    ],
+    "T_cycles": [
+      8
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      5
+    ],
+    "T_cycles": [
+      6
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      3
+    ],
+    "T_cycles": [
+      6
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      1
+    ],
+    "T_cycles": [
+      6
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      7
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      5,
+      5
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      5
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      3
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      6,
+      1
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      11
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      5,
+      9
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      7,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      9
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      5,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "theta",
+    "core_lengths": [
+      5,
+      5,
+      5
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      6,
+      5
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      8,
+      3
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      10,
+      1
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      6,
+      6,
+      3
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      4,
+      4
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      6,
+      8,
+      1
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      3
+    ],
+    "T_cycles": [
+      4,
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      3
+    ],
+    "T_cycles": [
+      8
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      5
+    ],
+    "T_cycles": [
+      6
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      3
+    ],
+    "T_cycles": [
+      6
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      1
+    ],
+    "T_cycles": [
+      6
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      7
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      5,
+      5
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      5
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      3
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      6,
+      1
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      11
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      5,
+      9
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      7,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      9
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      5,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "theta",
+    "core_lengths": [
+      5,
+      5,
+      5
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      6,
+      5
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      8,
+      3
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      10,
+      1
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      6,
+      6,
+      3
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      4,
+      8
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      6,
+      8,
+      1
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      3
+    ],
+    "T_cycles": [
+      4,
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      3
+    ],
+    "T_cycles": [
+      8
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      5
+    ],
+    "T_cycles": [
+      6
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      3
+    ],
+    "T_cycles": [
+      6
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      1
+    ],
+    "T_cycles": [
+      6
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      7
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      5,
+      5
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      5
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      3
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      6,
+      1
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      11
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      5,
+      9
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      7,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      9
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      5,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "theta",
+    "core_lengths": [
+      5,
+      5,
+      5
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      6,
+      5
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      8,
+      3
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      10,
+      1
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      6,
+      6,
+      3
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      6,
+      6
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      6,
+      8,
+      1
+    ],
+    "T_cycles": [],
+    "expected_cases": 518400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      3
+    ],
+    "T_cycles": [
+      4,
+      4
+    ],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      3
+    ],
+    "T_cycles": [
+      8
+    ],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      5
+    ],
+    "T_cycles": [
+      6
+    ],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      3
+    ],
+    "T_cycles": [
+      6
+    ],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      1
+    ],
+    "T_cycles": [
+      6
+    ],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      7
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      5,
+      5
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      5
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      3
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      6,
+      1
+    ],
+    "T_cycles": [
+      4
+    ],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      3,
+      11
+    ],
+    "T_cycles": [],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      5,
+      9
+    ],
+    "T_cycles": [],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "theta",
+    "core_lengths": [
+      1,
+      7,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      3,
+      9
+    ],
+    "T_cycles": [],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "theta",
+    "core_lengths": [
+      3,
+      5,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "theta",
+    "core_lengths": [
+      5,
+      5,
+      5
+    ],
+    "T_cycles": [],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      4,
+      7
+    ],
+    "T_cycles": [],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      6,
+      5
+    ],
+    "T_cycles": [],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      8,
+      3
+    ],
+    "T_cycles": [],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      4,
+      10,
+      1
+    ],
+    "T_cycles": [],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      6,
+      6,
+      3
+    ],
+    "T_cycles": [],
+    "expected_cases": 86400
+  },
+  {
+    "S_cycles": [
+      12
+    ],
+    "core": "barbell",
+    "core_lengths": [
+      6,
+      8,
+      1
+    ],
+    "T_cycles": [],
+    "expected_cases": 86400
+  }
+]

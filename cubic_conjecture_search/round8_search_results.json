@@ -1,0 +1,83 @@
+{
+  "status": "Unresolved: no proof or counterexample to the general induced cycles conjecture.",
+  "proved_result": "Every perfect matching of a nonempty finite simple cubic graph admits an induced-cycle exchange to an odd spanning pseudoforest with fewer isolated-edge components.",
+  "unproved_sufficient_repair_statement": "Every odd spanning pseudoforest with j>0 admits a sequence of simple-cycle exchanges preserving pseudoforest structure, with j nonincreasing and eventually decreasing.",
+  "counterexamples_are_to_repair_shortcuts_only": true,
+  "scope": [
+    {
+      "graphs": 45982,
+      "factors": 44513544,
+      "pseudofactors": 39154699,
+      "bad_pseudofactors": 37300842,
+      "tested_moves": 218190258,
+      "first_strict": 31523876,
+      "first_plateau": 5776752,
+      "flat_repairs": 214,
+      "max_flat_size": 61,
+      "log": "census_repair_log.txt"
+    },
+    {
+      "graphs": 240,
+      "factors": 261726208,
+      "pseudofactors": 224548454,
+      "bad_pseudofactors": 224291758,
+      "tested_moves": 12822916669,
+      "first_strict": 191602091,
+      "first_plateau": 32689523,
+      "flat_repairs": 144,
+      "max_flat_size": 604,
+      "log": "larger_repair_log.txt"
+    },
+    {
+      "graphs": 39,
+      "factors": 18776064,
+      "pseudofactors": 16174174,
+      "bad_pseudofactors": 16112238,
+      "tested_moves": 519401872,
+      "first_strict": 11851067,
+      "first_plateau": 4261123,
+      "flat_repairs": 48,
+      "max_flat_size": 308,
+      "log": "double_cover_repair_log.txt"
+    }
+  ],
+  "fixed_factor_switch_sample": {
+    "inputs": 7616,
+    "order": 36,
+    "seed": 2026102708,
+    "no_direct_improvement": 10,
+    "all_traps_have_vertex_connectivity": 2,
+    "not_a_census": true
+  },
+  "log_field_notes": {
+    "first_strict": "First direct improvement increased edge count.",
+    "first_plateau": "Other first direct improvements; all strictly improve the chosen objective.",
+    "flat_repairs": "Factors with no immediate improvement but a neutral path to improvement.",
+    "max_flat_size": "Largest discovered BFS queue, not a shortest path length or necessarily a full plateau."
+  },
+  "independent_verification": "round8_verification.json",
+  "source_reference": "https://arxiv.org/abs/math/0511233",
+  "sha256": {
+    "round8_data/double_covers.json": "a29850cb0018527d8851d148b0433182c758a919140f0b04ff6588da6d4a77ee",
+    "round8_data/bipartite_switch_traps.json": "0da70efde513bfbc05b79377a7499e4771bc15dc3b1131bd86ec05727f8f3844",
+    "round8_data/cubic_through18.g6": "764aace717d315672229d58a95318503c5ea7d6c4d06fdd368e73a8673e1a126",
+    "round8_data/bipartite_switch_inputs.txt": "08de28a69c3c2342d0c674d255bfb75611fccff54d69c4a8c02bca024cf318ac",
+    "round8_data/bipartite_neutral_cases.json": "49e29b6232f4198c81fb1dc81ed42ade29daeeaef9c9be0f77ba18ac9fdd6faa",
+    "round8_data/census_repair_log.txt": "cd7b04d7b6e3085025a0c6977e7c23d21e72045d02f80e0da92e718e36f58fea",
+    "round8_data/double_cover_repair_log.txt": "fc9c3eccea1c8de6b8ecec25193ad405c600c958dc5c451c6ad34b9b1424796d",
+    "round8_data/larger_repair_log.txt": "063019875b14d75f55921bd15d7cc4545ccf16f75adbf64b5020949938eb5ac0",
+    "round8_data/bipartite_switch_probes.jsonl": "d85c31e0b030bd2cd6ee927aef809df52560b1b8892cc2c6783fae97f1a9ff5c",
+    "round8_data/double_covers.g6": "da90bc0847c24a7162f99dea5b16236eb717bae7efcb6d23f7cf40962458e334",
+    "round8_data/double_cover_factors.txt": "35d3259f2232eab57e9d39e6a25638e33261757f9c146012ba3b8b88b352ff77",
+    "round8_data/larger_neutral_cases.json": "8718cde632f656c134f3b8edc8211284ab459510b8f9976b8e884a7a4da98eab",
+    "round8_data/double_cover_factor_probes.jsonl": "f047e79df9b3775b9ab79bf3ac2ec1c5ddfc73d943d722ddf8c4445062bdd523",
+    "exploratory/pseudoforest_repair.cpp": "8011faf86b5eb043246e7483489b6806f0d96aad61ced6da23f28052f65921bd",
+    "exploratory/pseudoforest_probe.cpp": "9d17ebdaee18bbc9a88e92013795043578c93f39ac7b9d15447812e3b9e05dbb",
+    "exploratory/odd_factor_enumerate.cpp": "55a8130fc88985a833e402890d9916df465e420483c2d170bc0ef9a335aecf4b",
+    "verify_pseudoforest_repair.py": "217c59da9068994b8d1a331b6f12d3595ba312ae4cf64fa5425752d6d635c775",
+    "verify_repair_switches.py": "7f30c3b7656a70b9e193319fd03a4400e38506036881194a6a99e20ca08d64d5",
+    "round8_verification.json": "abe39995a4db4d85b6d8d4cc66c63b409b020d4ad45820fdcb6cb2d5ab7d9573",
+    "round8_switch_verification.json": "ec43fb05b7f58e90d9c59dde50c9d58632ba11f0f9cf77d7fa5d7126f59b90d2"
+  },
+  "independent_switch_verification": "round8_switch_verification.json"
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-26",
+  "general_conjecture_solved": false,
+  "rooted_cap_census": {
+    "order": 19,
+    "graphs": 1059165,
+    "generator": "geng -cq -d2 -D3 19 28:28",
+    "input_sha256": "7484492b77a10d49b40491e095c6ba2489eb4eaa358c21a277bcaed4e92668ad",
+    "result": "DONE caps=1059165 all satisfy C>=ceil(n/2), B>=floor(n/2)",
+    "scope": "Witnesses for B>=9 and max(A,B)>=10; not all exact optima."
+  },
+  "fragile_edge_search": {
+    "result": "DONE edge_tests=4781904 minimum_cap_surplus=0 profiles=111",
+    "scope": "Boundary edges of all ordered two- and three-block sequences from 111 retained matrices, followed by 1000 annealing runs. Longer sequences are not exhaustive."
+  },
+  "matrix_closure_attempt": {
+    "result": "INCOMPLETE states=20002 attempts=2035740 closed=false maximum_representative_length=18",
+    "closed": false,
+    "scope": "Stopped at a resource guard, so no invariant or closure theorem follows."
+  },
+  "double_star_closures": {
+    "states_tested": 20002,
+    "minimum_doubled_surplus": 2,
+    "scope": "Only the retained states from the incomplete closure attempt.",
+    "details": {
+      "best": {
+        "word": [
+          0
+        ],
+        "score": 2,
+        "state_scores": [
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "score_counts": {
+        "2": 18,
+        "4": 94,
+        "6": 450,
+        "8": 548,
+        "10": 592,
+        "12": 474,
+        "14": 496,
+        "16": 314,
+        "18": 564,
+        "20": 456,
+        "22": 550,
+        "24": 357,
+        "26": 643,
+        "28": 500,
+        "30": 624,
+        "32": 403,
+        "34": 729,
+        "36": 555,
+        "38": 700,
+        "40": 455,
+        "42": 818,
+        "44": 599,
+        "46": 774,
+        "48": 501,
+        "50": 904,
+        "52": 654,
+        "54": 850,
+        "56": 553,
+        "58": 993,
+        "60": 698,
+        "62": 924,
+        "64": 563,
+        "66": 796,
+        "68": 411,
+        "70": 338,
+        "72": 70,
+        "74": 27,
+        "76": 7
+      }
+    }
+  },
+  "recursive_three_port_search": {
+    "result": "DONE tested=1000000 new_profiles=130 active=302 total=389",
+    "scope": "1000000 random triangle compositions, not an exhaustive closure.",
+    "representatives_file": "triangle_records.txt"
+  },
+  "pseudoforest_complement_census": {
+    "result": "DONE graphs=45982 all have good set with pseudoforest complement",
+    "scope": "All connected cubic graphs through order 18; no unrestricted decomposition theorem is claimed."
+  },
+  "four_port_network_search": {
+    "complete": false,
+    "recorded_cases": 15400,
+    "solver_status_counts": {
+      "OPTIMAL": 13141,
+      "FEASIBLE": 2244,
+      "UNKNOWN": 15
+    },
+    "minimum_certified_optimum_doubled_surplus": 10.0,
+    "minimum_available_valid_upper_bound": 10.0,
+    "cases_with_half_bound_witness": 15380,
+    "unresolved_cases_without_half_witness": 20,
+    "note": "Only OPTIMAL and FEASIBLE objective values are meaningful. UNKNOWN objective values are discarded. A negative feasible value does not imply a negative optimum.",
+    "raw_result_sha256": "35163d647fe3082d252d6a1459b494d4ee1c753cf1fe1ad7ef9d69505a4da0fc",
+    "termination": "Stopped after the 15400-case checkpoint; solver interrupts did not exit the loop, so the task-owned process was terminated. No completion claim.",
+    "heuristic_limitation": "The recorded program used UNKNOWN objective values for heuristic acceptance and its progress minimum. These are not valid mathematical objectives and are excluded from this summary."
+  },
+  "four_port_stub_pairings": {
+    "complete": true,
+    "recorded_cases": 12368,
+    "solver_status_counts": {
+      "OPTIMAL": 12336,
+      "FEASIBLE": 32
+    },
+    "minimum_certified_optimum_doubled_surplus": -0.0,
+    "minimum_available_valid_upper_bound": -0.0,
+    "cases_with_half_bound_witness": 12368,
+    "unresolved_cases_without_half_witness": 0,
+    "note": "Only OPTIMAL and FEASIBLE objective values are meaningful. UNKNOWN objective values are discarded. A negative feasible value does not imply a negative optimum.",
+    "raw_result_sha256": "6f3705c0fd051d447b1618d3ddf4dd61510027673f64a2f5b44ef3c12093ddc0"
+  },
+  "edge_replacement_networks": {
+    "complete": true,
+    "recorded_cases": 12000,
+    "solver_status_counts": {
+      "OPTIMAL": 11999,
+      "UNKNOWN": 1
+    },
+    "minimum_certified_optimum_doubled_surplus": 2.0,
+    "minimum_available_valid_upper_bound": 2.0,
+    "cases_with_half_bound_witness": 11999,
+    "unresolved_cases_without_half_witness": 1,
+    "note": "Only OPTIMAL and FEASIBLE objective values are meaningful. UNKNOWN objective values are discarded. A negative feasible value does not imply a negative optimum.",
+    "raw_result_sha256": "526552ec0bae54f781b47dad6f12990cfd453bf4c59014bb8a84c5fd2fb9baac"
+  },
+  "counterexample_synthesis": {
+    "unrestricted": {
+      "completed_candidates": 77,
+      "minimum_exact_cind": 16,
+      "order": 24,
+      "termination": "interrupted",
+      "counterexample_found": false,
+      "scope": "Neither exhaustive nor an UNSAT proof."
+    },
+    "radius_eight": {
+      "completed_candidates": 65,
+      "minimum_exact_cind": 16,
+      "order": 24,
+      "termination": "interrupted",
+      "counterexample_found": false,
+      "scope": "Neither exhaustive nor an UNSAT proof.",
+      "limitation": "The initial forbidden-subset masks used a mismatched vertex insertion order. They remain valid counterexample-exclusion constraints, but do not specifically exclude the intended starting witnesses. The radius-four run corrected this labeling issue."
+    },
+    "radius_four": {
+      "completed_candidates": 20,
+      "minimum_exact_cind": 14,
+      "order": 24,
+      "termination": "solver timeout UNKNOWN",
+      "counterexample_found": false,
+      "scope": "Neither exhaustive nor an UNSAT proof."
+    }
+  },
+  "two_port_profile_census": {
+    "graphs": 45982,
+    "edge_deletions": 1225155,
+    "retained_profiles": 27,
+    "independent_verifier": "verify_boundary_profiles.py",
+    "matching_criterion_fragments": 21
+  }
+}

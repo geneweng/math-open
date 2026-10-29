@@ -1,0 +1,7 @@
+START n=36 maximum=18 count=2096
+END n=36 best=18 count=2096 proposals=1000
+START n=38 maximum=19 count=1888
+END n=38 best=19 count=1888 proposals=2000
+START n=42 maximum=21 count=2240
+END n=42 best=21 count=2240 proposals=3000
+DONE seeds=3 proposals=3000 exact=20 accepted=11

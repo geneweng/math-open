@@ -1,0 +1,22 @@
+{
+  "original_conjecture": "unresolved",
+  "pdf_pages": 57,
+  "new_results": [
+    "The distinguished parent edge in either minimum rooted obstruction form is not a bridge.",
+    "A minimum triangle-form obstruction has U=h+1, T<=h-1, W<=h-2; these conditions also suffice to construct an original counterexample if realized."
+  ],
+  "verification": "369 exhaustive parent-edge identities; exact independent cycle-space audit of all 12 recorded search candidates, the seed profile, and all 1919 exclusion constraints. No counterexample.",
+  "search_scope": "Radius-six labelled neighbourhood of one 25-vertex seed. Stopped after 407.4 seconds at a between-iteration wall limit; no exhaustion or UNSAT claim.",
+  "compile": "latexmk passed; no overfull boxes; two visually acceptable underfull paragraphs.",
+  "visual_review": "All 57 pages reviewed as contact sheet; new pages 55-57 inspected individually.",
+  "sha256": {
+    "output/pdf/bridge_completion.pdf": "a4a65bcfb29e569cfc6082d833bcffa217faf42985f9770feaee20ff7b5418e5",
+    "cubic_conjecture_search/bridge_completion/main.tex": "2c6f11755ee510eef34d1bc7e1b42582b995015e9ea8e07c11fc877e9e32f926",
+    "cubic_conjecture_search/exploratory/root_triangle_synthesis.py": "97d8c0a993efdab8a15148e73dc23cd16bb1626e437902ab044723e104f7ecc7",
+    "cubic_conjecture_search/verify_round34.py": "d5ad8297415ace50b3f6aacad37b8b08da8400c446d947f3fed7e301a5abb3f2",
+    "cubic_conjecture_search/round34_data/synthesis.json": "e351762650cb430d523ef133755cb26a748a70e24bdf49dc59d27e2a3381e368",
+    "cubic_conjecture_search/round34_data/seed.json": "f2195a3129be3fff5add503727e23f39df5fde55c4c7cafc5736267d3b637645",
+    "cubic_conjecture_search/round34_formula_verification.json": "b70d9fa34e77260e7a03c13e0f15ce0d9583e8226541873f21ccfd3c58a3912d",
+    "cubic_conjecture_search/round34_search_verification.json": "edb1fb39f00a6595d346c04b9de90ea4fd775ae320abfbdbb9c974f08bd9d23a"
+  }
+}

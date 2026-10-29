@@ -1,0 +1,388 @@
+{
+  "original_conjecture": "unresolved",
+  "cap_edge_subsets": 524288,
+  "parity_states": 128,
+  "root_avoiding_maximum": 6,
+  "cap_table": {
+    "5": {
+      "count": 5,
+      "min_edges": 7,
+      "max_edges": 7
+    },
+    "2": {
+      "count": 28,
+      "min_edges": 9,
+      "max_edges": 11
+    },
+    "3": {
+      "count": 22,
+      "min_edges": 8,
+      "max_edges": 9
+    },
+    "0": {
+      "count": 16,
+      "min_edges": 13,
+      "max_edges": 19
+    },
+    "7": {
+      "count": 12,
+      "min_edges": 6,
+      "max_edges": 6
+    },
+    "4": {
+      "count": 20,
+      "min_edges": 8,
+      "max_edges": 8
+    },
+    "1": {
+      "count": 25,
+      "min_edges": 9,
+      "max_edges": 12
+    }
+  },
+  "explicit_repair_checks": [
+    {
+      "k": 3,
+      "order": 58,
+      "initial_edges": 57,
+      "peak_j": 3,
+      "final_j": 0,
+      "final_good_size": 29,
+      "analytic_excess_lower_bound": 1
+    },
+    {
+      "k": 4,
+      "order": 86,
+      "initial_edges": 85,
+      "peak_j": 4,
+      "final_j": 0,
+      "final_good_size": 43,
+      "analytic_excess_lower_bound": 1
+    },
+    {
+      "k": 5,
+      "order": 114,
+      "initial_edges": 113,
+      "peak_j": 5,
+      "final_j": 0,
+      "final_good_size": 57,
+      "analytic_excess_lower_bound": 1
+    },
+    {
+      "k": 6,
+      "order": 142,
+      "initial_edges": 141,
+      "peak_j": 6,
+      "final_j": 0,
+      "final_good_size": 71,
+      "analytic_excess_lower_bound": 2
+    },
+    {
+      "k": 7,
+      "order": 170,
+      "initial_edges": 169,
+      "peak_j": 7,
+      "final_j": 0,
+      "final_good_size": 85,
+      "analytic_excess_lower_bound": 2
+    },
+    {
+      "k": 8,
+      "order": 198,
+      "initial_edges": 197,
+      "peak_j": 8,
+      "final_j": 0,
+      "final_good_size": 99,
+      "analytic_excess_lower_bound": 2
+    },
+    {
+      "k": 9,
+      "order": 226,
+      "initial_edges": 225,
+      "peak_j": 9,
+      "final_j": 0,
+      "final_good_size": 113,
+      "analytic_excess_lower_bound": 2
+    },
+    {
+      "k": 10,
+      "order": 254,
+      "initial_edges": 253,
+      "peak_j": 10,
+      "final_j": 0,
+      "final_good_size": 127,
+      "analytic_excess_lower_bound": 3
+    },
+    {
+      "k": 11,
+      "order": 282,
+      "initial_edges": 281,
+      "peak_j": 11,
+      "final_j": 0,
+      "final_good_size": 141,
+      "analytic_excess_lower_bound": 3
+    },
+    {
+      "k": 12,
+      "order": 310,
+      "initial_edges": 309,
+      "peak_j": 12,
+      "final_j": 0,
+      "final_good_size": 155,
+      "analytic_excess_lower_bound": 3
+    },
+    {
+      "k": 13,
+      "order": 338,
+      "initial_edges": 337,
+      "peak_j": 13,
+      "final_j": 0,
+      "final_good_size": 169,
+      "analytic_excess_lower_bound": 3
+    },
+    {
+      "k": 14,
+      "order": 366,
+      "initial_edges": 365,
+      "peak_j": 14,
+      "final_j": 0,
+      "final_good_size": 183,
+      "analytic_excess_lower_bound": 4
+    },
+    {
+      "k": 15,
+      "order": 394,
+      "initial_edges": 393,
+      "peak_j": 15,
+      "final_j": 0,
+      "final_good_size": 197,
+      "analytic_excess_lower_bound": 4
+    },
+    {
+      "k": 16,
+      "order": 422,
+      "initial_edges": 421,
+      "peak_j": 16,
+      "final_j": 0,
+      "final_good_size": 211,
+      "analytic_excess_lower_bound": 4
+    },
+    {
+      "k": 17,
+      "order": 450,
+      "initial_edges": 449,
+      "peak_j": 17,
+      "final_j": 0,
+      "final_good_size": 225,
+      "analytic_excess_lower_bound": 4
+    },
+    {
+      "k": 18,
+      "order": 478,
+      "initial_edges": 477,
+      "peak_j": 18,
+      "final_j": 0,
+      "final_good_size": 239,
+      "analytic_excess_lower_bound": 5
+    },
+    {
+      "k": 19,
+      "order": 506,
+      "initial_edges": 505,
+      "peak_j": 19,
+      "final_j": 0,
+      "final_good_size": 253,
+      "analytic_excess_lower_bound": 5
+    },
+    {
+      "k": 20,
+      "order": 534,
+      "initial_edges": 533,
+      "peak_j": 20,
+      "final_j": 0,
+      "final_good_size": 267,
+      "analytic_excess_lower_bound": 5
+    },
+    {
+      "k": 21,
+      "order": 562,
+      "initial_edges": 561,
+      "peak_j": 21,
+      "final_j": 0,
+      "final_good_size": 281,
+      "analytic_excess_lower_bound": 5
+    },
+    {
+      "k": 22,
+      "order": 590,
+      "initial_edges": 589,
+      "peak_j": 22,
+      "final_j": 0,
+      "final_good_size": 295,
+      "analytic_excess_lower_bound": 6
+    },
+    {
+      "k": 23,
+      "order": 618,
+      "initial_edges": 617,
+      "peak_j": 23,
+      "final_j": 0,
+      "final_good_size": 309,
+      "analytic_excess_lower_bound": 6
+    },
+    {
+      "k": 24,
+      "order": 646,
+      "initial_edges": 645,
+      "peak_j": 24,
+      "final_j": 0,
+      "final_good_size": 323,
+      "analytic_excess_lower_bound": 6
+    },
+    {
+      "k": 25,
+      "order": 674,
+      "initial_edges": 673,
+      "peak_j": 25,
+      "final_j": 0,
+      "final_good_size": 337,
+      "analytic_excess_lower_bound": 6
+    },
+    {
+      "k": 26,
+      "order": 702,
+      "initial_edges": 701,
+      "peak_j": 26,
+      "final_j": 0,
+      "final_good_size": 351,
+      "analytic_excess_lower_bound": 7
+    },
+    {
+      "k": 27,
+      "order": 730,
+      "initial_edges": 729,
+      "peak_j": 27,
+      "final_j": 0,
+      "final_good_size": 365,
+      "analytic_excess_lower_bound": 7
+    },
+    {
+      "k": 28,
+      "order": 758,
+      "initial_edges": 757,
+      "peak_j": 28,
+      "final_j": 0,
+      "final_good_size": 379,
+      "analytic_excess_lower_bound": 7
+    },
+    {
+      "k": 29,
+      "order": 786,
+      "initial_edges": 785,
+      "peak_j": 29,
+      "final_j": 0,
+      "final_good_size": 393,
+      "analytic_excess_lower_bound": 7
+    },
+    {
+      "k": 30,
+      "order": 814,
+      "initial_edges": 813,
+      "peak_j": 30,
+      "final_j": 0,
+      "final_good_size": 407,
+      "analytic_excess_lower_bound": 8
+    },
+    {
+      "k": 31,
+      "order": 842,
+      "initial_edges": 841,
+      "peak_j": 31,
+      "final_j": 0,
+      "final_good_size": 421,
+      "analytic_excess_lower_bound": 8
+    },
+    {
+      "k": 32,
+      "order": 870,
+      "initial_edges": 869,
+      "peak_j": 32,
+      "final_j": 0,
+      "final_good_size": 435,
+      "analytic_excess_lower_bound": 8
+    },
+    {
+      "k": 33,
+      "order": 898,
+      "initial_edges": 897,
+      "peak_j": 33,
+      "final_j": 0,
+      "final_good_size": 449,
+      "analytic_excess_lower_bound": 8
+    },
+    {
+      "k": 34,
+      "order": 926,
+      "initial_edges": 925,
+      "peak_j": 34,
+      "final_j": 0,
+      "final_good_size": 463,
+      "analytic_excess_lower_bound": 9
+    },
+    {
+      "k": 35,
+      "order": 954,
+      "initial_edges": 953,
+      "peak_j": 35,
+      "final_j": 0,
+      "final_good_size": 477,
+      "analytic_excess_lower_bound": 9
+    },
+    {
+      "k": 36,
+      "order": 982,
+      "initial_edges": 981,
+      "peak_j": 36,
+      "final_j": 0,
+      "final_good_size": 491,
+      "analytic_excess_lower_bound": 9
+    },
+    {
+      "k": 37,
+      "order": 1010,
+      "initial_edges": 1009,
+      "peak_j": 37,
+      "final_j": 0,
+      "final_good_size": 505,
+      "analytic_excess_lower_bound": 9
+    },
+    {
+      "k": 38,
+      "order": 1038,
+      "initial_edges": 1037,
+      "peak_j": 38,
+      "final_j": 0,
+      "final_good_size": 519,
+      "analytic_excess_lower_bound": 10
+    },
+    {
+      "k": 39,
+      "order": 1066,
+      "initial_edges": 1065,
+      "peak_j": 39,
+      "final_j": 0,
+      "final_good_size": 533,
+      "analytic_excess_lower_bound": 10
+    },
+    {
+      "k": 40,
+      "order": 1094,
+      "initial_edges": 1093,
+      "peak_j": 40,
+      "final_j": 0,
+      "final_good_size": 547,
+      "analytic_excess_lower_bound": 10
+    }
+  ],
+  "scope": "All cap edge subsets; explicit family repairs for 3 <= k <= 40. The general barrier is proved in the paper, not inferred from these tests."
+}

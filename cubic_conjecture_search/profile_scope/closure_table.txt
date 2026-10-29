@@ -1,0 +1,37 @@
+Final 16-vector lower-bound basis: C00 C01 C10 C11 P
+
+A (-2, 0, 0, '-inf', 2)
+B (-2, 0, 2, '-inf', 0)
+C (-2, 1, 1, '-inf', 1)
+D (-2, 2, 0, '-inf', 0)
+E (-2, 2, 2, 6, -2)
+F (-1, '-inf', '-inf', 1, 1)
+G (-1, '-inf', 1, '-inf', 1)
+H (-1, '-inf', 3, '-inf', -1)
+I (-1, 0, 0, 1, '-inf')
+J (-1, 1, '-inf', '-inf', 1)
+K (-1, 1, 1, '-inf', 0)
+L (-1, 3, '-inf', '-inf', -1)
+M (0, '-inf', '-inf', '-inf', 0)
+N (0, '-inf', 1, '-inf', '-inf')
+O (0, 1, '-inf', '-inf', '-inf')
+P (1, '-inf', '-inf', '-inf', '-inf')
+
+Entry Z means Z <= row * column.
+    A B C D E F G H I J K L M N O P
+A   A A A A B F G G I F A F M N I N
+B   A B B B E F G H I C B I M N I N
+C   A B A C E F G H I A B D G N I N
+D   A B C D E F G H I F D L M N I N
+E   B E E E I H H N I E E I N N I N
+F   F F F F L A M M I A F D G N I N
+G   F F A C E A G H I A B D G N I N
+H   F H B H I B H N I B H E H N I N
+I   I I I I I I N N I I I I N N I N
+J   J J J J L M M M O J J L M P O P
+K   A B B D E F G H I D B I M N I N
+L   J L L L O M M P O L L O P P O P
+M   M M J M O J M P O J M L M P O P
+N   I I I I I I N N I I I I N N I N
+O   O O O O O O P P O O O O P P O P
+P   O O O O O O P P O O O O P P O P

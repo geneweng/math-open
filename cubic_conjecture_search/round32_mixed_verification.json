@@ -1,0 +1,18 @@
+{
+  "checked_mixed_joins": 2048,
+  "order": 46,
+  "witness_size_histogram": {
+    "25": 323,
+    "27": 521,
+    "29": 311,
+    "24": 252,
+    "28": 178,
+    "23": 11,
+    "26": 322,
+    "30": 37,
+    "33": 8,
+    "31": 83,
+    "32": 2
+  },
+  "scope": "Direct check of explicit mixed-join witnesses; arbitrary mixed joins in the certified family follow from the proved bridge formula."
+}

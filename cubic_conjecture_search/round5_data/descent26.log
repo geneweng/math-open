@@ -1,0 +1,13 @@
+START n=26 count=147 maximum=14
+BEST step=97 count=145 maximum=18
+BEST step=220 count=138 maximum=18
+BEST step=763 count=135 maximum=18
+BEST step=1029 count=126 maximum=18
+PROGRESS step=10000 best=126 checked=9999 incomplete=0
+BEST step=19961 count=119 maximum=18
+PROGRESS step=20000 best=119 checked=19999 incomplete=0
+PROGRESS step=30000 best=119 checked=29999 incomplete=0
+PROGRESS step=40000 best=119 checked=39999 incomplete=0
+PROGRESS step=50000 best=119 checked=49999 incomplete=0
+PROGRESS step=60000 best=119 checked=59999 incomplete=0
+DONE checked=62187 accepted=51135 incomplete=0 minimum_count=119 best_graph_maximum=18

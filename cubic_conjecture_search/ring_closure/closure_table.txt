@@ -1,0 +1,25 @@
+Columns: C00 C01 C10 C11 P; entries are surplus relative to half the piece order.
+
+A  (-2, 0, 0, '-inf', 2)
+B  (-2, 1, 1, '-inf', 1)
+C  (-1, '-inf', '-inf', 1, 1)
+D  (-1, '-inf', 1, '-inf', 1)
+E  (-1, 0, 0, 1, '-inf')
+F  (-1, 1, '-inf', '-inf', 1)
+G  (0, '-inf', '-inf', '-inf', 0)
+H  (0, '-inf', 1, '-inf', '-inf')
+I  (0, 1, '-inf', '-inf', '-inf')
+J  (1, '-inf', '-inf', '-inf', '-inf')
+
+Entry in row X, column Y is a basis profile <= X*Y.
+    A B C D E F G H I J
+A   A A C D E C G H E H
+B   A A C D E A D H E H
+C   C C A G E A D H E H
+D   C A A D E A D H E H
+E   E E E H E E H H E H
+F   F F G G I F G J I J
+G   G F F G I F G J I J
+H   E E E H E E H H E H
+I   I I I J I I J J I J
+J   I I I J I I J J I J

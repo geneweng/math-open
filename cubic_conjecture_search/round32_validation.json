@@ -1,0 +1,19 @@
+{
+  "original_conjecture": "unresolved",
+  "pdf_pages": 53,
+  "verification": "All 64 source-matched shards, 7319447 parents, 95430602 explicit edge-deletion masks, and 146111149 implicit edge cases passed. 2048 actual mixed-join witnesses checked separately.",
+  "new_result": "Sufficient edge-boundary criterion and computationally certified half bound for every bridge join of two rooted 23-vertex fragments with nonadjacent root neighbours.",
+  "scope": "Does not cover root triangles, all order-46 cubic graphs, or arbitrary orders.",
+  "compile": "latexmk passed; no overfull boxes; one visually acceptable underfull bibliography paragraph.",
+  "visual_review": "All 53 pages reviewed as contact sheet, with new pages 51-53 inspected individually.",
+  "sha256": {
+    "output/pdf/bridge_completion.pdf": "bab8216e5def2cee1eba808594c09bf579d12ee70fe4bba4f8127f96695e18cc",
+    "cubic_conjecture_search/bridge_completion/main.tex": "baf30a8ae974d71af2ebefaae04009a892565ca1c61ce6d89f861b8f91ae926f",
+    "cubic_conjecture_search/verify_round32.py": "88d06c28dd5380e55e752335046ef900e5d939e1293a201c4fcf4377f8b6f78a",
+    "cubic_conjecture_search/round32_verification.json": "09ed09a57574ec716f91fac32daf62cb3bb7b27bec9fc045fa230a885e070c0a",
+    "cubic_conjecture_search/round32_mixed_verification.json": "858f23c685eeb2fab01701ccc891a1dc2b81491ecd8abb98faf1a6d8ccafca0b",
+    "cubic_conjecture_search/exploratory/edge_half_certificates.cpp": "8977c34c95b7c14b88e85558a2b2d0aeeb48c1ffbaae6b3ea5c4c53000c264c2",
+    "cubic_conjecture_search/exploratory/check_edge_half.cpp": "29c790642796ac65f67e9ef4912922c28303feeb6db9e445fb61ccff96f3c136",
+    "cubic_conjecture_search/exploratory/run_edge_half_census.py": "7b7f9db3682f310b3ff6c7b7067e216f34bd1a0de7e9dc262a60e2c4bf1f7397"
+  }
+}

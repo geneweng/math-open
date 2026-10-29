@@ -1,0 +1,96 @@
+{
+  "original_conjecture_resolved": false,
+  "new_proved_results": [
+    "Exact simultaneous edge-triangle expansion formula over the Eulerian states of the base graph.",
+    "A distribution on good sets with sum_e min(p_e,1-p_e)>=n/2 certifies every subset of edge-triangle replacements.",
+    "The certificate extends to arbitrary triangle-chain lengths, giving cubic completions of order n+16K satisfying the half bound.",
+    "For the sharp 26-vertex double of P, every such cut sum is at most 25/2, below the needed 13."
+  ],
+  "rational_certificates": {
+    "certified_bases": 2250,
+    "by_order": {
+      "12": 45,
+      "4": 1,
+      "6": 2,
+      "8": 5,
+      "10": 19,
+      "14": 154,
+      "16": 377,
+      "18": 725,
+      "20": 921,
+      "24": 1
+    },
+    "methods": {
+      "uniform_maxima": 1477,
+      "rational_LP": 773
+    },
+    "indexed_zero_or_one_patterns": 1161603961920,
+    "limited_cases": [
+      {
+        "order": 26,
+        "achieved_cut_total": "25/2",
+        "required": 13
+      }
+    ],
+    "scope": "Every subset of edge replacements; triangle-chain extension follows from the proved reduction"
+  },
+  "independent_formula_checks": {
+    "base_graphs": 8,
+    "marked_patterns": 551,
+    "vertex_subsets_checked": 14338192,
+    "full_cubic_completions_checked": 551,
+    "maximum_completion_order": 100
+  },
+  "positive_search": {
+    "files": {
+      "descent20_nodes.txt.gz": {
+        "records": 510503,
+        "root_rows": 510489,
+        "child_rows": 14
+      },
+      "descent_nodes.txt.gz": {
+        "records": 46009,
+        "root_rows": 45982,
+        "child_rows": 27
+      },
+      "neutral_nodes.txt.gz": {
+        "records": 567664,
+        "root_rows": 556471,
+        "child_rows": 11193
+      }
+    },
+    "distinct_labelled_children": 11193,
+    "verified_positive_records": 567664,
+    "scope": "Checks lower-bound witnesses; does not independently assert every recorded optimum"
+  },
+  "synthesis": {
+    "runs": {
+      "subset_synthesis.jsonl": {
+        "cases": 1387,
+        "statuses": {
+          "INFEASIBLE": 1387
+        }
+      },
+      "subset_synthesis_tight.jsonl": {
+        "cases": 2,
+        "statuses": {
+          "INFEASIBLE": 2
+        }
+      }
+    },
+    "scope": "Solver reports only; no formal infeasibility proof files retained"
+  },
+  "scope": "The graph families are unbounded in order, but conditional on a certificate for one of the specified bases. The unrestricted original conjecture remains unresolved.",
+  "programs": [
+    "exploratory/triangle_surplus_descent.cpp",
+    "exploratory/triangle_subset_synthesis.py",
+    "exploratory/triangle_cut_certificates.py",
+    "verify_round15.py"
+  ],
+  "source_sha256": {
+    "exploratory/triangle_surplus_descent.cpp": "85cfcf26a1ced795654c7853d737a03938da79bb00f9cdee94e06df50fad2e90",
+    "exploratory/triangle_subset_synthesis.py": "5a109dec65dda6ae0c48833291ad084f077f480e6a0907a64148a8c3bacfa06b",
+    "exploratory/triangle_cut_certificates.py": "ab9958268dca009cf2985279043c0eb3fb6604df130cd6d8a086ad767a3d4a30",
+    "verify_round15.py": "7a2e1f4e6142f955355b31a2d2249e657566d357840ecff8f89bbd2e309c70f3"
+  }
+}

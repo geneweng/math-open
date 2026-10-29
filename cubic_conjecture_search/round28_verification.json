@@ -1,0 +1,9 @@
+{
+  "original_conjecture": "unresolved",
+  "verified_records": 1470,
+  "distinct_sharp_words": 8,
+  "min_order": 12,
+  "max_order": 470,
+  "coordinate_evaluations": 43711920,
+  "scope": "All retained cyclic assemblies checked with independent integer DP and direct whole-graph induced degrees. The search over assembly words is heuristic."
+}

@@ -1,0 +1,15 @@
+{
+  "original_conjecture": "unresolved",
+  "pdf_pages": 44,
+  "verification": "verify_round26.py passed",
+  "compile": "latexmk passed; no warnings or overfull/underfull boxes",
+  "visual_review": "All pages reviewed as contact sheet; changed pages 43 and 44 inspected individually.",
+  "sha256": {
+    "cubic_conjecture_search/bridge_completion/main.tex": "274e74ee2a4a19475b10725e4de5a108eef8e2572f083eeaac0b23443f42c370",
+    "cubic_conjecture_search/exploratory/four_pole_large.cpp": "5ad1e5de3e8950ce3446dd186dad7b258ae32c6b632df1d7d1ed8284c72dfbf7",
+    "cubic_conjecture_search/verify_round26.py": "4f65c8f5926186faaad7ce2eb772f54efc3f556fbb9a0d554470fcf26a274b78",
+    "cubic_conjecture_search/round26_verification.json": "f629325785f237e741ffe00be24e68ef53fa7389a5f35f07786b8ddd3992ac2e",
+    "cubic_conjecture_search/round26_data/profiles.txt": "1f3fded83da8640fee770044cc60dc97fe84e1631b7b336b0dc49cc0ca8b3666",
+    "output/pdf/bridge_completion.pdf": "9e10c91f9ebfb88a1623d89bb834631809a0b42ccf92cb7da49aea7a9aded6d7"
+  }
+}

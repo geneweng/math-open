@@ -1,0 +1,16 @@
+{
+  "general_conjecture_solved": false,
+  "pdf_pages": 13,
+  "pdf_bytes": 363428,
+  "pdf_sha256": "175584470fd1cd569374650c4542477d8815ee4384b45999087d623d4f5a26a2",
+  "source_sha256": "cb79c05f3ed5501b28ed65085df35bef6213a6eda978bf90dcd8267180e300fe",
+  "latex_compilation": "success, both desktop compiler and latexmk; no warnings",
+  "visual_review": "All thirteen rendered pages inspected; no clipping, overlap, or layout defects observed.",
+  "independent_verification": "verify_exchange_obstructions.py passed: 430 cycles, explicit 28-27-26-29 escape, 600 minimum-radius checks.",
+  "files_sha256": {
+    "round6_data/exchange_results.jsonl": "17b90a53a3a485f5d025807fc589fa41f04f76019174468a6082b3cc59181a50",
+    "round6_data/exchanges.json": "98ec574fd346257dcc85615a702b8b001f989b33044f74da5ae06ac0993ec37c",
+    "round6_data/exchanges.txt": "019d68e8df4cc116cb9240134c4c75e3cd423e1711440dce2133dd51208b8365",
+    "round6_data/single_cycle_obstructions.json": "0d15fb3ed5e0624296b59a477b81a6df66a02281797935138daf57c5e38052c0"
+  }
+}

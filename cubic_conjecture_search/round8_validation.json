@@ -1,0 +1,23 @@
+{
+  "general_conjecture_resolved": false,
+  "mathematical_status": "First matching-repair step proved; general pseudoforest repair remains unproved. Counterexamples are to stronger repair assertions only.",
+  "latexmk": "passed",
+  "desktop_compiler": "success",
+  "latex_warnings": [],
+  "pdf_pages": 18,
+  "pdf_bytes": 390783,
+  "visual_review": "All 18 pages reviewed in contact sheet; changed pages 14-18 reviewed individually; isolated QED and bibliography pagination repaired.",
+  "independent_verifiers": [
+    "verify_pseudoforest_repair.py",
+    "verify_repair_switches.py"
+  ],
+  "independent_cpp_certificate_comparisons": 4,
+  "small_cpp_crosscheck": {
+    "graphs": 112,
+    "odd_factors": 12296,
+    "odd_pseudoforests": 10911,
+    "bad_odd_pseudoforests": 9334
+  },
+  "pdf_sha256": "b1dfc83b2c1f172496a7b02897e6432b3c97ac08eec175c896993a625dc13af2",
+  "tex_sha256": "0503628cf48fa33f44a425f6b7fdc19e3e0be70364f59c8ed348eb37cf753f47"
+}

@@ -1,0 +1,187 @@
+FINITE PROFILE CLOSURE FOR ARBITRARILY LONG RINGS
+29 October 2026
+
+Status: the original conjecture remains unresolved. This note proves an
+infinite assembly theorem by an independently checked finite induction.
+It also constructs a counterexample to a stronger vertex-deletion claim.
+Neither result is a counterexample to the original conjecture.
+
+1. Normalized five-state profiles and series composition
+
+For a two-port piece H of even order 2h, normalize each of its five
+boundary capacities by subtracting h. Write its profile as
+  (a,b,c,d,p)=(C00-h,C01-h,C10-h,C11-h,P-h).
+The meanings of the boundary states are as in two_cut_audit/RESULTS.txt.
+Impossible states have value -infinity. All finite entries are integers.
+
+Joining the right port of H to the left port of another piece K by one
+edge leaves a two-port chain. If A and B are their 2-by-2 closed-state
+matrices, the exact new closed entry is
+  (A*B)[i,l] = max(A[i,0]+B[0,l],
+                   A[i,0]+B[1,l],
+                   A[i,1]+B[0,l]).
+The new open value is p_H+p_K. In a closed state the joining edge is
+unused, so its two ends cannot both be selected. In an open state the
+path between the remaining ports must cross the joining edge, so both
+pieces use their open states. Parity rules out any other state.
+These statements prove the composition identity. It is associative and
+monotone in every entry, with the usual -infinity arithmetic.
+
+Closing a chain by joining its two remaining ports has normalized optimum
+  tau(a,b,c,d,p)=max(a,b,c,p).
+The closed state 11 is forbidden because the added edge would give each
+selected port degree three. The open state becomes a cycle. We require
+the resulting graph to be simple; in the constructions below the two
+ports are nonadjacent before closure.
+
+2. The ten-profile theorem
+
+Let B be the following ten vectors, with '-' denoting -infinity:
+       a   b   c   d   p
+ A    -2   0   0   -   2
+ B    -2   1   1   -   1
+ C    -1   -   -   1   1
+ D    -1   -   1   -   1
+ E    -1   0   0   1   -
+ F    -1   1   -   -   1
+ G     0   -   -   -   0
+ H     0   -   1   -   -
+ I     0   1   -   -   -
+ J     1   -   -   -   -
+
+Say a piece satisfies the profile condition if its normalized profile
+is entrywise at least one vector in B.
+
+Theorem. Every simple cubic ring assembly of pieces satisfying the
+profile condition has an induced 2-regular set containing at least
+half its vertices, for arbitrary ring length, order of pieces, and
+orientation. Finite series composition preserves the profile condition.
+
+Proof. Every vector in B has tau>=0. For each of the 100 ordered pairs
+(X,Y) in B, at least one Z in B satisfies Z<=X*Y entrywise. The complete
+finite table of choices is in closure_table.txt; each inequality is
+checked by direct integer arithmetic in verify.py, independently of
+the discovery search. Reversing the ports permutes B.
+
+If actual profiles dominate X and Y, monotonicity shows that their
+composition dominates X*Y and hence Z. Induction therefore supplies a
+dominated basis vector for every finite chain. Monotonicity of tau and
+tau(Z)>=0 prove the half bound when the chain is closed. QED.
+
+This is a finite-certificate proof of an infinite statement. It is not
+an extrapolation from short words. Discovery terminated with complete
+closure; the proof relies on the independently verified table, not on
+the discovery program's termination flag.
+
+The same condition protects both earlier rooted constructions. Put
+U=max(a,b,c,d) in normalized units. Direct verification on the ten
+vectors gives
+  max(2U,U+p+1)>=1,
+  max(2 max(U,p+2), a+3+max(U,p+2))>=3.
+Both expressions are monotone. They are exactly the required bounds
+for the doubled subdivision and doubled root-triangle constructions.
+Thus every piece satisfying the condition also passes those two tests.
+
+3. Realizable generators covered by the theorem
+
+The 27 retained two-port pieces in two_pole_profiles.txt, in either
+orientation, satisfy the condition. For each finite entry of their
+claimed lower-bound tables, the independent verifier checks an explicit
+selected vertex set. Impossible entries are used only as vacuous lower
+bounds. No completeness claim about a graph census is needed here.
+
+We additionally include the following infinite families and one
+disconnected piece. Their exact profiles follow from the arguments below:
+
+  - Delete a core edge from a completed theta graph:
+      branch--branch edge:       (-1,-inf,-inf,1,1);
+      branch--internal edge:     (-1,-inf,1,-inf,1), or its reversal;
+      internal--internal edge:   (1,-inf,-inf,-inf,1).
+  - Delete a core edge from a completed cycle:
+                                (0,-inf,-inf,-inf,0).
+  - Take two disjoint P13 caps with their roots as ports:
+                                (-1,0,0,1,-inf).
+
+Here completion means attaching a P13 cap by a bridge to every missing
+degree incidence, as in the existing bridge-completion theorem. In this
+note all missing incidences are at degree-two core vertices, one cap
+per such vertex. P13 has root-in optimum 7 and root-out optimum 6;
+these two values are independently checked over all 8,192 vertex subsets.
+
+A simple theta core has two branch vertices u,v and three internally
+disjoint u--v paths, with at most one path of length one. If it has D
+internal vertices, its completed graph has
+  n=14D+2, h=7D+1, c_ind=7D+2=h+1.
+For any selected core set, selected internal vertices contribute one
+vertex but force the attached cap from 7 to 6. Those contributions cancel.
+Thus the score is exactly 7D plus the number of selected branch vertices.
+Every cycle uses both branch vertices, and an induced cycle exists.
+
+After deleting a core edge, a closed selected internal port is impossible:
+it has only one remaining core neighbour, and its cap bridge cannot lie
+on a cycle. Deleting a branch--branch edge leaves the cycle formed by
+the other two paths, so only states 00 and 11 are feasible. Deleting a
+branch--internal edge leaves the cycle on the other two arms, giving
+states 00 and the state selecting just the branch port. Deleting an
+internal--internal edge leaves that cycle avoiding both ports, so only
+closed state 00 is feasible. In each case an induced path through both
+branch vertices connects the ports, giving open normalized value 1.
+These facts establish all three displayed theta profiles for every path
+length, not just the finite examples checked by the verifier.
+
+A cycle core of length l has l attachments, completed order 14l and
+optimum 7l. Deleting a core edge leaves a path. Its only closed core set
+is empty, and its open core set is the full path. The cap cancellation
+gives normalized values 0 in states 00 and 22 and no other states.
+
+For two disjoint P13 caps, the four closed sizes are 12,13,13,14 on
+26 vertices; an open path cannot connect different components. This
+gives the stated fifth generator.
+
+There are 47 oriented generator entries in the retained certificate
+(several different pieces can have the same numerical profile). Each
+dominates a basis vector. Therefore arbitrary mixtures of these pieces,
+including arbitrary theta and cycle lengths, satisfy the ring theorem.
+The result concerns these specified assemblies, not arbitrary cubic
+graphs or arbitrary networks of higher-port pieces.
+
+4. A stronger vertex-deletion statement is false
+
+One tempting shortcut would assert c_ind(G-v)>=|G|/2 for every cubic G
+and every vertex v. The completed theta family disproves it.
+
+Deleting a branch vertex u leaves an acyclic core. No core vertex can
+then lie in a selected cycle, and all cycles lie in the attached caps.
+Each cap contributes at most 7, and all can attain 7 simultaneously.
+Hence
+  c_ind(G-u)=7D=h-1,
+whereas c_ind(G)=h+1. The smallest example in this stated family uses
+theta path lengths (1,2,2), i.e. the diamond core. It has 30 vertices,
+cind(G)=16, and cind(G-u)=14<15. No claim of global minimality is made.
+Its edges and witnesses are saved in verification.json. Every good set
+of size at least half includes both branch vertices.
+
+This explains why the easy closed-state condition observed in the old
+library cannot be assumed for all pieces. The full five-state induction
+handles these additional profiles without making that false assumption.
+
+5. Remaining gap and reproducibility
+
+Subsequent work in profile_scope/RESULTS.txt gives an explicit realizable
+profile outside these ten vectors, so that universal claim is FALSE.
+The conditional theorem proved here remains valid. Nor is every cubic
+graph known to decompose into the
+pieces covered here. Those missing statements cannot be inferred from
+the successful closure check. The original conjecture and the remaining
+rooted bad-profile target are not resolved.
+
+Reproduce from the repository root:
+  python3 cubic_conjecture_search/ring_closure/verify.py
+
+The verifier uses no optimization solver. It checks 148 positive source
+witnesses, the generator-to-basis relation, all 100 ordered basis products,
+the cap table, small representative theta core profiles, and the displayed
+30-vertex witnesses. The general theta formulas and induction above supply
+the infinite arguments. discover.py regenerates the search certificate;
+verify.py checks it independently using exact -infinity arithmetic.
+The main paper and PDF are unchanged.

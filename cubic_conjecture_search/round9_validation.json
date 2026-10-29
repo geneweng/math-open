@@ -1,0 +1,19 @@
+{
+  "general_conjecture_resolved": false,
+  "mathematical_status": "Finite census through order 20; 3-connected counterexamples to one-step repair, not to the induced cycles conjecture. The unrestricted neutral-repair assertion remains unproved.",
+  "latexmk": "passed",
+  "desktop_compiler": "success",
+  "latex_warnings": [],
+  "pdf_pages": 19,
+  "pdf_bytes": 398553,
+  "visual_review": "All pages of initial render reviewed in contact sheet; final pages 16-19 inspected individually. Final discussion and references pagination repaired.",
+  "independent_neutral_factors_checked": 1448,
+  "independent_odd_factors_checked_in_supporting_graphs": 633600,
+  "independent_simple_cycles_enumerated": 93837,
+  "independent_three_connected_vertex_subsets_checked": 3145728,
+  "budget_obstruction_vertex_subsets": 1024,
+  "triangle_examples_vertex_subsets": 25600,
+  "independent_checks": "Neutral-case verifier passed; subsequently added budget-mask and corrected triangle-boundary checks run separately and passed.",
+  "pdf_sha256": "5ffbb34852779c722b45328e8d3698e6bb3b7a0a39295c4afc59b33665dbe8d5",
+  "tex_sha256": "4d9146687a2bccf577ad2a93fdb3ed5e99481cfed93a5bd41e4f75b2a436d7be"
+}

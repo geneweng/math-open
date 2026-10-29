@@ -1,0 +1,34 @@
+{
+  "status": "exploratory exact-search output, not independently checked in full",
+  "logs": {
+    "4": [
+      "COMPLETE cases=3 minimum_failed_delta=100"
+    ],
+    "6": [
+      "COMPLETE cases=36 minimum_failed_delta=100"
+    ],
+    "8": [
+      "LOW 0 n=8 cases=7",
+      "COMPLETE cases=210 minimum_failed_delta=0"
+    ],
+    "10": [
+      "LOW 0 n=10 cases=354",
+      "COMPLETE cases=1425 minimum_failed_delta=0"
+    ],
+    "12": [
+      "LOW 0 n=12 cases=377",
+      "LOW -1 n=12 cases=5542",
+      "COMPLETE cases=9945 minimum_failed_delta=-1"
+    ],
+    "14": [
+      "LOW 0 n=14 cases=120",
+      "COMPLETE cases=85512 minimum_failed_delta=0"
+    ],
+    "16": [
+      "LOW 0 n=16 cases=462",
+      "LOW -1 n=16 cases=489",
+      "LOW -2 n=16 cases=33070",
+      "COMPLETE cases=925680 minimum_failed_delta=-2"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "original_conjecture_resolved": false,
+  "neighbourhood_identity": {
+    "labelled_subcubic_graphs": 12911,
+    "good_sets": 17925,
+    "lifts": 17945,
+    "reducible_sets": 17205,
+    "maximum_order": 6
+  },
+  "house_lifts": {
+    "equal_graphs": 1230,
+    "equal_lifts": 1682,
+    "adjacent_graphs": 711,
+    "adjacent_lifts": 1290,
+    "nonadjacent_graphs": 522,
+    "nonadjacent_lifts": 1878
+  },
+  "cycle_chains": {
+    "lifts": 67,
+    "parallel_configurations": 43,
+    "loop_configurations": 12
+  },
+  "conditioned_certificates": {
+    "order": 26,
+    "edge_count": 39,
+    "cubes": [
+      {
+        "marked": 0,
+        "unmarked": 68719476736,
+        "terms": 10,
+        "lower_bound": "13"
+      },
+      {
+        "marked": 68719476736,
+        "unmarked": 0,
+        "terms": 10,
+        "lower_bound": "13"
+      }
+    ],
+    "indexed_markings_covered": 549755813888,
+    "scope": "Exact certificate for all markings, not individual enumeration"
+  },
+  "rooted_cap_certificates": {
+    "root": 12,
+    "states": {
+      "out": {
+        "terms": 4,
+        "branch_score": 6,
+        "maximum_cut_probability": "1/2"
+      },
+      "in": {
+        "terms": 4,
+        "branch_score": 6,
+        "maximum_cut_probability": "1/2"
+      }
+    },
+    "marked_patterns": 524288,
+    "rooted_pattern_checks": 1048576,
+    "full_cubic_witnesses": 191,
+    "maximum_full_cubic_order": 90
+  },
+  "elapsed_seconds": 2.609,
+  "data_sha256": {
+    "conditioned_cut_certificates.json": "907bb8cbba3ed5f0d2b2a409eda04e7728a9862ff912988a6e73eb69f91d2475",
+    "rooted_cap_certificates.json": "7e3f68a6182d3392437d400581a1f37190a497d15acb47846c80516f33ce31b4"
+  }
+}

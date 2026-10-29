@@ -1,0 +1,29 @@
+{
+  "original_conjecture_resolved": false,
+  "proved_statement": "Any cubic counterexample containing a bridge yields a counterexample made by joining two copies of one rooted graph.",
+  "restriction": "The new graph can be larger; bridgeless graphs are not reduced.",
+  "search": {
+    "positive_early_exits": 19845,
+    "proposals": 20000,
+    "exact_profiles": 155,
+    "unique_labelled_rooted_graphs": 14088,
+    "cap_orders": {
+      "13": 5000,
+      "25": 5000,
+      "29": 5000,
+      "37": 5000
+    },
+    "cubic_orders": [
+      26,
+      50,
+      58,
+      74
+    ],
+    "distinct_exact_profiles_checked": 95
+  },
+  "search_seed": 2026102813,
+  "proposals_per_seed": 5000,
+  "reproduced_byte_for_byte": true,
+  "certificate_sha256": "4a0e5b6b0ac1770687d876a93580f27c3adcb81c09e6e67a6a889277ccaf3a6a",
+  "auxiliary_loss_estimate_status": "false; its 20-vertex obstruction satisfies the original conjecture"
+}

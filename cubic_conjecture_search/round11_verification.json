@@ -1,0 +1,50 @@
+{
+  "general_conjecture_resolved": false,
+  "monotone_pseudoforest_repair_assertion": "disproved",
+  "cap_edge_subsets": 524288,
+  "cap_parity_states": 128,
+  "cap_vertex_subsets": 8192,
+  "cap_simple_cycles": 107,
+  "zero_cost_cap_states": 12,
+  "local_transitions_checked": 1284,
+  "neutral_states_checked_globally": 20736,
+  "core_exits_checked_globally": 41472,
+  "family_orders": [
+    58,
+    86,
+    114,
+    142,
+    170,
+    198,
+    226,
+    254,
+    282,
+    310
+  ],
+  "first_escape_j": [
+    1,
+    2,
+    3,
+    0
+  ],
+  "bridgeless_double_cover_orders": [
+    116,
+    172,
+    228,
+    284,
+    340,
+    396,
+    452,
+    508,
+    564,
+    620
+  ],
+  "double_cover_repairs": "All have verified two-cycle repairs with j=2,1,0 and good sets of order n/2+4.",
+  "scope": "Finite checks support the unrestricted barrier theorem. Every constructed graph has c_ind=n/2; none is a counterexample to the original conjecture.",
+  "sha256": {
+    "barrier_family.json": "883dc7c9023a0bfd6d99dc062918b7ed93bb741830633300c5a970d84a570428",
+    "cap_profiles.json": "98788ee71c691118e3cd1b0e805a4d2c72d730591078f0189992405412bb5f70",
+    "double_cover_repairs.json": "d76cddd34e1781101c4670cdfae324a84ce48f29a21a57030bc09aa271382be9",
+    "large_cycle_search.json": "f087bb2cb63dcd6825dd5cf9d9f108f72355e3b1f69ea469408403dfdaabad86"
+  }
+}

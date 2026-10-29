@@ -1,0 +1,129 @@
+{
+  "original_conjecture_resolved": false,
+  "direct_search": {
+    "witnesses": 1595,
+    "graphs": 1595,
+    "retry_certificates": 1,
+    "unresolved_after_retry": 0
+  },
+  "named_graphs": [
+    {
+      "name": "HarriesGraph",
+      "order": 70,
+      "lower_bound": 36
+    },
+    {
+      "name": "HarriesWongGraph",
+      "order": 70,
+      "lower_bound": 36
+    },
+    {
+      "name": "Balaban10Cage",
+      "order": 70,
+      "lower_bound": 36
+    },
+    {
+      "name": "Balaban11Cage",
+      "order": 112,
+      "lower_bound": 58
+    },
+    {
+      "name": "BiggsSmithGraph",
+      "order": 102,
+      "lower_bound": 52
+    },
+    {
+      "name": "F26AGraph",
+      "order": 26,
+      "lower_bound": 14
+    },
+    {
+      "name": "FosterGraph",
+      "order": 90,
+      "lower_bound": 46
+    },
+    {
+      "name": "GrayGraph",
+      "order": 54,
+      "lower_bound": 28
+    },
+    {
+      "name": "LjubljanaGraph",
+      "order": 112,
+      "lower_bound": 58
+    },
+    {
+      "name": "McGeeGraph",
+      "order": 24,
+      "lower_bound": 17
+    },
+    {
+      "name": "NauruGraph",
+      "order": 24,
+      "lower_bound": 16
+    },
+    {
+      "name": "Tutte12Cage",
+      "order": 126,
+      "lower_bound": 64
+    },
+    {
+      "name": "TutteCoxeterGraph",
+      "order": 30,
+      "lower_bound": 18
+    },
+    {
+      "name": "WagnerGraph",
+      "order": 8,
+      "lower_bound": 5
+    }
+  ],
+  "triangle_pairs": {
+    "base_counts": {
+      "12": 85,
+      "14": 509,
+      "16": 4060
+    },
+    "constructions": 1240455,
+    "branch_orders": [
+      18,
+      20,
+      22
+    ],
+    "cubic_completion_orders": [
+      44,
+      46,
+      48
+    ],
+    "isomorphism_completeness_depends_on": "geng"
+  },
+  "auxiliary_objective": {
+    "graph6": "O???C@_cUAL?J?CgAo?[?",
+    "order": 16,
+    "odd_factors_checked": 512,
+    "maximum_edges": 15,
+    "maximum_edges_without_isolated_edges": 14,
+    "c_ind": 12,
+    "counterexample_to_original_conjecture": false
+  },
+  "consecutive_triangles": {
+    "edge_replacements": 3615,
+    "good_set_lifts": 7984,
+    "endpoint_states": {
+      "(False, False)": 3865,
+      "(True, True)": 2631,
+      "(True, False)": 744,
+      "(False, True)": 744
+    }
+  },
+  "data_sha256": {
+    "named_cubic_inputs.json": "6f7e6f2ae5b37c2285e115efec225704dc628776375cdad7793e77604f3c2fac",
+    "named_cubic_results.json": "5123ef72ba137f2d4f8b40fdeb5acabed6bcddeb744491bba423e2cab3f1ece1",
+    "original_candidates.jsonl": "6dc7f87079e4d4ee2643494e5baca2e5f4823ba5bbc18d26cae66c1bf5620cb1",
+    "original_retries.json": "516ad40fbfc4f9822b8d74c3ea2e3b87b1516e90c073e950757fd0ef47810155",
+    "original_search_summary.json": "a8cc68ecb15fcf25dd484b7a39ad6dff11e56c7bc860471a819609f3b57a3055",
+    "triangle_pair_bases.g6": "f8b49a072a5f54397acb3fb2083d57e43ca9f8a28498001e096b4103528773c8",
+    "triangle_pair_witnesses.txt.gz": "52d06f3af380f1951978bafea5550d433a113f709f8f4fb68e3ce01a0564e49d"
+  },
+  "elapsed_seconds": 23.317964524030685
+}

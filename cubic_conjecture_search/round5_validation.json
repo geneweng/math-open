@@ -1,0 +1,87 @@
+{
+  "general_conjecture_solved": false,
+  "pdf_pages": 11,
+  "pdf_bytes": 347873,
+  "pdf_sha256": "7f319bf122064974323dd2ff49c49e72e0bc9c23a711bfb0ba502de2fe323e65",
+  "tex_sha256": "290b134b3d83b791fea7bc1e2ee4f244920b8d6d71731c5e7554f1e56a84f6f1",
+  "latex_compilation": "success; no warnings or overfull/underfull boxes",
+  "visual_review": "All eleven pages inspected; final wording correction on page eleven rendered separately.",
+  "independent_checks": {
+    "independent_complements": 22,
+    "independent_cycle_factors": 4,
+    "exact_counter_crosschecks": 112,
+    "completed_searches": [
+      {
+        "order": 10,
+        "templates": 1,
+        "completions": 2
+      },
+      {
+        "order": 14,
+        "templates": 3,
+        "completions": 36
+      },
+      {
+        "order": 18,
+        "templates": 12,
+        "completions": 4320
+      },
+      {
+        "order": 22,
+        "templates": 24,
+        "completions": 207360
+      },
+      {
+        "order": 26,
+        "templates": 88,
+        "completions": 36115200
+      }
+    ],
+    "general_conjecture_solved": false
+  },
+  "data_sha256": {
+    "case_20261105_11/best.json": "7047b1107341a2831fc6d3792d2c629de0c13514694fe74d3ee1c3b195dd5a32",
+    "case_20261105_11/results.json": "a4650e76687023b5d09059e3f3e5275d11300c97a2f5757ec036b030214e74f9",
+    "case_20261106_11/best.json": "cf13545705a4d83493ca18ece5e5cf64c8f83987600f25de2c097ba278e81966",
+    "case_20261106_11/results.json": "59071bada417ecc8508335da8ced60a72d4b2b1d8888a9d6c8a5a2356bdf54a2",
+    "case_20261107_11/best.json": "a1ea94f2783cc1432d97f7f9e2e44c3718f622168b9bbdd837063960e6444d9a",
+    "case_20261107_11/results.json": "4a343343ebf99fdac3243275b70907bc7ab9cf1df1cf1de764cd0ff482d1fcb8",
+    "case_20261108_11/best.json": "354f6a41653c9c3b2d72ba010c28a83c994209839d3b64e899fe6f44a934ed33",
+    "case_20261108_11/results.json": "85742196c537ec8074f8ed8fcdd121bc6c6b5ba00e4169703bf75a33637db4a1",
+    "case_20261120_11/best.json": "e89ac0581b03c14b1e4765ebcab98ba6eafab3ad8d7d789718d2bf582d14d200",
+    "case_20261120_11/results.json": "5b691351013177382303358939cbee109e48f8f318a851ebd422dba9f8246063",
+    "case_20261121_11/best.json": "ea6ef79b7d85c8e2f8ca62e9e250804b6bca39882b63f01d7613959fed7ff505",
+    "case_20261121_11/results.json": "3a236b91ac83ab7a6942b5f70712aa82a88de37bedfe0d97217ba9d10047d9ae",
+    "complements14.g6": "a976eb40d470b10ead47e3ae215848f5632f5b0e902ef184e4e5c4505ec0ffc5",
+    "count_oracle_check.json": "14379c776a96b9825415e33a418a423466dfe4dd479800b6263f23c0115e3324",
+    "cycle_factors12.g6": "e8cbe7e9f2b5d8f928119d5b8e5b650a6577a26bce579c4d42155c90c33ad870",
+    "descent26.log": "b323bf9b413344a295ae8c6d31db1fdb775d5889a3b08dca076d268958464a78",
+    "descent26_best.g6": "bfb8280692b9298a9b275090fd59ee486f554cb7165455d2f4c444b73ad0a8a8",
+    "descent26_improvements.txt": "93a0a78e5474ef9e2f8f47513273ef6758bec54e78cec8bcf9dcdfd8dd801480",
+    "descent30.log": "f891d57abf10a509fd5a2bef7f4fb18f65375b8fdc51a341d923e31e8d95fbaa",
+    "descent30_best.g6": "b30dd7015e9b587f6221efc68b10f6f0ae0b0adeb5060e43f5415d1f29e59a6b",
+    "descent30_improvements.txt": "a05ede760a0ef309d074a029736bfc0175ee22c69f9e9778846c1305af86e0b6",
+    "independent_checks.json": "0435694a14ba52f70984d6a0025818ecc8a79f2f87a6bc299a593c98ce222ed7",
+    "lex26.log": "70563bcfdab17423febc2791d4b2d98ee2b93a82ec1c588909d8f3f58ce748ea",
+    "lex26_best.g6": "02e042f111eb001ce6fb857921ff623617c0235b38ea3e92a1f89aa0448cb84a",
+    "lex26_improvements.txt": "195a6833763033cd29039c344f55fb411a61001c8a05deb3c933e97f07bfe990",
+    "lex_tight26.log": "5abc501b5c41152295f257fce78a6dde0d7eee353373e2d2bdbf6981d15e87fa",
+    "lex_tight26_best.g6": "37f614abd1f5987dd5eb909476526d98a59d3ccfa4ea1f9a9c2457a2e5c22f77",
+    "lex_tight26_improvements.txt": "0c1a0e84f30c03bd0470002f0936fe2af6d4794e8ae3715c0267f741082092a7",
+    "two_defect10.json": "9e7c6eb25c9ea6da6c4a5606074608c045769df3a9147f450b5e92209529b2d9",
+    "two_defect10.txt": "c908ebd1ad4d051608c67fcbde5d260d69600cd20f45a00971ee024f86a469e8",
+    "two_defect10_results.jsonl": "9d763cf495a3e0088d53d6d80b2b07da0bbc34428b758997525c31e60cbfad4d",
+    "two_defect14.json": "5839e74638c87b82c94017277e8a03b647675a2b2d1c2f5e2b3d86b3fa322701",
+    "two_defect14.txt": "cb18a19013e47220b2a3c875b2d31eb23b81ea00a7f4cc63b282263ab842a5ea",
+    "two_defect14_results.jsonl": "f4a4891356c902a312283ad4ffcd088b4ce0480b95b961bc5cdd9d6e8b2e05c4",
+    "two_defect18.json": "856250c9e20d46bb0d99df1cb5d42634db152a3ac3c20d8d41d89c779afb4d19",
+    "two_defect18.txt": "523a740cdfc399af57063099c8ff544ac82dae60eedf0abeba8347c8bc29e7a7",
+    "two_defect18_results.jsonl": "9e76795b7206cba5534f8f09f6d135ff7a6358c2f0000585aee591d979ee1bc6",
+    "two_defect22.json": "ab70f930cecf13f3a35cb28d7daa57e0ec00ffd12f453f66fb097ad0ab0f6fd3",
+    "two_defect22.txt": "6c2355278ed7ef646b0b28c1d34c68a6b1959290508d01e2ccd9a92c29564eaa",
+    "two_defect22_results.jsonl": "2d67d8574ad8c5f5f68505de3b50db07d23170ad40e27061718819a09fe8196f",
+    "two_defect26.json": "8cbc637297beab1adef01478acc1a783987d049521d86581f8a0f228325ebbe5",
+    "two_defect26.txt": "d729c625f638b3947c9e106fea615d233b5e54e21bcef0b1e6729e1c0261bd3c",
+    "two_defect26_results.jsonl": "193b5606a2321bd5e68d6bc1eb77c09ed6b74eb82ec5d5f24a914865b0a089df"
+  }
+}

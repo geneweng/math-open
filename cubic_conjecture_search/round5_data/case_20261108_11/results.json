@@ -1,0 +1,80 @@
+{
+  "cycles": [
+    11
+  ],
+  "seed": 20261108,
+  "fixed_complement_edges": [
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      11
+    ]
+  ],
+  "order": 24,
+  "target": 12,
+  "complete_for_fixed_template": true,
+  "general_conjecture_solved": false,
+  "records": [
+    {
+      "iteration": 0,
+      "cind": 16,
+      "best": 16,
+      "new_cuts": 130,
+      "cuts": 130,
+      "elapsed_seconds": 0.363
+    }
+  ],
+  "termination": "unsat",
+  "reason": ""
+}

@@ -1,0 +1,41 @@
+{
+  "original_conjecture_resolved": false,
+  "objective": "Prove or disprove the induced cycles half bound for all finite simple cubic graphs",
+  "new_proved_reduction": "Consecutive degree-two triangles with distinct nonadjacent external neighbours",
+  "triangle_pair_constructions": {
+    "base_counts": {
+      "12": 85,
+      "14": 509,
+      "16": 4060
+    },
+    "constructions": 1240455,
+    "branch_orders": [
+      18,
+      20,
+      22
+    ],
+    "cubic_completion_orders": [
+      44,
+      46,
+      48
+    ],
+    "isomorphism_completeness_depends_on": "geng"
+  },
+  "direct_candidates": {
+    "witnesses": 1595,
+    "graphs": 1595,
+    "retry_certificates": 1,
+    "unresolved_after_retry": 0
+  },
+  "named_graph_count": 14,
+  "search_output_reproduced_byte_for_byte": true,
+  "uncompressed_triangle_certificates_sha256": "3126d93b3fc2aa54a78e78948c4853dc4e690014870aaa9acc0a464ed89cbdb0",
+  "source_url": "https://raw.githubusercontent.com/sagemath/sage/develop/src/sage/graphs/generators/smallgraphs.py",
+  "limitations": [
+    "No proof or counterexample for arbitrary cubic graphs.",
+    "Triangle entries count indexed constructions, allowing isomorphic duplicates.",
+    "Completeness of cubic base representatives relies on geng.",
+    "Named graph and local-search results are lower-bound witnesses, not optima.",
+    "Auxiliary objective obstruction does not disprove the original conjecture."
+  ]
+}

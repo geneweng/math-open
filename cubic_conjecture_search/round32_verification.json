@@ -1,0 +1,460 @@
+{
+  "original_conjecture": "unresolved",
+  "order": 22,
+  "graphs": 7319447,
+  "parent_edge_records": 241541751,
+  "explicit_edge_masks": 95430602,
+  "implicit_edge_masks": 146111149,
+  "shards": [
+    {
+      "shard": 0,
+      "graphs": 101668,
+      "explicit_edge_masks": 1317346,
+      "implicit_edge_masks": 2037698,
+      "sha256": "cc39ea53729e4a66a0b1fe7373025a5a4ed1fc18c105e19f7f363f295a5fdcde"
+    },
+    {
+      "shard": 1,
+      "graphs": 126403,
+      "explicit_edge_masks": 1646053,
+      "implicit_edge_masks": 2525246,
+      "sha256": "331d20f2f69566f0c857cf86f3e3120c7276bc247019919cc56a367b96b40121"
+    },
+    {
+      "shard": 2,
+      "graphs": 109192,
+      "explicit_edge_masks": 1425952,
+      "implicit_edge_masks": 2177384,
+      "sha256": "689f395772a36cf12ae0a3927a82a5848246e3f062ffac933ca1c5aee5f6bfd1"
+    },
+    {
+      "shard": 3,
+      "graphs": 121363,
+      "explicit_edge_masks": 1589503,
+      "implicit_edge_masks": 2415476,
+      "sha256": "a92ef4372ac590f77a99390cd80a637ef408c422881829b91d6cd0a82919e586"
+    },
+    {
+      "shard": 4,
+      "graphs": 54609,
+      "explicit_edge_masks": 714537,
+      "implicit_edge_masks": 1087560,
+      "sha256": "47aeaf323ac72c7f8eca92761f32fbad60fb5a5a408d00edca87346b01ba81f0"
+    },
+    {
+      "shard": 5,
+      "graphs": 85585,
+      "explicit_edge_masks": 1116704,
+      "implicit_edge_masks": 1707601,
+      "sha256": "ea4f808b8910dcbe5f7c2a51abad71a872e5f999a2934468af165360f22aa0a6"
+    },
+    {
+      "shard": 6,
+      "graphs": 150562,
+      "explicit_edge_masks": 1954852,
+      "implicit_edge_masks": 3013694,
+      "sha256": "e3ad5ec1b929444ea94ca9553feecf46f58183f783de5867a6abe559aa457448"
+    },
+    {
+      "shard": 7,
+      "graphs": 128527,
+      "explicit_edge_masks": 1671763,
+      "implicit_edge_masks": 2569628,
+      "sha256": "6c2b1500c8011c8f9a06ed22bd1321e8401d1a20fa29141741aba90de03a1269"
+    },
+    {
+      "shard": 8,
+      "graphs": 106304,
+      "explicit_edge_masks": 1382655,
+      "implicit_edge_masks": 2125377,
+      "sha256": "908ea9915a4326d4220f108844d891fba3447a1566463d48274e26d3af981adb"
+    },
+    {
+      "shard": 9,
+      "graphs": 124046,
+      "explicit_edge_masks": 1615179,
+      "implicit_edge_masks": 2478339,
+      "sha256": "8891270f6fc0784702bbf408a6afd7014482b7d9520b9eba3a8ca61dffc10017"
+    },
+    {
+      "shard": 10,
+      "graphs": 87408,
+      "explicit_edge_masks": 1139669,
+      "implicit_edge_masks": 1744795,
+      "sha256": "fab0d4018d2b4e97be1902633a8defc331ddb994a4adf116015cfb6ec15f8bc5"
+    },
+    {
+      "shard": 11,
+      "graphs": 129859,
+      "explicit_edge_masks": 1689542,
+      "implicit_edge_masks": 2595805,
+      "sha256": "a1e69e495c0b54b5a9d5e3ccd4045dc1a154044ccf73f6f6c5ce3dadd8eb487f"
+    },
+    {
+      "shard": 12,
+      "graphs": 105731,
+      "explicit_edge_masks": 1382413,
+      "implicit_edge_masks": 2106710,
+      "sha256": "e789b5c003adcb5767d70d7ac93b6d7c258eabe351113d1d5e2617ce9d3ede95"
+    },
+    {
+      "shard": 13,
+      "graphs": 91191,
+      "explicit_edge_masks": 1190503,
+      "implicit_edge_masks": 1818800,
+      "sha256": "db14fcdd4e81d334298146aece7fa8b14dbae34b5f0a5bcf0d4a413e0fdd62f6"
+    },
+    {
+      "shard": 14,
+      "graphs": 156148,
+      "explicit_edge_masks": 2055785,
+      "implicit_edge_masks": 3097099,
+      "sha256": "cf4c4e819fa09644ce64889d18b42ade366797fd2641f1236d6f24d6f6b6d2ac"
+    },
+    {
+      "shard": 15,
+      "graphs": 169126,
+      "explicit_edge_masks": 2206028,
+      "implicit_edge_masks": 3375130,
+      "sha256": "21e330f372981e0c6b17f6b2f542b0f42e9113055c7e1043f5bf001e8825cf9b"
+    },
+    {
+      "shard": 16,
+      "graphs": 165779,
+      "explicit_edge_masks": 2159365,
+      "implicit_edge_masks": 3311342,
+      "sha256": "4a8c03beadc1141047a35a1addb5356e51c20657a93392d5db501bd62bef5c85"
+    },
+    {
+      "shard": 17,
+      "graphs": 106054,
+      "explicit_edge_masks": 1389599,
+      "implicit_edge_masks": 2110183,
+      "sha256": "9b328bc0007fe83c1f0d9e98efb84c692e2398009c8897b177a2ec606f453a26"
+    },
+    {
+      "shard": 18,
+      "graphs": 146399,
+      "explicit_edge_masks": 1905265,
+      "implicit_edge_masks": 2925902,
+      "sha256": "1c0c62cef57f54394eb8b5894ad91d9828b2a2b4f4ed2b7f346062881ea63759"
+    },
+    {
+      "shard": 19,
+      "graphs": 158257,
+      "explicit_edge_masks": 2065757,
+      "implicit_edge_masks": 3156724,
+      "sha256": "0f80c1835f9d23c3f6f6fa0c418938b632abc4ea45e2d6772453a7c236b62764"
+    },
+    {
+      "shard": 20,
+      "graphs": 73528,
+      "explicit_edge_masks": 962912,
+      "implicit_edge_masks": 1463512,
+      "sha256": "2c3cc287c0b5798fc0911fde97ef9bcbde10f741785bb9313d52582b9a1a7fa2"
+    },
+    {
+      "shard": 21,
+      "graphs": 67965,
+      "explicit_edge_masks": 890856,
+      "implicit_edge_masks": 1351989,
+      "sha256": "faca4a253c05e8f75069eeb54b0b5e3430085f967bc2474222c9e1a2d0f22b56"
+    },
+    {
+      "shard": 22,
+      "graphs": 148079,
+      "explicit_edge_masks": 1927194,
+      "implicit_edge_masks": 2959413,
+      "sha256": "b8fe68c213ef27160f7fde38169ddb477e3bd63fbbc7e5ca63a51fb0803d110a"
+    },
+    {
+      "shard": 23,
+      "graphs": 80481,
+      "explicit_edge_masks": 1050831,
+      "implicit_edge_masks": 1605042,
+      "sha256": "f28514847171c0d43ac51623d347ad34c36406994cb57781be3b73004916b063"
+    },
+    {
+      "shard": 24,
+      "graphs": 77737,
+      "explicit_edge_masks": 1014557,
+      "implicit_edge_masks": 1550764,
+      "sha256": "db498c83cbd30d18abffc7f904ba6ac6f890f3e823091e02a21c346a0da8f439"
+    },
+    {
+      "shard": 25,
+      "graphs": 149733,
+      "explicit_edge_masks": 1953638,
+      "implicit_edge_masks": 2987551,
+      "sha256": "f1ea82320dc622747999fbf98bd88fcf43aa8a234d4ca74dfe5ece8f56ef5c37"
+    },
+    {
+      "shard": 26,
+      "graphs": 123146,
+      "explicit_edge_masks": 1611526,
+      "implicit_edge_masks": 2452292,
+      "sha256": "4f750c96b460ac505e8511da28fcb97b00feb588650ebedb12b3e23d31042713"
+    },
+    {
+      "shard": 27,
+      "graphs": 93584,
+      "explicit_edge_masks": 1219394,
+      "implicit_edge_masks": 1868878,
+      "sha256": "46bdbce128cb09822546380b8b285b7c5e9234acb6419bed5cf335523ae50975"
+    },
+    {
+      "shard": 28,
+      "graphs": 75474,
+      "explicit_edge_masks": 986069,
+      "implicit_edge_masks": 1504573,
+      "sha256": "a56952ad1fefce60f28871569223ad0752a06ff688ab38fee250ed4cfa23c171"
+    },
+    {
+      "shard": 29,
+      "graphs": 81438,
+      "explicit_edge_masks": 1065799,
+      "implicit_edge_masks": 1621655,
+      "sha256": "9a9f7537cd296d7369db673b99bfd847d985a6fec8b33068c5a334f89a3d082c"
+    },
+    {
+      "shard": 30,
+      "graphs": 89111,
+      "explicit_edge_masks": 1157424,
+      "implicit_edge_masks": 1783239,
+      "sha256": "18cd0ff45a86bd95979300effb52ab024d2936f2c9dd60fdc9d917f107e4599c"
+    },
+    {
+      "shard": 31,
+      "graphs": 71801,
+      "explicit_edge_masks": 942519,
+      "implicit_edge_masks": 1426914,
+      "sha256": "d7acada560d29bc86e20318a8ebcd911bec6de32054d3bc94ef22a321ddefd8f"
+    },
+    {
+      "shard": 32,
+      "graphs": 75563,
+      "explicit_edge_masks": 985924,
+      "implicit_edge_masks": 1507655,
+      "sha256": "4ee0941d81ff2472e7d0257e65e04b9cbe1e953acc83b9d08c536d091ddae314"
+    },
+    {
+      "shard": 33,
+      "graphs": 167923,
+      "explicit_edge_masks": 2182647,
+      "implicit_edge_masks": 3358812,
+      "sha256": "7b68c8b69895f1269991ce5f42ed0fe28aba341f2b99725c6e1c44efb15291e2"
+    },
+    {
+      "shard": 34,
+      "graphs": 124969,
+      "explicit_edge_masks": 1630047,
+      "implicit_edge_masks": 2493930,
+      "sha256": "9db79fd99289be446072d7f04032e611cb9f1d2e2a08423c38603257c09384e2"
+    },
+    {
+      "shard": 35,
+      "graphs": 165636,
+      "explicit_edge_masks": 2152541,
+      "implicit_edge_masks": 3313447,
+      "sha256": "05f9cc87fce3f8353bee7424a0f34aaea885db9745a3fb3c332c42a384a7ba32"
+    },
+    {
+      "shard": 36,
+      "graphs": 99934,
+      "explicit_edge_masks": 1309582,
+      "implicit_edge_masks": 1988240,
+      "sha256": "a6c670f7ea2343927403a449ca43e6001fa5da83e708779eea5b458ccf332822"
+    },
+    {
+      "shard": 37,
+      "graphs": 84059,
+      "explicit_edge_masks": 1101829,
+      "implicit_edge_masks": 1672118,
+      "sha256": "3e56f71260425c33a0b879dfe4057696c21324d76c410a4c7a636cb0c92a94b7"
+    },
+    {
+      "shard": 38,
+      "graphs": 139992,
+      "explicit_edge_masks": 1844079,
+      "implicit_edge_masks": 2775657,
+      "sha256": "6911a867457b8bc5ce6a4ed6ff4e386411a3977fe5d7d3933676f5ba496bb5b0"
+    },
+    {
+      "shard": 39,
+      "graphs": 123305,
+      "explicit_edge_masks": 1618027,
+      "implicit_edge_masks": 2451038,
+      "sha256": "1ebb961a19ebf395e9bd0695757ea36c576191a2075700c0cb8527d1e090aeb3"
+    },
+    {
+      "shard": 40,
+      "graphs": 217444,
+      "explicit_edge_masks": 2809463,
+      "implicit_edge_masks": 4366189,
+      "sha256": "2a3ec61978aa89908dc10d305286c4a1049cfc15c2231d1f27de68cf1488094a"
+    },
+    {
+      "shard": 41,
+      "graphs": 114957,
+      "explicit_edge_masks": 1500289,
+      "implicit_edge_masks": 2293292,
+      "sha256": "0d08601f9df5600c9c5912ce464eef5a54fddaf2dab4dde3643508c7ca8e263a"
+    },
+    {
+      "shard": 42,
+      "graphs": 88599,
+      "explicit_edge_masks": 1153958,
+      "implicit_edge_masks": 1769809,
+      "sha256": "88b8cb1dd7b1324b0428de800c379bbc6eb6b4c200d405cb5065ac491cafe15b"
+    },
+    {
+      "shard": 43,
+      "graphs": 107712,
+      "explicit_edge_masks": 1406379,
+      "implicit_edge_masks": 2148117,
+      "sha256": "35ce55c6bbe04a69184a04ff21c8d147cf6bd5a3aa7c169dfc9df865c5877918"
+    },
+    {
+      "shard": 44,
+      "graphs": 89338,
+      "explicit_edge_masks": 1175776,
+      "implicit_edge_masks": 1772378,
+      "sha256": "7c9beccf7d39ecea15a637b3e3156e09c4d1ab5afcb9915d40cd609f69eb8193"
+    },
+    {
+      "shard": 45,
+      "graphs": 158344,
+      "explicit_edge_masks": 2054273,
+      "implicit_edge_masks": 3171079,
+      "sha256": "a318a62d7a81a97dbe17389746d198480130734f20305524e845d0b73fa21cdf"
+    },
+    {
+      "shard": 46,
+      "graphs": 78646,
+      "explicit_edge_masks": 1031866,
+      "implicit_edge_masks": 1563452,
+      "sha256": "ee97e0c5f20c32eb93df7a819052662e7752d30b112bcf8e4029512db5bef8b5"
+    },
+    {
+      "shard": 47,
+      "graphs": 123485,
+      "explicit_edge_masks": 1608956,
+      "implicit_edge_masks": 2466049,
+      "sha256": "5452eb7f3616bcee2578a31d05ec6b67c3e34d6f6f81d4b803511392bf2f160c"
+    },
+    {
+      "shard": 48,
+      "graphs": 91320,
+      "explicit_edge_masks": 1186711,
+      "implicit_edge_masks": 1826849,
+      "sha256": "8a56f9eedd38f3f06c00886878c1098bc7b1b447cde5df1a0e448bd919cf6c9c"
+    },
+    {
+      "shard": 49,
+      "graphs": 93912,
+      "explicit_edge_masks": 1226652,
+      "implicit_edge_masks": 1872444,
+      "sha256": "05451ca2fa7145c654c28baa871c94741e83aeaa7118f36e5213858f3d3002c6"
+    },
+    {
+      "shard": 50,
+      "graphs": 92036,
+      "explicit_edge_masks": 1205744,
+      "implicit_edge_masks": 1831444,
+      "sha256": "2e6f0cc7eb5256d9dd5c136a2791f177ab52d02a87614bf30d620cc01e388b83"
+    },
+    {
+      "shard": 51,
+      "graphs": 84791,
+      "explicit_edge_masks": 1111359,
+      "implicit_edge_masks": 1686744,
+      "sha256": "76a234d4896d1a81f2e7d1c1208edfc02379bcaa7dfd0a277859983b35b601c4"
+    },
+    {
+      "shard": 52,
+      "graphs": 167468,
+      "explicit_edge_masks": 2182401,
+      "implicit_edge_masks": 3344043,
+      "sha256": "826d43043d7eb4d90a774dbc2d6cda60edc70c812d0a92dbf5260c804a9f9e1a"
+    },
+    {
+      "shard": 53,
+      "graphs": 80989,
+      "explicit_edge_masks": 1066948,
+      "implicit_edge_masks": 1605689,
+      "sha256": "6e46001f54fc01300e5ac297d3b06a5e3a3907309cfa4e9987cf1b3c7a8cb561"
+    },
+    {
+      "shard": 54,
+      "graphs": 108551,
+      "explicit_edge_masks": 1412673,
+      "implicit_edge_masks": 2169510,
+      "sha256": "f8cb61fc3d265655e7fe0eed062351b4a5f54c39009ac616a14ad99c6edbfe15"
+    },
+    {
+      "shard": 55,
+      "graphs": 110950,
+      "explicit_edge_masks": 1443414,
+      "implicit_edge_masks": 2217936,
+      "sha256": "54209066b3175c86d72699def8df8abe9796c05d692dbfd990a9b1daa18bbd35"
+    },
+    {
+      "shard": 56,
+      "graphs": 125533,
+      "explicit_edge_masks": 1634758,
+      "implicit_edge_masks": 2507831,
+      "sha256": "82142fb5a60f8d58e00e9d41f455e5a28c47b87de17efbe4ad4a2ad77feda7ff"
+    },
+    {
+      "shard": 57,
+      "graphs": 84424,
+      "explicit_edge_masks": 1101534,
+      "implicit_edge_masks": 1684458,
+      "sha256": "9b6fc58f98ee2f71ef35d339e4fc0b561737b5dbad0b465aff678c165b063690"
+    },
+    {
+      "shard": 58,
+      "graphs": 106066,
+      "explicit_edge_masks": 1382297,
+      "implicit_edge_masks": 2117881,
+      "sha256": "4e7659692f023301bf2ae781c4444b4a7db12e0937971621dd664494c9151cf0"
+    },
+    {
+      "shard": 59,
+      "graphs": 165711,
+      "explicit_edge_masks": 2141301,
+      "implicit_edge_masks": 3327162,
+      "sha256": "b6dedd32f10252728d4ac7da50182ac7eab03afcddda9f785dcd660c3e915691"
+    },
+    {
+      "shard": 60,
+      "graphs": 127924,
+      "explicit_edge_masks": 1666715,
+      "implicit_edge_masks": 2554777,
+      "sha256": "cc669612936aea82d06255a1a769758e327cecdeba4536ea518fdfade63b5ce3"
+    },
+    {
+      "shard": 61,
+      "graphs": 141836,
+      "explicit_edge_masks": 1833477,
+      "implicit_edge_masks": 2847111,
+      "sha256": "6fb6d79feea7efc754520d141bebb699688e19a8736da0000c8b9a93a6552885"
+    },
+    {
+      "shard": 62,
+      "graphs": 117939,
+      "explicit_edge_masks": 1526825,
+      "implicit_edge_masks": 2365162,
+      "sha256": "bddf36b62d6add4cf962f9e3a41588d56ad1c617d17879d4fd2d3f04fddde1bc"
+    },
+    {
+      "shard": 63,
+      "graphs": 103803,
+      "explicit_edge_masks": 1340968,
+      "implicit_edge_masks": 2084531,
+      "sha256": "271e5900f730adb2597a37c676552c8821f966edab3521a62d7af232f3fffb45"
+    }
+  ],
+  "consequence": "Every symmetric or mixed bridge join of two edge-subdivision rooted fragments from connected simple cubic order-22 parents satisfies the original half bound (order 46). Equivalently, this covers all connected rooted 23-vertex fragments whose root has two nonadjacent neighbours.",
+  "limitation": "Not a census of order-46 cubic graphs. Rooted fragments with adjacent root neighbours are outside this result. Completeness of the source census relies on nauty geng; every new row is matched exactly to the source."
+}

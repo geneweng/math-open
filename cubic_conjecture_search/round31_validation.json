@@ -1,0 +1,16 @@
+{
+  "original_conjecture": "unresolved",
+  "new_theorem": "A single two-edge extension can lower c_ind by k-2 in a connected simple cubic family of initial order 16k; both graphs satisfy the original half bound.",
+  "pdf_pages": 51,
+  "independent_checks": "Exhaustive cap and four small graphs; 64 exhaustive theta cores; 99 whole-graph witness pairs.",
+  "compile": "latexmk passed, no overfull boxes; one visually acceptable underfull bibliography paragraph.",
+  "visual_review": "All pages reviewed as contact sheet; pages 49-51 individually inspected, including final changed page 50.",
+  "sha256": {
+    "output/pdf/bridge_completion.pdf": "c717ea754b716ffd59eb19b47e5daeb019e294ff44c2197fab8c16e35de49797",
+    "cubic_conjecture_search/bridge_completion/main.tex": "ec9b765a2cd56d4def7eaccacaa1fcd473d08043abe6fbba2e4f24b7d1cd8b4f",
+    "cubic_conjecture_search/verify_round31.py": "a4ccfd832cb5b8facabfe72dee2c2a54a8e35a90e5b530715544fb6a1c634e9c",
+    "cubic_conjecture_search/round31_verification.json": "1e4acffffeac9ee34f8b7971fc345c9cda67d74e495b591b161f358c7e0cbe87",
+    "cubic_conjecture_search/exploratory/extension_monotonicity.cpp": "e939f35bf29a18b64f009dec546f34fb8ebfef1ff67edc78c300200158c6d682",
+    "cubic_conjecture_search/round31_data/search_summary.json": "871a47c77007a34bd0394031c56a3cff89650cabfd26bda6472045f487c52120"
+  }
+}

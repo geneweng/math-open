@@ -1,0 +1,60 @@
+{
+  "original_conjecture_resolved": false,
+  "proved_formula": "For one edge-triangle expansion H of a cubic G, b_ind(H)=max(B_e,T_e+2,C_e+2).",
+  "necessary_failure_conditions": "If G satisfies the half bound but H fails the branch inequality, c_ind(G)=n/2, B_e<=n/2 and T_e,C_e<=n/2-2. Every maximum good set separates the edge endpoints.",
+  "derived_original_counterexample_test": "Under those failure conditions, subdivide the edge once to Q. D(Q) has order 2n+2 and c_ind<=n; no such input was found.",
+  "strict_census": {
+    "graphs": 556471,
+    "by_order": {
+      "4": 1,
+      "6": 2,
+      "8": 5,
+      "10": 19,
+      "12": 85,
+      "14": 509,
+      "16": 4060,
+      "18": 41301,
+      "20": 510489
+    },
+    "exact": [
+      {
+        "graph6": "K??FEaKR@oE_",
+        "order": 12,
+        "optimum": 6,
+        "maximum_set_count": 20,
+        "every_edge_in_some_maximum": true
+      }
+    ],
+    "strict_witnesses": 556470,
+    "coverage_dependency": "Existing geng input lists, compared row by row"
+  },
+  "derived_indexed_single_edge_expansions_certified": 16539825,
+  "synthesis": [
+    {
+      "source": "synthesis25_asymmetric.json",
+      "status": "wall_time_limit",
+      "candidates": 10,
+      "A_bound": 13,
+      "B_bound": 11,
+      "minimum_doubled_optimum": 29
+    },
+    {
+      "source": "synthesis25_radius6.json",
+      "status": "wall_time_limit",
+      "candidates": 13,
+      "A_bound": 12,
+      "B_bound": 12,
+      "minimum_doubled_optimum": 30
+    }
+  ],
+  "synthesis_scope": "Fixed root neighbours {1,2}; at most six deleted and six inserted edges from the recorded labelled seed. Both runs ended at wall-time limits; neither proves infeasibility.",
+  "triangle_formula_checks": {
+    "indexed_edge_expansions": 387,
+    "base_graphs": 28,
+    "verification": "All vertex subsets of each expanded graph"
+  },
+  "oracle_crosscheck": {
+    "labelled_subcubic_graphs": 843,
+    "maximum_order": 5
+  }
+}

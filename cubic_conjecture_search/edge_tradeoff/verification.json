@@ -1,0 +1,16 @@
+{
+  "one_switch_graphs": 983,
+  "checked_parent_edges": 35388,
+  "bridge_edges": 8,
+  "nonbridge_edges": 35380,
+  "both_rooted_forms_excluded": true,
+  "cap_edges_enumerated": 19,
+  "local_subsets_checked": 77824,
+  "cap_path_capacity_histogram": {
+    "9": 4,
+    "8": 3,
+    "10": 12
+  },
+  "bypass_representatives_checked": 21,
+  "original_conjecture": "unresolved"
+}

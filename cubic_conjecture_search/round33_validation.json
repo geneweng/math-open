@@ -1,0 +1,24 @@
+{
+  "original_conjecture": "unresolved",
+  "date": "2026-10-29",
+  "pdf_pages": 55,
+  "new_theorem": "A minimum-order rooted bridge obstruction is an edge subdivision or rooted edge-triangle replacement of a connected simple cubic graph. Two root expansions and diamond reductions preserve the doubled half bound.",
+  "verification": "33079650 canonical rooted certificates on 556471 parents independently checked; all inherited round32 certificate hashes matched. Exact profile formulas checked by exhaustive vertex subsets on 84 small rooted inputs.",
+  "finite_consequences": [
+    "Every rooted fragment of order at most 23 has a double meeting half.",
+    "Every connected cubic counterexample with a bridge has order at least 30.",
+    "Every balanced bridge join on 46 vertices satisfies half, without a triangle restriction."
+  ],
+  "compile": "latexmk passed; no overfull boxes; two visually acceptable underfull paragraphs.",
+  "visual_review": "All 55 pages reviewed as contact sheet; new pages 52-55 inspected individually.",
+  "sha256": {
+    "output/pdf/bridge_completion.pdf": "17bde7f019065c6539007492a2e44bcee5f4ca9b78c8b0affac021809954fecb",
+    "cubic_conjecture_search/bridge_completion/main.tex": "cedd2ecd367d6e4002a676cd23a73e4fc428af960125636b9b4e53cddfde5bdc",
+    "cubic_conjecture_search/verify_round33.py": "0f54499902ea3f9930fe27904379d87c1d49432eedb4200190a823db3db595a5",
+    "cubic_conjecture_search/round33_verification.json": "8958101325da881ee3924f60825e36e1713f742919fe70a712db57e8286af285",
+    "cubic_conjecture_search/round33_formula_verification.json": "1c4d82b730e6dfbb4ac4eb5bb09714b773c0cc1e0406eb116caf3a5a7ff56149",
+    "cubic_conjecture_search/exploratory/root_normal_forms.cpp": "d0dbe3c1cf63808f83640cf7ccaafebace266577c441e019e3000df46dd4dfc5",
+    "cubic_conjecture_search/exploratory/check_root_normal_forms.cpp": "e3d325361a344181d4f1829c629d6fb64a3b44a45cf51b0d70bdcdb89a109e17",
+    "cubic_conjecture_search/exploratory/run_root_normal_forms.py": "e20f744d4b34dd55b06eac671c5cb23f0badd3ddcbb4d2d039be6fd893979ff4"
+  }
+}

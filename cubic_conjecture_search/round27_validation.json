@@ -1,0 +1,17 @@
+{
+  "original_conjecture": "unresolved",
+  "pdf_pages": 46,
+  "verification": "verify_round27.py passed; reduction artifacts reproduced byte-for-byte",
+  "compile": "latexmk passed; no warnings or overfull/underfull boxes",
+  "visual_review": "All pages reviewed as contact sheet; changed pages 44-46 inspected individually, final bibliography layout checked.",
+  "sha256": {
+    "cubic_conjecture_search/bridge_completion/main.tex": "7d853ad44c951d8810299c79512f9bc34f13d7b10debc7d5eda4017f3b153c86",
+    "cubic_conjecture_search/exploratory/four_pole_pairs.cpp": "6717cbe7d8e5a6d30f9bd90484bea7ef29322d09e067d2064cdf968448278da7",
+    "cubic_conjecture_search/exploratory/reduce_four_pole_profiles.py": "874484a51ee1e0799259464683d7b3bdd2246ad1fc357c720590f397b21c0f67",
+    "cubic_conjecture_search/verify_round27.py": "00e5116a293be42ec9cb73389456913cca3e42d5f36c18e5f7624c2b720ad186",
+    "cubic_conjecture_search/round27_verification.json": "e42b426b394618eb05e566bc943ffb6c2c0d85afbe311256a937e00292eb700a",
+    "cubic_conjecture_search/round27_data/profiles.txt": "93d0afeb608820e58bedf28cbbd5944f5fd6462597cfd08b5deda679354fb422",
+    "cubic_conjecture_search/round27_data/canonical.json": "c0db1daedf6142aee8093e7dc1b8560d874928c49f29ae41718b6e9d6cb7b129",
+    "output/pdf/bridge_completion.pdf": "3580961f21478af6eee6eff2349f0c5d78e909a9e744ce3e10bd2c19c75a0dbc"
+  }
+}

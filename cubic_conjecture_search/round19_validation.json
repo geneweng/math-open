@@ -1,0 +1,9 @@
+{
+  "original_conjecture_resolved": false,
+  "proved_bound": "c_ind(G) >= 5k for k vertex-disjoint induced Petersen four-poles",
+  "verification": "verify_round19.py passed",
+  "pages": 36,
+  "pdf_sha256": "8b8ac3fead3f658f970a32c09da4b2027140629a48abb07f2749e89f783efd9b",
+  "final_latex_warnings": false,
+  "visual_review": "All 36 pages rendered; contact sheet and pages 34-36 inspected"
+}

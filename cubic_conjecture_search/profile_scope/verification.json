@@ -1,0 +1,64 @@
+{
+  "core_counts": {
+    "12": 1892,
+    "14": 21434
+  },
+  "parent_edge_cases": 437518,
+  "positive_boundary_sets_checked": 1706412,
+  "completed_parent_orders": [
+    64,
+    66
+  ],
+  "original_and_both_rooted_tests_pass": true,
+  "explicit_outside_examples": [
+    {
+      "order": 62,
+      "profile": [
+        -1,
+        null,
+        3,
+        null,
+        -1
+      ],
+      "parent_maximum": 34,
+      "U": 34,
+      "T": 30,
+      "W": 30
+    },
+    {
+      "order": 64,
+      "profile": [
+        -2,
+        0,
+        2,
+        null,
+        0
+      ],
+      "parent_maximum": 34,
+      "U": 34,
+      "T": 32,
+      "W": 30
+    },
+    {
+      "order": 64,
+      "profile": [
+        -1,
+        1,
+        1,
+        null,
+        0
+      ],
+      "parent_maximum": 33,
+      "U": 33,
+      "T": 32,
+      "W": 31
+    }
+  ],
+  "first_expanded_basis": 15,
+  "second_expanded_basis": 15,
+  "final_basis": 16,
+  "all_census_profiles_dominate_final_basis": true,
+  "extended_closure_products_checked": 706,
+  "certificate_sha256": "7bccd1905650c9c38f1c653d0721186285fa1bf5f2dcdb49b6bb01476dc4cb81",
+  "original_conjecture": "unresolved"
+}

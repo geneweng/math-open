@@ -1,0 +1,23 @@
+START n=26 count=147 maximum=14
+PROGRESS step=10000 best=147 checked=9999 incomplete=0
+PROGRESS step=20000 best=147 checked=19999 incomplete=0
+PROGRESS step=30000 best=147 checked=29999 incomplete=0
+PROGRESS step=40000 best=147 checked=39999 incomplete=0
+PROGRESS step=50000 best=147 checked=49998 incomplete=0
+PROGRESS step=60000 best=147 checked=59998 incomplete=0
+PROGRESS step=70000 best=147 checked=69998 incomplete=0
+PROGRESS step=80000 best=147 checked=79998 incomplete=0
+PROGRESS step=90000 best=147 checked=89998 incomplete=0
+PROGRESS step=100000 best=147 checked=99998 incomplete=0
+PROGRESS step=110000 best=147 checked=109998 incomplete=0
+BEST step=113912 count=120 maximum=14
+PROGRESS step=120000 best=120 checked=119994 incomplete=0
+PROGRESS step=130000 best=120 checked=129994 incomplete=0
+PROGRESS step=140000 best=120 checked=139987 incomplete=0
+PROGRESS step=150000 best=120 checked=149979 incomplete=0
+PROGRESS step=160000 best=120 checked=159979 incomplete=0
+PROGRESS step=170000 best=120 checked=169972 incomplete=0
+PROGRESS step=180000 best=120 checked=179968 incomplete=0
+PROGRESS step=190000 best=120 checked=189968 incomplete=0
+PROGRESS step=200000 best=120 checked=199962 incomplete=0
+DONE checked=199962 accepted=5989 incomplete=0 minimum_count=120 best_graph_maximum=14

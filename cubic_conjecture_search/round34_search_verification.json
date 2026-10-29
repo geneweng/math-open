@@ -1,0 +1,214 @@
+{
+  "verified_exclusion_constraints": 1919,
+  "search_status": "wall_time_limit",
+  "root_order": 25,
+  "radius": 6,
+  "independently_audited_candidates": 12,
+  "records": [
+    {
+      "graph6": "XoCOGC`AGA_P@@Q?g???@??C??G_?G??C??P??GG??G_?@@G??P",
+      "profile": {
+        "A": 16,
+        "B": 16,
+        "C": 14,
+        "witnesses": {
+          "A": 7578111,
+          "B": 26081194,
+          "C": 2077680
+        },
+        "cycle_vectors": 8192
+      },
+      "double_optimum": 32,
+      "expanded_double_optimum": 34
+    },
+    {
+      "graph6": "XqC?HK?AG@_P@@OG`???@??C??G_?G??C??P??GG??G_?@@G??P",
+      "profile": {
+        "A": 17,
+        "B": 16,
+        "C": 14,
+        "witnesses": {
+          "A": 7577279,
+          "B": 17824724,
+          "C": 26082584
+        },
+        "cycle_vectors": 8192
+      },
+      "double_optimum": 33,
+      "expanded_double_optimum": 36
+    },
+    {
+      "graph6": "XqC?G[OAG?_P@@OI??O?@??C??H??G??C??P??GG??G_?@@G??P",
+      "profile": {
+        "A": 16,
+        "B": 15,
+        "C": 15,
+        "witnesses": {
+          "A": 523223,
+          "B": 2080184,
+          "C": 2080184
+        },
+        "cycle_vectors": 8192
+      },
+      "double_optimum": 31,
+      "expanded_double_optimum": 35
+    },
+    {
+      "graph6": "XqC?GK@EG??PB@OI?@??@??C??H??G??C??P??GG??G_?@@G??P",
+      "profile": {
+        "A": 16,
+        "B": 15,
+        "C": 13,
+        "witnesses": {
+          "A": 516015,
+          "B": 2079194,
+          "C": 2071504
+        },
+        "cycle_vectors": 8192
+      },
+      "double_optimum": 31,
+      "expanded_double_optimum": 34
+    },
+    {
+      "graph6": "XoSOGC@EGA?P@@OI??O?@??C??H??G??C??P??GG??G_?@@G??P",
+      "profile": {
+        "A": 15,
+        "B": 15,
+        "C": 14,
+        "witnesses": {
+          "A": 515991,
+          "B": 2079602,
+          "C": 2080552
+        },
+        "cycle_vectors": 8192
+      },
+      "double_optimum": 30,
+      "expanded_double_optimum": 33
+    },
+    {
+      "graph6": "XqC?GC@BGA?PD@OI@???@??C??H??G??C??P??GG??G_?@@G??P",
+      "profile": {
+        "A": 15,
+        "B": 15,
+        "C": 14,
+        "witnesses": {
+          "A": 519799,
+          "B": 2074362,
+          "C": 2071512
+        },
+        "cycle_vectors": 8192
+      },
+      "double_optimum": 30,
+      "expanded_double_optimum": 33
+    },
+    {
+      "graph6": "XoC?GCDQ?A_PD@SG@???@??C??H??G??C??P??GG??G_?@@G??P",
+      "profile": {
+        "A": 15,
+        "B": 15,
+        "C": 15,
+        "witnesses": {
+          "A": 519391,
+          "B": 2076536,
+          "C": 2076536
+        },
+        "cycle_vectors": 8192
+      },
+      "double_optimum": 30,
+      "expanded_double_optimum": 34
+    },
+    {
+      "graph6": "XoC?AChE?G_P@@P?a???@??C??H??G??C??P??GG??G_?@@?_?P",
+      "profile": {
+        "A": 16,
+        "B": 17,
+        "C": 15,
+        "witnesses": {
+          "A": 7585559,
+          "B": 32276366,
+          "C": 24015352
+        },
+        "cycle_vectors": 8192
+      },
+      "double_optimum": 34,
+      "expanded_double_optimum": 35
+    },
+    {
+      "graph6": "XoCGAD`B??_P@@?aa???@??C??H??G??C??P??GG??G_?@@C??P",
+      "profile": {
+        "A": 15,
+        "B": 16,
+        "C": 13,
+        "witnesses": {
+          "A": 520447,
+          "B": 17823658,
+          "C": 17823272
+        },
+        "cycle_vectors": 8192
+      },
+      "double_optimum": 32,
+      "expanded_double_optimum": 32
+    },
+    {
+      "graph6": "XoCGAC`E?G_P?`P?a???@??C??G@?G??C??P??GG??G_?@@G??P",
+      "profile": {
+        "A": 17,
+        "B": 16,
+        "C": 16,
+        "witnesses": {
+          "A": 17812735,
+          "B": 26081256,
+          "C": 26081256
+        },
+        "cycle_vectors": 8192
+      },
+      "double_optimum": 33,
+      "expanded_double_optimum": 37
+    },
+    {
+      "graph6": "XoCWACDI??_P?HO_a???@??C??G?OG??C??P??GG??G_?@@G??P",
+      "profile": {
+        "A": 15,
+        "B": 16,
+        "C": 16,
+        "witnesses": {
+          "A": 522031,
+          "B": 17822622,
+          "C": 26081240
+        },
+        "cycle_vectors": 8192
+      },
+      "double_optimum": 32,
+      "expanded_double_optimum": 35
+    },
+    {
+      "graph6": "XoCW?L@A?@_P?`OCa???@??C??H??G??C??P??GG??G_?@@G??P",
+      "profile": {
+        "A": 16,
+        "B": 15,
+        "C": 13,
+        "witnesses": {
+          "A": 519919,
+          "B": 2080058,
+          "C": 2077424
+        },
+        "cycle_vectors": 8192
+      },
+      "double_optimum": 31,
+      "expanded_double_optimum": 34
+    }
+  ],
+  "seed_profile": {
+    "A": 13,
+    "B": 12,
+    "C": 12,
+    "witnesses": {
+      "A": 516895,
+      "B": 2080512,
+      "C": 2080512
+    },
+    "cycle_vectors": 8192
+  },
+  "counterexamples": 0,
+  "scope": "Exact cycle-space audit of recorded candidates only. Does not certify exhaustion of the labelled search domain."
+}

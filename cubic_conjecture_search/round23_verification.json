@@ -1,0 +1,400 @@
+{
+  "original_conjecture_resolved": false,
+  "small_base_graphs": 27,
+  "exhaustive_triangle_identities": 246,
+  "complementary_partition_records": 100,
+  "source_order_range": [
+    24,
+    58
+  ],
+  "explicit_triangle_lifts": 3932,
+  "critical_star_auxiliary_example": {
+    "graph6": "M???FBOq@KF?D_B_?",
+    "order": 14,
+    "maximum": 8,
+    "vertices": [
+      2,
+      3,
+      4,
+      11
+    ],
+    "edge_profiles": [
+      {
+        "edge": [
+          0,
+          8
+        ],
+        "maximum": 8,
+        "witness": [
+          1,
+          2,
+          3,
+          5,
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "edge": [
+          0,
+          9
+        ],
+        "maximum": 8,
+        "witness": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "edge": [
+          0,
+          7
+        ],
+        "maximum": 8,
+        "witness": [
+          1,
+          2,
+          3,
+          5,
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "edge": [
+          1,
+          8
+        ],
+        "maximum": 8,
+        "witness": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "edge": [
+          1,
+          9
+        ],
+        "maximum": 8,
+        "witness": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "edge": [
+          1,
+          7
+        ],
+        "maximum": 8,
+        "witness": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "edge": [
+          2,
+          10
+        ],
+        "maximum": 10,
+        "witness": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "edge": [
+          2,
+          11
+        ],
+        "maximum": 10,
+        "witness": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "edge": [
+          2,
+          7
+        ],
+        "maximum": 10,
+        "witness": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          7,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "edge": [
+          3,
+          8
+        ],
+        "maximum": 10,
+        "witness": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "edge": [
+          3,
+          11
+        ],
+        "maximum": 10,
+        "witness": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "edge": [
+          3,
+          12
+        ],
+        "maximum": 10,
+        "witness": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "edge": [
+          4,
+          9
+        ],
+        "maximum": 10,
+        "witness": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8,
+          9,
+          10,
+          11,
+          13
+        ]
+      },
+      {
+        "edge": [
+          4,
+          11
+        ],
+        "maximum": 10,
+        "witness": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9,
+          10,
+          11,
+          13
+        ]
+      },
+      {
+        "edge": [
+          4,
+          13
+        ],
+        "maximum": 10,
+        "witness": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          13
+        ]
+      },
+      {
+        "edge": [
+          5,
+          10
+        ],
+        "maximum": 8,
+        "witness": [
+          0,
+          2,
+          3,
+          6,
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "edge": [
+          5,
+          12
+        ],
+        "maximum": 8,
+        "witness": [
+          0,
+          2,
+          3,
+          6,
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "edge": [
+          5,
+          13
+        ],
+        "maximum": 8,
+        "witness": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "edge": [
+          6,
+          10
+        ],
+        "maximum": 8,
+        "witness": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "edge": [
+          6,
+          12
+        ],
+        "maximum": 8,
+        "witness": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "edge": [
+          6,
+          13
+        ],
+        "maximum": 8,
+        "witness": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          8,
+          10,
+          12
+        ]
+      }
+    ]
+  },
+  "limitation": "The critical-star example refutes only an auxiliary shortcut and satisfies the original bound."
+}

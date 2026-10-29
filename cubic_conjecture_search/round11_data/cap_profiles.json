@@ -1,0 +1,1769 @@
+[
+  {
+    "mask": 25828,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 5,
+    "cost": 5,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "mask": 25855,
+    "root_degree": 2,
+    "root_cycle_rank": 1,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      9
+    ]
+  },
+  {
+    "mask": 26919,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 26940,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 29223,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 29244,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 32740,
+    "root_degree": 2,
+    "root_cycle_rank": 1,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      9
+    ]
+  },
+  {
+    "mask": 32767,
+    "root_degree": 2,
+    "root_cycle_rank": 3,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": false,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 49569,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 6,
+    "cost": 7,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "mask": 49594,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 52322,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 5,
+    "cost": 5,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "mask": 52345,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      7
+    ]
+  },
+  {
+    "mask": 55138,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      7
+    ]
+  },
+  {
+    "mask": 55161,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      11
+    ]
+  },
+  {
+    "mask": 55969,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 55994,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "mask": 82316,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 6,
+    "cost": 7,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "mask": 82327,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 85071,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      7
+    ]
+  },
+  {
+    "mask": 85076,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 5,
+    "cost": 5,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "mask": 87887,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      11
+    ]
+  },
+  {
+    "mask": 87892,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      7
+    ]
+  },
+  {
+    "mask": 88716,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 88727,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "mask": 124105,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "mask": 124114,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 125194,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 125201,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 127498,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 127505,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 131017,
+    "root_degree": 2,
+    "root_cycle_rank": 1,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": true,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 131026,
+    "root_degree": 2,
+    "root_cycle_rank": 1,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": true,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 139937,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 6,
+    "cost": 7,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "mask": 139962,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 143202,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      7
+    ]
+  },
+  {
+    "mask": 143225,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      11
+    ]
+  },
+  {
+    "mask": 144482,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 5,
+    "cost": 5,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "mask": 144505,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      7
+    ]
+  },
+  {
+    "mask": 145825,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 145850,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "mask": 165860,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "mask": 165887,
+    "root_degree": 2,
+    "root_cycle_rank": 1,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": true,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 166439,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 166460,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 168231,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 168252,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 171236,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 171263,
+    "root_degree": 2,
+    "root_cycle_rank": 1,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": true,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 198601,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      7
+    ]
+  },
+  {
+    "mask": 198610,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "mask": 199178,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 6,
+    "cost": 7,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "mask": 199185,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 6,
+    "cost": 7,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "mask": 200970,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 6,
+    "cost": 7,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "mask": 200977,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 6,
+    "cost": 7,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "mask": 203977,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "mask": 203986,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      3,
+      6
+    ]
+  },
+  {
+    "mask": 238220,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 238231,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "mask": 241487,
+    "root_degree": 2,
+    "root_cycle_rank": 1,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": true,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 241492,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      11
+    ]
+  },
+  {
+    "mask": 242767,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      11
+    ]
+  },
+  {
+    "mask": 242772,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      3,
+      6
+    ]
+  },
+  {
+    "mask": 244108,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "mask": 244119,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 0,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      12
+    ]
+  },
+  {
+    "mask": 270988,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 6,
+    "cost": 7,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "mask": 270999,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 274255,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      11
+    ]
+  },
+  {
+    "mask": 274260,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      7
+    ]
+  },
+  {
+    "mask": 275535,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      7
+    ]
+  },
+  {
+    "mask": 275540,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 5,
+    "cost": 5,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "mask": 276876,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 276887,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "mask": 296905,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      2,
+      7
+    ]
+  },
+  {
+    "mask": 296914,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "mask": 297482,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 6,
+    "cost": 7,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "mask": 297489,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 6,
+    "cost": 7,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "mask": 299274,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 6,
+    "cost": 7,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "mask": 299281,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 6,
+    "cost": 7,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "mask": 302281,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "mask": 302290,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      3,
+      6
+    ]
+  },
+  {
+    "mask": 329700,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "mask": 329727,
+    "root_degree": 2,
+    "root_cycle_rank": 1,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": true,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 330279,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 330300,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 332071,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 332092,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 335076,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 335103,
+    "root_degree": 2,
+    "root_cycle_rank": 1,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": true,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 369313,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 369338,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "mask": 372578,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      11
+    ]
+  },
+  {
+    "mask": 372601,
+    "root_degree": 2,
+    "root_cycle_rank": 1,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": true,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 373858,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      3,
+      6
+    ]
+  },
+  {
+    "mask": 373881,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      11
+    ]
+  },
+  {
+    "mask": 375201,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "mask": 375226,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 0,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      12
+    ]
+  },
+  {
+    "mask": 419017,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "mask": 419026,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 420106,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 420113,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 3,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "mask": 422410,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 422417,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 425929,
+    "root_degree": 2,
+    "root_cycle_rank": 1,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": true,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 425938,
+    "root_degree": 2,
+    "root_cycle_rank": 1,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": true,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 442764,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 442775,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "mask": 445519,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      11
+    ]
+  },
+  {
+    "mask": 445524,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      3,
+      6
+    ]
+  },
+  {
+    "mask": 448335,
+    "root_degree": 2,
+    "root_cycle_rank": 1,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": true,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 448340,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      11
+    ]
+  },
+  {
+    "mask": 449164,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "mask": 449175,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 0,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      12
+    ]
+  },
+  {
+    "mask": 475553,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 3,
+    "cost": 4,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  {
+    "mask": 475578,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "mask": 478306,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 2,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      2,
+      3,
+      6
+    ]
+  },
+  {
+    "mask": 478329,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      11
+    ]
+  },
+  {
+    "mask": 481122,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      11
+    ]
+  },
+  {
+    "mask": 481145,
+    "root_degree": 2,
+    "root_cycle_rank": 1,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": true,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 481953,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 2,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "mask": 481978,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 0,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      12
+    ]
+  },
+  {
+    "mask": 517348,
+    "root_degree": 2,
+    "root_cycle_rank": 0,
+    "internal_j": 1,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      2,
+      3,
+      8
+    ]
+  },
+  {
+    "mask": 517375,
+    "root_degree": 2,
+    "root_cycle_rank": 3,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": false,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 518439,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 0,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      12
+    ]
+  },
+  {
+    "mask": 518460,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 0,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      12
+    ]
+  },
+  {
+    "mask": 520743,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 0,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      12
+    ]
+  },
+  {
+    "mask": 520764,
+    "root_degree": 0,
+    "root_cycle_rank": 0,
+    "internal_j": 0,
+    "cost": 1,
+    "pseudoforest": true,
+    "component_orders": [
+      1,
+      12
+    ]
+  },
+  {
+    "mask": 524260,
+    "root_degree": 2,
+    "root_cycle_rank": 3,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": false,
+    "component_orders": [
+      13
+    ]
+  },
+  {
+    "mask": 524287,
+    "root_degree": 2,
+    "root_cycle_rank": 7,
+    "internal_j": 0,
+    "cost": 0,
+    "pseudoforest": false,
+    "component_orders": [
+      13
+    ]
+  }
+]

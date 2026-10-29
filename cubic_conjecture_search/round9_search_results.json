@@ -1,0 +1,367 @@
+{
+  "general_conjecture_resolved": false,
+  "date": "2026-10-27",
+  "purpose": "Test monotone isolated-edge repair through odd pseudoforests; refute stronger shortcuts without claiming a counterexample to the induced cycles conjecture.",
+  "generator": {
+    "command": "geng -c -d3 -D3 20",
+    "graphs": 510489,
+    "reported_seconds": 271.92,
+    "completeness": "Up to isomorphism; relies on nauty geng."
+  },
+  "census_order20": {
+    "graphs": 510489,
+    "factors": 1045481472,
+    "pseudofactors": 920048096,
+    "bad_pseudofactors": 889866061,
+    "tested_moves": 6128984749,
+    "first_strict": 746656315,
+    "first_plateau": 143208512,
+    "flat_repairs": 1234,
+    "max_flat_size": 112,
+    "max_neutral_repair_moves": 2
+  },
+  "census_through18": {
+    "graphs": 45982,
+    "factors": 44513544,
+    "pseudofactors": 39154699,
+    "bad_pseudofactors": 37300842,
+    "tested_moves": 218190258,
+    "first_strict": 31523876,
+    "first_plateau": 5776752,
+    "flat_repairs": 214,
+    "max_flat_size": 61,
+    "max_neutral_repair_moves": 2
+  },
+  "combined_through20": {
+    "graphs": 556471,
+    "factors": 1089995016,
+    "pseudofactors": 959202795,
+    "bad_pseudofactors": 927166903,
+    "flat_repairs": 1448
+  },
+  "maximum_shortest_repair_moves": 2,
+  "independent_checks": {
+    "through18": {
+      "graphs": 39,
+      "odd_factors_independently_enumerated": 37632,
+      "simple_cycles_independently_enumerated": 6264,
+      "neutral_factors": 214,
+      "connectivity_2": 202,
+      "initial_isolated_1": 214,
+      "connectivity_1": 12
+    },
+    "order20": {
+      "graphs": 291,
+      "odd_factors_independently_enumerated": 595968,
+      "simple_cycles_independently_enumerated": 87573,
+      "neutral_factors": 1234,
+      "connectivity_2": 1079,
+      "initial_isolated_1": 1218,
+      "connectivity_1": 152,
+      "vertex_subsets_checked": 3145728,
+      "connectivity_3": 3,
+      "initial_isolated_2": 16
+    },
+    "budget_obstruction": {
+      "graph6": "I?BeeOwM?",
+      "odd_factors_checked": 64,
+      "min_h_bad": 8,
+      "min_h_good": 9,
+      "bad_witness": 4924,
+      "good_witness": 7759,
+      "histogram": [
+        1,
+        0,
+        0,
+        0,
+        6,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      "exact_c_ind": 6,
+      "vertex_subsets_checked": 1024
+    },
+    "triangle_expansion": {
+      "formula": "max(D+1,B,C+3)",
+      "cases": [
+        {
+          "graph6": "I?`cmPoM?",
+          "vertex": 0,
+          "profile_ABCD": [
+            6,
+            7,
+            4,
+            8
+          ],
+          "original_c_ind": 7,
+          "expanded_edges": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              2,
+              9
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              10,
+              6
+            ],
+            [
+              11,
+              7
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              11,
+              0
+            ]
+          ],
+          "expanded_histogram": [
+            1,
+            0,
+            0,
+            1,
+            3,
+            3,
+            5,
+            7,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "expanded_c_ind": 9,
+          "expanded_witness": 2557,
+          "vertex_subsets_checked": 5120
+        },
+        {
+          "graph6": "K?ABE`Ke@gDO",
+          "vertex": 0,
+          "profile_ABCD": [
+            7,
+            8,
+            5,
+            7
+          ],
+          "original_c_ind": 8,
+          "expanded_edges": [
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              2,
+              10
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              2,
+              11
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              12,
+              7
+            ],
+            [
+              13,
+              9
+            ],
+            [
+              0,
+              12
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              13,
+              0
+            ]
+          ],
+          "expanded_histogram": [
+            1,
+            0,
+            0,
+            2,
+            0,
+            2,
+            12,
+            2,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "expanded_c_ind": 8,
+          "expanded_witness": 1886,
+          "vertex_subsets_checked": 20480
+        }
+      ]
+    }
+  },
+  "three_connected_cases": [
+    {
+      "graph6": "S??????o@_@_gCGoWCAD?Cg?X??WO?IG?",
+      "factor": 983379956,
+      "simple_cycles": 664,
+      "neutral_moves": 57,
+      "exact_c_ind": 14
+    },
+    {
+      "graph6": "S????A?O@?QCe?F?@W?L?PO@a?@?o?Ao?",
+      "factor": 669776037,
+      "simple_cycles": 616,
+      "neutral_moves": 38,
+      "exact_c_ind": 14
+    },
+    {
+      "graph6": "S????A?O@_@__go_KO@A_CK?X??WO?IG?",
+      "factor": 983542071,
+      "simple_cycles": 616,
+      "neutral_moves": 46,
+      "exact_c_ind": 14
+    }
+  ],
+  "triangle_expansion_scan": {
+    "graphs": 45982,
+    "vertices": 816770,
+    "no_unit_gain": 13183,
+    "formula": "max(D+1,B,C+3), where D permits deleting an edge incident with the expanded vertex",
+    "log": "cubic_conjecture_search/round9_data/triangle_expansion_log.txt.gz",
+    "independent_examples": 2
+  },
+  "limitations": [
+    "No proof or counterexample to the original conjecture.",
+    "No unrestricted pseudoforest-repair theorem.",
+    "The full census is not independently repeated; every reported neutral case is independently checked.",
+    "The order-20 girth pattern gives no theorem for triangle-free graphs.",
+    "Maximum BFS queue size is not a path length.",
+    "Finite original-conjecture verification through order 22 is already in the literature."
+  ],
+  "sha256": {
+    "round9_data/cubic20.g6": "bd097e9272484e531c5f79be118814c37277e67c74c6abc39bb63263f4ec717b",
+    "round9_data/repair20_log.txt": "61a30aa47c9cc493f5ce273c34e6aef4f159bd6ffbecc2fade8b99c8432ddcf2",
+    "round9_data/repair_through18_log.txt": "a4e3122f769e87f8444606d504c780d9e1acfccdb23791cd6b5b0db4d35df2c4",
+    "round9_data/triangle_expansion_log.txt.gz": "d6de5dd01167453fb60c6fc36e71ef939b312ac317ad41474b1ed6caad131a7c",
+    "round8_data/cubic_through18.g6": "764aace717d315672229d58a95318503c5ea7d6c4d06fdd368e73a8673e1a126",
+    "exploratory/pseudoforest_repair.cpp": "e74e91f6b7b0bbee538c286292ad53a8beed1e947d2c2c025f50b5d20f35f4b3",
+    "exploratory/odd_factor_enumerate.cpp": "55a8130fc88985a833e402890d9916df465e420483c2d170bc0ef9a335aecf4b",
+    "exploratory/odd_factor_budget.cpp": "374aeeb7a967ffcfafbef23c782246b5373f259aa8dfce41c90d8809eadd383f",
+    "exploratory/triangle_expansion.cpp": "de58b1d46cd98d1e645b41c78580eb216895e749ff1dd3896b70e692f0854448",
+    "verify_pseudoforest_repair.py": "217c59da9068994b8d1a331b6f12d3595ba312ae4cf64fa5425752d6d635c775",
+    "verify_round9.py": "46ca06944eabecd1cd15f5e8f5eef9a538479b3c21fe73121e5c7c55be6d0798",
+    "round9_verification.json": "1e0c6679059235706d57a841bd50e59b156d88943ea0d3d3b62f388052199dc9"
+  }
+}

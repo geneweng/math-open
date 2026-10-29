@@ -1,0 +1,22 @@
+{
+  "outside_count": 70,
+  "distinct_profiles": 1,
+  "records": [
+    {
+      "core_graph6": "K?AAD@WX?sOW",
+      "edge": [
+        1,
+        8
+      ],
+      "branches": 8,
+      "profile": [
+        -1,
+        1,
+        1,
+        -1000000,
+        0
+      ],
+      "occurrences": 70
+    }
+  ]
+}

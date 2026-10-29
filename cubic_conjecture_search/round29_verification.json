@@ -1,0 +1,11 @@
+{
+  "original_conjecture": "unresolved",
+  "mixed_theorem_checks": 1000,
+  "minimum_order": 44,
+  "maximum_order": 60,
+  "synthesis_status": "wall_time_limit",
+  "synthesis_positive_witnesses": 41,
+  "fixed_k5_profile_assignments": 486,
+  "fixed_k5_minimum_doubled_surplus": 10,
+  "scope": "Whole-graph positive witnesses checked directly. Synthesis cut validity uses these witnesses; no general exclusion follows from a time limit."
+}

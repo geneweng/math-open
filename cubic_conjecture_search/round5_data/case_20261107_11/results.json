@@ -1,0 +1,232 @@
+{
+  "cycles": [
+    11
+  ],
+  "seed": 20261107,
+  "fixed_complement_edges": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      10
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      2,
+      11
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      12
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      9,
+      11
+    ]
+  ],
+  "order": 24,
+  "target": 12,
+  "complete_for_fixed_template": true,
+  "general_conjecture_solved": false,
+  "records": [
+    {
+      "iteration": 0,
+      "cind": 17,
+      "best": 17,
+      "new_cuts": 148,
+      "cuts": 148,
+      "elapsed_seconds": 0.429
+    },
+    {
+      "iteration": 1,
+      "cind": 17,
+      "best": 17,
+      "new_cuts": 140,
+      "cuts": 288,
+      "elapsed_seconds": 0.963
+    },
+    {
+      "iteration": 2,
+      "cind": 17,
+      "best": 17,
+      "new_cuts": 186,
+      "cuts": 474,
+      "elapsed_seconds": 1.633
+    },
+    {
+      "iteration": 3,
+      "cind": 17,
+      "best": 17,
+      "new_cuts": 131,
+      "cuts": 605,
+      "elapsed_seconds": 2.205
+    },
+    {
+      "iteration": 4,
+      "cind": 16,
+      "best": 16,
+      "new_cuts": 127,
+      "cuts": 732,
+      "elapsed_seconds": 2.81
+    },
+    {
+      "iteration": 5,
+      "cind": 17,
+      "best": 16,
+      "new_cuts": 140,
+      "cuts": 872,
+      "elapsed_seconds": 3.438
+    },
+    {
+      "iteration": 6,
+      "cind": 16,
+      "best": 16,
+      "new_cuts": 138,
+      "cuts": 1010,
+      "elapsed_seconds": 4.16
+    },
+    {
+      "iteration": 7,
+      "cind": 17,
+      "best": 16,
+      "new_cuts": 155,
+      "cuts": 1165,
+      "elapsed_seconds": 4.891
+    },
+    {
+      "iteration": 8,
+      "cind": 16,
+      "best": 16,
+      "new_cuts": 143,
+      "cuts": 1308,
+      "elapsed_seconds": 5.746
+    },
+    {
+      "iteration": 9,
+      "cind": 16,
+      "best": 16,
+      "new_cuts": 137,
+      "cuts": 1445,
+      "elapsed_seconds": 6.512
+    },
+    {
+      "iteration": 10,
+      "cind": 17,
+      "best": 16,
+      "new_cuts": 174,
+      "cuts": 1619,
+      "elapsed_seconds": 7.56
+    },
+    {
+      "iteration": 11,
+      "cind": 18,
+      "best": 16,
+      "new_cuts": 160,
+      "cuts": 1779,
+      "elapsed_seconds": 9.196
+    },
+    {
+      "iteration": 12,
+      "cind": 17,
+      "best": 16,
+      "new_cuts": 147,
+      "cuts": 1926,
+      "elapsed_seconds": 10.34
+    },
+    {
+      "iteration": 13,
+      "cind": 17,
+      "best": 16,
+      "new_cuts": 219,
+      "cuts": 2145,
+      "elapsed_seconds": 12.514
+    },
+    {
+      "iteration": 14,
+      "cind": 18,
+      "best": 16,
+      "new_cuts": 132,
+      "cuts": 2277,
+      "elapsed_seconds": 13.717
+    },
+    {
+      "iteration": 15,
+      "cind": 17,
+      "best": 16,
+      "new_cuts": 165,
+      "cuts": 2442,
+      "elapsed_seconds": 16.204
+    },
+    {
+      "iteration": 16,
+      "cind": 17,
+      "best": 16,
+      "new_cuts": 132,
+      "cuts": 2574,
+      "elapsed_seconds": 18.368
+    },
+    {
+      "iteration": 17,
+      "cind": 16,
+      "best": 16,
+      "new_cuts": 164,
+      "cuts": 2738,
+      "elapsed_seconds": 24.737
+    },
+    {
+      "iteration": 18,
+      "cind": 17,
+      "best": 16,
+      "new_cuts": 135,
+      "cuts": 2873,
+      "elapsed_seconds": 29.656
+    },
+    {
+      "iteration": 19,
+      "cind": 17,
+      "best": 16,
+      "new_cuts": 140,
+      "cuts": 3013,
+      "elapsed_seconds": 41.286
+    }
+  ],
+  "termination": "unsat",
+  "reason": ""
+}

@@ -1,0 +1,4 @@
+LOW 0 n=16 cases=462
+LOW -1 n=16 cases=489
+LOW -2 n=16 cases=33070
+COMPLETE cases=925680 minimum_failed_delta=-2

@@ -1,0 +1,10 @@
+{
+  "original_conjecture_resolved": false,
+  "structural_result": "Every minimum branch counterexample is a once-per-edge triangle expansion of a simple cubic base, using fewer than n/2 edges; the empty marking remains allowed.",
+  "conditional_certificates": "Two exact rational cubes cover all 2^39 markings of the sharp 26-vertex double; arbitrary chains follow by a proved reduction.",
+  "rooted_attachment_result": "Both boundary states survive arbitrary triangle chains with the half-size lower bounds stated in the paper.",
+  "no_new_original_counterexample": true,
+  "failed_unproved_extension": "Do not infer that marked edges form a matching. Deleting two triangles incident through a base vertex does not let one adjoin both triangles when their remaining outside neighbours are selected.",
+  "verification": "verify_round16.py",
+  "scope": "Structural and infinite-family results; no unrestricted resolution."
+}

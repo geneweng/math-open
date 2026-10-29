@@ -1,0 +1,19 @@
+{
+  "core_graph6": "IQd`Ia?AG",
+  "branches": 6,
+  "core_order": 10,
+  "edge": [
+    0,
+    8
+  ],
+  "profile": [
+    -1,
+    -1000000,
+    3,
+    -1000000,
+    -1
+  ],
+  "checked": 557,
+  "trial": 597,
+  "elapsed": 0.5831398963928223
+}

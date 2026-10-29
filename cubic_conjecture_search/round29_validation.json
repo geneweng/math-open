@@ -1,0 +1,17 @@
+{
+  "original_conjecture": "unresolved",
+  "pdf_pages": 48,
+  "verification": "verify_round29.py passed: 1000 mixed-construction witnesses, 41 synthesis witnesses, and all 486 fixed K5 assignments.",
+  "compile": "latexmk passed; no warnings or overfull/underfull boxes",
+  "visual_review": "All pages reviewed as contact sheet; pages 46-48 inspected individually.",
+  "sha256": {
+    "cubic_conjecture_search/bridge_completion/main.tex": "ca2d723da52d7d16e2e3c1c8588c47a85d7eb0134bff50f42bb0773d11fb2005",
+    "cubic_conjecture_search/exploratory/mixed_four_pole_synthesis.py": "9ab793015ec41c6759cc0253c403dae614054645d84fae44269a1de434754d07",
+    "cubic_conjecture_search/exploratory/mixed_k5_exhaust.py": "2855728de368e20a87b3fd9b37a7335f7e6276b8332a9cabf543476b04dbe833",
+    "cubic_conjecture_search/verify_round29.py": "c7937d917c2efd0cc4f491bd56dd98ae3794f5df9992e40ca1978ebaa10d98bc",
+    "cubic_conjecture_search/round29_verification.json": "884607a8ceffc411c43b56e167c5f620c4df1c17ce22ad9614258ad1adf1ff99",
+    "cubic_conjecture_search/round29_data/mixed_synthesis.json": "b8c97d29479c8f16a30ce6b422504ff9def738fccacc1056682d40d62d00a699",
+    "cubic_conjecture_search/round29_data/k5_exhaust.json": "2bd6b65181068fb4d30e94b9eba1684a31872566207a0a3b212fed3189d2aa39",
+    "output/pdf/bridge_completion.pdf": "8c0a139e002befb15a58fa5f52a00cd7b9e56ec4b642f360860044a9c86e804e"
+  }
+}

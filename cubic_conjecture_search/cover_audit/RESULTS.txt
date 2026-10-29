@@ -1,0 +1,141 @@
+CONTINUATION: COVERS, HALF-SET CERTIFICATES, AND THE DESCENT OBSTRUCTION
+29 October 2026
+
+The original conjecture remains unresolved. None of the statements below
+proves c_ind(G)>=|G|/2 for arbitrary cubic G, or constructs a counterexample.
+
+1. Purpose and bounded experiment
+
+The extremal audit found that the retained equality graphs were built
+from Franklin cores. We tested whether two-sheeted covers of the Franklin
+graph F could supply a different equality core.
+
+Fix a spanning tree of F. Switching sheet labels at vertices makes all
+tree-edge signs positive. The seven cotree edges then have independent
+binary signs. The zero assignment gives two disjoint copies; each of the
+127 nonzero assignments gives a connected cover. This exhausts signed
+two-sheeted covers over this fixed labelled base, not all cubic graphs.
+
+Exact optima on these 24-vertex covers:
+  c_ind=12:   6 assignments
+  c_ind=14:  48 assignments
+  c_ind=16:  32 assignments
+  c_ind=18:  41 assignments
+All six sharp covers are isomorphic to the already retained 24-vertex
+graph; each has edge connectivity two. No new equality type was found.
+The normalization/completeness argument does not imply the 127 covers
+are pairwise nonisomorphic.
+
+Verification: the initial optimization used CP-SAT. An independent
+cycle-space enumerator checked all 8,192 vectors for each cover and
+agreed on every optimum. verify.py checks cover reconstruction, witnesses,
+the comparison of exact results, and the six isomorphisms.
+
+2. Pullback theorem
+
+Let p:H->G be a finite d-sheeted graph cover: at each vertex of H the
+map on neighbours is a bijection onto the neighbours of its image.
+If S is good in G, then p^{-1}(S) is good in H and has size d|S|.
+Indeed, each selected lift has exactly as many selected neighbours as
+its image, namely two. Uniform fibre size gives the cardinality.
+
+Consequently every finite cover of F has complementary half-sized good
+sets. More strongly, every edge of that cover belongs to a half-sized
+good set: use the saved half-set certificate for its image edge in F,
+and pull it back. This uses the 18 positive edge witnesses of the
+extremal audit, not a conjecture about equality graphs in general.
+
+The certificate theorem in extremal_audit/REVIEW.txt therefore applies
+to every connected finite cover of F. Neither of the two rooted
+constructions, at any edge of any such cover, yields a counterexample.
+This explains why further searches confined to this family cannot
+produce a counterexample by those operations.
+
+3. Universal common-cover construction: a limitation of the strategy
+
+Theorem. Every connected finite simple cubic graph G has a connected
+finite cover C, of degree at most 12 over G, which also covers F.
+In particular C has a complementary good partition and every edge of C
+belongs to a half-sized good set.
+
+Proof. Form the canonical bipartite double cover B of G: its vertices
+are (v,b), b in {0,1}, and every edge uv gives edges (u,0)(v,1) and
+(u,1)(v,0). B is cubic and bipartite, even when G has bridges.
+
+Any finite regular bipartite graph decomposes into perfect matchings.
+For completeness, if it is k-regular, counting the k|X| edges from a
+subset X of one part gives |N(X)|>=|X|. Hall's theorem supplies a perfect
+matching. Remove it and repeat. Thus colour the edges of B, and separately
+those of the bipartite cubic F, with three colours so that every vertex
+has one incident edge of each colour.
+
+Let beta:F->{0,1} be a bipartition. Construct K with vertices
+  ((v,b),f) where beta(f)=b.
+Join two such vertices when their B coordinates are joined by an edge
+of colour i and their F coordinates are joined by an edge of the same
+colour i. At each vertex, there is exactly one neighbour of each colour.
+Both coordinate projections are locally bijective; composing the first
+with B->G is also locally bijective. K is a simple cubic graph.
+
+Each vertex of G has 12 inverse images in K (six for each value of b),
+so |K|=12|G|. Select any connected component C. The image of a nonempty
+component under a local bijection is closed under taking neighbours.
+As G and F are connected, both restricted projections are surjective.
+Lifting an edge gives a bijection between the two endpoint fibres, so
+the fibre size is constant over each connected base. Thus C covers both
+G and F and its degree over G is at most 12. Apply the pullback theorem
+to the certificates on F. QED.
+
+This is an explicit regular-graph special case of the classical
+common-cover phenomenon, not a claim of a new general covering theorem.
+Leighton's graph covering theorem gives the broader result for graphs
+with a common universal covering tree. Sources:
+  F. T. Leighton, Finite common coverings of graphs (1982):
+  https://doi.org/10.1016/0095-8956(82)90042-9
+  N. Touikan and A. Minasyan, On the proofs of Leighton's Graph Covering
+  Theorem, a notion dual to commensurability, and normal virtual retracts:
+  https://arxiv.org/abs/2507.01839
+
+The point for this project is negative: existence of a finite cover with
+our strong certificate property places NO restriction on a cubic base.
+Any approach using it must prove an additional descent/rounding theorem.
+Merely generating more good covers cannot settle the original conjecture.
+
+4. Why projecting a good set is not a valid descent argument
+
+The cube Q3 covers K4 by identifying antipodal binary triples. A square
+face of Q3 is a good set containing half its vertices. Its four vertices
+lie in four different antipodal classes, so its image is ALL of K4.
+That image has induced degree three, not two. Therefore a good half-set
+in a cover need not project to a good set in the base, even injectively
+on that selected set. Identifications elsewhere introduce extra induced
+adjacencies. This does not refute the original conjecture: K4 has good
+triangles. It refutes the proposed projection operation only.
+
+The executable check constructs covers for all 112 connected cubic
+graphs through order 12 and for the retained bridged graph of order 26.
+It verifies local bijections in all 113 cases, uniform fibres in the
+145 resulting components, and 2,900 pulled-back half-sets. It also checks
+the cube-to-K4 projection example explicitly. These tests support the
+implementation; the proof above is the general argument.
+
+5. Where the original proof still fails
+
+No general descent theorem has been established. No proof of the proposed
+joint U,T,W tradeoff has been obtained. In particular, the remaining
+minimum triangle-form obstruction U=h+1, T<=h-1, W<=h-2 has not been
+excluded. Excluding it alone would still leave the subdivision normal
+form and the general bridgeless case.
+
+Future proof work should address a base-graph exchange inequality or a
+precise rounding lemma with proof. Further cover enumeration is stopped:
+the universal-cover construction explains why that direction supplies
+certificates upstairs without resolving the obstruction downstairs.
+
+Reproduction from the repository root:
+  python3 cubic_conjecture_search/cover_audit/generate_two_lifts.py
+  python3 cubic_conjecture_search/cover_audit/verify.py
+To regenerate cycle_space_check.jsonl, compile
+exploratory/odd_factor_enumerate.cpp and run it on the graph6 strings in
+two_lifts.json in their saved order. The verifier uses NetworkX; initial
+optimization additionally uses OR-Tools. The main paper/PDF is unchanged.

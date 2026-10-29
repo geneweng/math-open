@@ -1,0 +1,10 @@
+{
+  "exhaustive_rooted_inputs": 84,
+  "checks_per_input": [
+    "one expansion",
+    "two expansions",
+    "diamond extension",
+    "expanded diamond"
+  ],
+  "original_conjecture": "unresolved"
+}

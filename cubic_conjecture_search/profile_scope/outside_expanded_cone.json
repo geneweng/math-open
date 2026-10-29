@@ -1,0 +1,19 @@
+{
+  "core_graph6": "K`CidA??WWGO",
+  "branches": 8,
+  "core_order": 12,
+  "edge": [
+    2,
+    5
+  ],
+  "profile": [
+    -2,
+    0,
+    2,
+    -1000000,
+    0
+  ],
+  "checked": 8873,
+  "trial": 9334,
+  "elapsed": 7.252586841583252
+}

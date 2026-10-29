@@ -1,0 +1,141 @@
+{
+  "violated_conditions": {
+    "3": 416637,
+    "2": 15592,
+    "1": 56
+  },
+  "single_condition_examples": [
+    {
+      "core": "K?AA@aKo`oF?",
+      "edge": [
+        2,
+        10
+      ],
+      "profile": [
+        -2,
+        1,
+        1,
+        -1000000,
+        2
+      ],
+      "U": 1,
+      "T": 2,
+      "W": -2,
+      "miss": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "core": "K?AA@aKo`oF?",
+      "edge": [
+        3,
+        10
+      ],
+      "profile": [
+        -2,
+        1,
+        1,
+        -1000000,
+        2
+      ],
+      "U": 1,
+      "T": 2,
+      "W": -2,
+      "miss": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "core": "K?AA@aKo`oF?",
+      "edge": [
+        2,
+        11
+      ],
+      "profile": [
+        -2,
+        1,
+        1,
+        -1000000,
+        2
+      ],
+      "U": 1,
+      "T": 2,
+      "W": -2,
+      "miss": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "core": "K?AA@aKo`oF?",
+      "edge": [
+        3,
+        11
+      ],
+      "profile": [
+        -2,
+        1,
+        1,
+        -1000000,
+        2
+      ],
+      "U": 1,
+      "T": 2,
+      "W": -2,
+      "miss": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "core": "K?AACGwMBCR?",
+      "edge": [
+        3,
+        8
+      ],
+      "profile": [
+        -2,
+        1,
+        1,
+        -1000000,
+        2
+      ],
+      "U": 1,
+      "T": 2,
+      "W": -2,
+      "miss": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "core": "K?AACGwMBCR?",
+      "edge": [
+        4,
+        8
+      ],
+      "profile": [
+        -2,
+        1,
+        1,
+        -1000000,
+        2
+      ],
+      "U": 1,
+      "T": 2,
+      "W": -2,
+      "miss": [
+        false,
+        true,
+        false
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "original_conjecture_resolved": false,
+  "local_subsets_enumerated": 24576,
+  "path_cycle_transfer_checks": 200,
+  "assembly_records": 444,
+  "status_counts": {
+    "OPTIMAL": 443,
+    "FEASIBLE": 1
+  },
+  "full_graph_witnesses_checked": 444,
+  "order_range": [
+    100,
+    580
+  ],
+  "minimum_witness_doubled_surplus": 0,
+  "uniform_formula_checks": 7,
+  "limitation": "General mixed-assembly optimum claims are solver reports; positive witnesses are independently checked. Local tables and the path/cycle formula are independently verified."
+}

@@ -1,0 +1,30 @@
+{
+  "reductions": {
+    "prunings": 1591,
+    "suppressions": 1011,
+    "suppression_lifts": 1803
+  },
+  "independently_verified_profiles": 259,
+  "two_cover_obstruction": {
+    "graph6": "ICOedO[X?",
+    "three_connected": true,
+    "maximum_good_set": 6,
+    "two_good_sets_cover_all_vertices": false
+  },
+  "edge_capped_four_cover_obstruction": {
+    "graph6": "O??CA?oBCDT?U?D_CgAA_",
+    "good_sets_including_empty": 39,
+    "four_multisets_checked": 111930,
+    "covering_multisets": 5,
+    "minimum_maximum_edge_multiplicity": 3,
+    "four_cover_witness_masks": [
+      12089,
+      22259,
+      43471,
+      54062
+    ],
+    "maximum_good_set": 10
+  },
+  "general_conjecture_solved": false,
+  "pendant_cycle_extensions": 2892
+}

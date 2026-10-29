@@ -1,0 +1,13 @@
+{
+  "status": "wall_time_limit",
+  "elapsed_seconds": 70.74547208601143,
+  "graphs_checked": 11,
+  "exact_optimum_histogram": {
+    "18": 11
+  },
+  "independently_enumerated_cycle_vectors": 180224,
+  "verified_forbidden_good_sets": 2769,
+  "original_counterexample_found": false,
+  "completeness": "No completeness or infeasibility claim; run ended at its wall-time guard.",
+  "assessment": "All candidates attained the class upper bound 18; no observed movement toward the target <=12."
+}

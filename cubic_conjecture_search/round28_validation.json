@@ -1,0 +1,18 @@
+{
+  "original_conjecture": "unresolved",
+  "pdf_pages": 47,
+  "verification": "Both round28 verifiers passed; sharp cases independently CP-SAT checked and isomorphisms verified.",
+  "compile": "latexmk passed; no warnings or overfull/underfull boxes",
+  "visual_review": "All pages reviewed as contact sheet; changed pages 45-47 inspected individually after final layout repair.",
+  "sha256": {
+    "cubic_conjecture_search/bridge_completion/main.tex": "000371c26826d66b2a509d8ab1ca71e32c457241a6907b86e66273b2d2ba7886",
+    "cubic_conjecture_search/exploratory/four_pole_cycle_search.py": "3df55bb525de928f809abf03e6d6b52172a70d8d094051011c07709111e9cb1a",
+    "cubic_conjecture_search/exploratory/check_cycle_sharp.py": "8eac353e45cb90c4e2eff621c6b652f9e4ef708599b5a9737e57f179bd2aeeb9",
+    "cubic_conjecture_search/verify_round28.py": "7ae80055f549649ccc7adc9287a42f72375806533c885997bc49a4881bd0bd7d",
+    "cubic_conjecture_search/verify_round28_assembly.py": "07c495e457ab4e0756fd0cd232bb38b5a88994049ef202cf53cf5ae4ffb64bd5",
+    "cubic_conjecture_search/round28_verification.json": "1ed5cfe4b0ba80a614b4c142880d847d07b349f0bd7ab470e510bbf6cfe6b275",
+    "cubic_conjecture_search/round28_assembly_verification.json": "784b926fc9b3e1b64be4b49798a73e29185c484b774a896c234adb068be43e4d",
+    "cubic_conjecture_search/round28_data/search.json": "3a9b565aa7cbb33013e1983b0d6b19805f21217f4168b82883cbc578c7b82434",
+    "output/pdf/bridge_completion.pdf": "b5b7475c8728d1f60d378367d27d9504bca126f95734c4c06ffc548ad445b3f5"
+  }
+}

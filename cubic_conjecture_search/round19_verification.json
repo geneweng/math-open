@@ -1,0 +1,356 @@
+{
+  "local_pair_cycles": [
+    {
+      "ports": [
+        2,
+        4
+      ],
+      "cycle": [
+        2,
+        3,
+        4,
+        7,
+        9
+      ]
+    },
+    {
+      "ports": [
+        2,
+        5
+      ],
+      "cycle": [
+        2,
+        3,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "ports": [
+        2,
+        6
+      ],
+      "cycle": [
+        2,
+        3,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "ports": [
+        4,
+        5
+      ],
+      "cycle": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "ports": [
+        4,
+        6
+      ],
+      "cycle": [
+        3,
+        4,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "ports": [
+        5,
+        6
+      ],
+      "cycle": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "smoothing_profiles": [
+    {
+      "outside": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "optimum": 6,
+      "witness": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "outside": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "optimum": 6,
+      "witness": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "outside": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "optimum": 6,
+      "witness": [
+        2,
+        3,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "outside": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "optimum": 5,
+      "witness": [
+        2,
+        3,
+        4,
+        7,
+        9
+      ]
+    },
+    {
+      "outside": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "optimum": 6,
+      "witness": [
+        2,
+        3,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "outside": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "optimum": 5,
+      "witness": [
+        2,
+        3,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "outside": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "optimum": 5,
+      "witness": [
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "outside": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "optimum": 5,
+      "witness": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "outside": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "optimum": 6,
+      "witness": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "outside": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "optimum": 5,
+      "witness": [
+        2,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "outside": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "optimum": 5,
+      "witness": [
+        3,
+        4,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "outside": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "optimum": 5,
+      "witness": [
+        2,
+        3,
+        4,
+        6,
+        9
+      ]
+    },
+    {
+      "outside": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "optimum": 5,
+      "witness": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "outside": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "optimum": 5,
+      "witness": [
+        2,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "outside": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "optimum": 5,
+      "witness": [
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "outside": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "optimum": -1,
+      "witness": null
+    }
+  ],
+  "examples": [
+    {
+      "id": 57244,
+      "order": 52,
+      "poles": 6,
+      "witness_size": 31
+    },
+    {
+      "id": 57278,
+      "order": 52,
+      "poles": 6,
+      "witness_size": 30
+    }
+  ],
+  "original_conjecture_resolved": false
+}

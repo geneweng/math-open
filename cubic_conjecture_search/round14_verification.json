@@ -1,0 +1,247 @@
+{
+  "original_conjecture_resolved": false,
+  "strict_census": {
+    "graphs": 556471,
+    "by_order": {
+      "4": 1,
+      "6": 2,
+      "8": 5,
+      "10": 19,
+      "12": 85,
+      "14": 509,
+      "16": 4060,
+      "18": 41301,
+      "20": 510489
+    },
+    "exact": [
+      {
+        "graph6": "K??FEaKR@oE_",
+        "order": 12,
+        "optimum": 6,
+        "maximum_set_count": 20,
+        "every_edge_in_some_maximum": true
+      }
+    ],
+    "strict_witnesses": 556470,
+    "coverage_dependency": "Existing geng input lists, compared row by row"
+  },
+  "synthesis": [
+    {
+      "source": "synthesis25_asymmetric.json",
+      "status": "wall_time_limit",
+      "candidates": 10,
+      "root_in_bound": 13,
+      "root_out_bound": 11,
+      "checks": [
+        {
+          "graph6": "Xo?WoD@OO@?AABC@C?H????CC????O??K??E???G??A_?CB?AE?",
+          "A": 16,
+          "B": 16,
+          "doubled_optimum": 32,
+          "full_cubic_witness": 956291005734636,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?WoD@OO@?AABCBC?@????CC???@O??G??E??A???A_?CB??CW",
+          "A": 15,
+          "B": 14,
+          "doubled_optimum": 29,
+          "full_cubic_witness": 1015665350634031,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?WoD@OO@?AABCBC?@????CC?_??O??K??A???G??A_?CE??EA",
+          "A": 16,
+          "B": 15,
+          "doubled_optimum": 31,
+          "full_cubic_witness": 523084292909615,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?WoD@OO@?AABCB??@????CC?_??P??K??I???G???_?CB??KA",
+          "A": 15,
+          "B": 15,
+          "doubled_optimum": 30,
+          "full_cubic_witness": 413133117841158,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?WoD@OO@?AABCB??@????CC????O?@K_?A??@G??O??CB??KA",
+          "A": 15,
+          "B": 14,
+          "doubled_optimum": 29,
+          "full_cubic_witness": 963105358856687,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?WoD@OW???A@CBC@@????CC????O??K??E??AO?G@?@S???CE",
+          "A": 17,
+          "B": 16,
+          "doubled_optimum": 33,
+          "full_cubic_witness": 657501207550703,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?WoD@OO???A@CBCC@????cC????O??K?GE?A?O?G??AC@??CE",
+          "A": 16,
+          "B": 16,
+          "doubled_optimum": 32,
+          "full_cubic_witness": 941140441037610,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?G_DHOO_??ABCBC?@????KC????O??KA?E@??O?G??AC@??CE",
+          "A": 17,
+          "B": 18,
+          "doubled_optimum": 36,
+          "full_cubic_witness": 978525582326622,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?WoD@?O@?AABCAC?@????KC????O??G?OE??OQ??C??CH?@CC",
+          "A": 17,
+          "B": 17,
+          "doubled_optimum": 34,
+          "full_cubic_witness": 1035447255358956,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?WoD@?O@?AABCAC?`????KC????O??G?@E???O?_CG??B??CS",
+          "A": 17,
+          "B": 18,
+          "doubled_optimum": 36,
+          "full_cubic_witness": 1105816001633772,
+          "removed_edges": 6
+        }
+      ]
+    },
+    {
+      "source": "synthesis25_radius6.json",
+      "status": "wall_time_limit",
+      "candidates": 13,
+      "root_in_bound": 12,
+      "root_out_bound": 12,
+      "checks": [
+        {
+          "graph6": "Xo?WoD@OO@?AABCBC?@????CC?O??O??K??a???O?@O???B???L",
+          "A": 14,
+          "B": 15,
+          "doubled_optimum": 30,
+          "full_cubic_witness": 835345461272322,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?WoC@OO@?AABCBC?@????DC????O??K??a???O??o??CB?G?K",
+          "A": 16,
+          "B": 15,
+          "doubled_optimum": 31,
+          "full_cubic_witness": 473680481052111,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?WoC@OO@?AABCBC_?????D?????O??K??E???O??pC?CA?GCC",
+          "A": 17,
+          "B": 16,
+          "doubled_optimum": 33,
+          "full_cubic_witness": 518760473015359,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xp?WoD@?O@?AAB?BC?G??@?D?????O??K??E???O??`??CB?CCC",
+          "A": 18,
+          "B": 17,
+          "doubled_optimum": 35,
+          "full_cubic_witness": 967517174299095,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xp?WoD@?O@?AAB?BC???AO?C?O???O?@K??E@?????@??CB??CE",
+          "A": 17,
+          "B": 16,
+          "doubled_optimum": 33,
+          "full_cubic_witness": 483732055980503,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xw?WoD@?OH?AA@CBC???C??C??G??O?@K??E?C????@??CB??CE",
+          "A": 17,
+          "B": 16,
+          "doubled_optimum": 33,
+          "full_cubic_witness": 1015802210760767,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?WoD@GQ@?AA@KA????C??KC????O?@K??E?@????@??CB??CE",
+          "A": 17,
+          "B": 16,
+          "doubled_optimum": 33,
+          "full_cubic_witness": 466121676667343,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?Xq@@GO@?AA@CB????C??KC????O?@K??E?A????@??CB??CE",
+          "A": 18,
+          "B": 16,
+          "doubled_optimum": 34,
+          "full_cubic_witness": 765052205774527,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?Oq@@GOH?AABC`??@????KK????O?@C??E???O??@??CB??CE",
+          "A": 17,
+          "B": 16,
+          "doubled_optimum": 33,
+          "full_cubic_witness": 923451816417023,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "XoGOq@C?o@?AABCB??@????KD????O?@C??E???O??@??CB??CE",
+          "A": 16,
+          "B": 16,
+          "doubled_optimum": 32,
+          "full_cubic_witness": 700714204440030,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?OoTCAO@?A?BCBG?@????Kc????O?CC??E???O??@??CB??CE",
+          "A": 17,
+          "B": 16,
+          "doubled_optimum": 33,
+          "full_cubic_witness": 378152431688687,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo@OoDG?P@?AABCP??@????KCO???O?@C??E???O??@??CB??CE",
+          "A": 17,
+          "B": 16,
+          "doubled_optimum": 33,
+          "full_cubic_witness": 835902997706999,
+          "removed_edges": 6
+        },
+        {
+          "graph6": "Xo?OqD??X@?AABC@?_@????KC@???OO?C??E???O??@??CB??CE",
+          "A": 16,
+          "B": 16,
+          "doubled_optimum": 32,
+          "full_cubic_witness": 700654544658156,
+          "removed_edges": 6
+        }
+      ]
+    }
+  ],
+  "oracle_crosscheck": {
+    "labelled_subcubic_graphs": 843,
+    "maximum_order": 5
+  },
+  "triangle_profiles": {
+    "indexed_edge_expansions": 387,
+    "base_graphs": 28,
+    "verification": "All vertex subsets of each expanded graph"
+  },
+  "elapsed_seconds": 34.093,
+  "data_sha256": {
+    "synthesis25_asymmetric.json": "6f3b23bbba506fac27056d73ce9bbf0f9dc5e9c28f7124c01f4c358d4a7be716",
+    "synthesis25_radius6.json": "ce75c758db6d3b9476404cdf872daa5fa412964189befc518056c5b76bdfc418",
+    "tight_census.txt.gz": "e49fb85c04c6a9329950809f6a76522ad65803e1355b558986bebaf54c9fdc24"
+  }
+}
